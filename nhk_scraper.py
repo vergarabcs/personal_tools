@@ -15,13 +15,15 @@ class Configs:
         URL = 'https://www3.nhk.or.jp/news/easy'
         XPATH_ARTICLES = '//*[@class="news-list__item"]//h2'
         XPATH_PARAGRAPH = "//div[@class='article-body']/p"
+        DELIMITER = ''
 
     class HARD:
         URL = 'https://www3.nhk.or.jp/news/cat06.html'
         XPATH_ARTICLES = "//*[@class='module--content']//em[@class='title']"
         XPATH_PARAGRAPH = '//*[@class="content--detail-body"]'
+        DELIMITER = '。'
 
-CURR_CONFIG = Configs.EASY
+CURR_CONFIG = Configs.HARD
 
 def get_yesterday_string():
     from datetime import datetime, timedelta
@@ -32,11 +34,12 @@ class CACHE:
     headline_set = None
 class CONSTANTS:
     INNER_HTML = "innerHTML"
-    ARTICLE_COUNT_LIMIT = 3
+    ARTICLE_COUNT_LIMIT = 1
 
 def clean(inner_html):
     text = re.sub(r"<rt>.*?</rt>", '', inner_html)
-    return re.sub(r"<.*?>", "", text)
+    # replace tags with delimiter
+    return re.sub(r"<.*?>", CURR_CONFIG.DELIMITER, text)
 
 def loadFinishedHeadlines():
     CACHE.headline_set = set()
@@ -106,7 +109,7 @@ def get_articles(start_index = 0):
             articles.append("".join(sentence_list))
             driver.back()
             time.sleep(3)
-        
+        print(articles)
         saveHeadlines(headlineList)
         driver.quit()
         return articles
@@ -114,4 +117,4 @@ def get_articles(start_index = 0):
         print(e)
         driver.quit()
 
-# get_articles()
+get_articles()
