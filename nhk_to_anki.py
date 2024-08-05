@@ -12,22 +12,6 @@ from os import system
 class State:
     should_repeat = True
 
-def get_2d_sentence_list(articles):
-    sentence_list_2d = []
-    for article in articles:
-        sentence_list = article.split("。")
-        sentence_list = map(
-            lambda x: x.strip(),
-            sentence_list
-        )
-        sentence_list = filter(
-            lambda x: type(x) == str and len(x) > 0,
-            sentence_list
-        )
-        sentence_list = list(sentence_list)
-        sentence_list_2d.append(sentence_list)
-    return sentence_list_2d
-
 TAG = "NHK_WEB_EASY"
 
 def isCompleteTags(text):
@@ -68,7 +52,7 @@ def waitForResponseFinished():
         pag.hotkey("command", "tab", interval=0.2)
 
 def start_loop(writer):
-    for idx, sentence_list in enumerate(get_2d_sentence_list(get_articles(0))):
+    for idx, sentence_list in enumerate(get_articles(0)):
         context = None
         for sentence in sentence_list:
             pag.hotkey("shift", "escape", interval=0.2)
