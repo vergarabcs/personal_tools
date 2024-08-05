@@ -1,0 +1,83 @@
+Added	ADDED	追加しました
+Added	ADDED	追加しました
+Address	ADDRESS	住所
+Agrmt ID	AGRMT_ID	エージェント ID
+Asset End Date	ASSET_END_DATE	資産終了日
+Asset Start Date	ASSET_START_DATE	資産開始日
+Case No.	CASE_NO.	ケース番号
+Case Number	CASE_NUMBER	ケース番号
+Category	CATEGORY	カテゴリー
+Check #	CHECK_#	チェック #
+Check Clear Date	CHECK_CLEAR_DATE	クリア日を確認
+Check Status	CHECK_STATUS	ステータスをチェック
+Check Void Date	CHECK_VOID_DATE	無効日を確認
+Claim Date	CLAIM_DATE	申請日
+Claim Open	CLAIM_OPEN	クレームオープン
+Claim Stage	CLAIM_STAGE	クレームステージ
+Claims	CLAIMS	クレーム
+Comment	COMMENT	[コメント]
+Completion Date	COMPLETION_DATE	完了日
+Contact Email	CONTACT_EMAIL	連絡先電子メール
+Contact Phone	CONTACT_PHONE	連絡先電話番号
+Created By	CREATED_BY	作成者
+Created Date	CREATED_DATE	作成日
+Creation Date	CREATION_DATE	作成日
+Current Registration Status	CURRENT_REGISTRATION_STATUS	現在の登録状況
+Date	DATE	日付
+Deductible	DEDUCTIBLE	控除可能
+Description	DESCRIPTION	[説明]
+Device	DEVICE	[デバイス]
+Device / Nickname	DEVICE_/_NICKNAME	デバイス/ニックネーム
+Device Details	DEVICE_DETAILS	デバイス詳細
+Email Destination	EMAIL_DESTINATION	Eメール送信先
+End Date	END_DATE	終了日
+Fulfillment	FULFILLMENT	フルフィルメント
+Fulfillment Method	FULFILLMENT_METHOD	履行方法
+Insurance Claim ?	INSURANCE_CLAIM_?	保険金請求?
+Insurance Claims	INSURANCE_CLAIMS	保険請求
+Last Updated	LAST_UPDATED	最終更新日
+MDN	MDN	MDN
+MDN / Device	MDN_/_DEVICE	MDN/デバイス
+Model Number	MODEL_NUMBER	モデル番号
+Nick Name	NICK_NAME	ニックネーム
+Note	NOTE	[メモ]
+Note Type	NOTE_TYPE	ノートタイプ
+Order Date	ORDER_DATE	注文日
+Ordered #	ORDERED_#	注文済み #
+Origin	ORIGIN	オリジン
+Part	PART	パーツ
+Part Description	PART_DESCRIPTION	パーツの説明
+Payee	PAYEE	受取人
+Payee Name	PAYEE_NAME	受取人名
+Peril	PERIL	危険
+Phone/SMS Destination	PHONE/SMS_DESTINATION	電話/SMS 送信先
+Pin	PIN	ピン
+Program	PROGRAM	プログラム
+Program Name	PROGRAM_NAME	[プログラム名]
+Quantity	QUANTITY	数量
+Received Date	RECEIVED_DATE	受信日
+Reference	REFERENCE	リファレンス
+Registration End Date	REGISTRATION_END_DATE	登録終了日
+Registration Start Date	REGISTRATION_START_DATE	登録開始日
+Registration Status	REGISTRATION_STATUS	登録状況
+Resolution	RESOLUTION	解像度
+SMS Opt In	SMS_OPT_IN	SMS オプトイン
+SR Number	SR_NUMBER	SR 番号
+SR Status	SR_STATUS	SR ステータス
+SR Type	SR_TYPE	ストレージリポジトリタイプ
+SUR/RRD/RUD Claims	SUR/RRD/RUD_CLAIMS	SUR/RRD/RUDクレーム
+Sent	SENT	送信済み
+Service Cost	SERVICE_COST	サービス費用
+Service Request #	SERVICE_REQUEST_#	サービスリクエスト #
+Shipper	SHIPPER	荷送人
+Start Date	START_DATE	開始日
+Status	STATUS	ステータス
+Sub-Status	SUB-STATUS	サブステータス
+Termination Date	TERMINATION_DATE	終了日
+Total Amount	TOTAL_AMOUNT	合計金額
+Tracking#	TRACKING#	トラッキング #
+Type	TYPE	タイプ
+UnPin	UNPIN	ピン留め解除
+VzW Warranty Claims	VZW_WARRANTY_CLAIMS	VzW 保証請求
+Work Object Type	WORK_OBJECT_TYPE	作業オブジェクトタイプ
+Work Type	WORK_TYPE	作業タイプ

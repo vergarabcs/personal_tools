@@ -1,0 +1,1534 @@
+Key	en	Status	ja
+CATCHUPSCRIPT	Policy Verification Hold'	Uploaded	ポリシー検証保留」
+ERROR_UPDATING_ORDER_STATUS	Error Updating Order Status	Uploaded	注文ステータスの更新エラー
+CHECK_ORDER_STATUS_EQPMNT_MESSAGE	A replacement claim has been submitted. Once your replacement is finalized your equipment will be shipped within 1-2 business days.	Uploaded	代替請求が提出されました。交換が完了すると、機器は 1 ～ 2 営業日以内に発送されます。
+CHECK_ORDER_STATUS_HEADER	This is the current status of the claim	Uploaded	現在の申請状況です
+CHANGE_ORDER_BUTTON_LABEL	Reship	Uploaded	再発送
+CLAIM_TYPE_FIELD_NAME	Claim Type	Uploaded	請求の種類
+ORDER_STATUS_FIELD_NAME	Order Status	Uploaded	注文の状況
+MOBILE_DEVICE_NUMBER_FIELD_NAME	Mobile Device Number	Uploaded	モバイルデバイス番号
+CASE_NUMBER_FIELD_NAME	Case Number	Uploaded	事件番号
+RECEIVER_NAME_FIELD_NAME	Receiver Name	Uploaded	受信名
+BORD_DESC	Back Order	Uploaded	取り寄せ
+CANCELLED_DESC	Cancelled	Uploaded	キャンセル
+SHIPPED_DESC	Shipped	Uploaded	出荷済み
+READY_DESC	Ready	Uploaded	準備ができて
+ACC_DESC	Accepted	Uploaded	承認されました
+CLAIM_TYPE_SDD	Same Day Delivery	Uploaded	同日配達
+CLAIM_TYPE_NXTDY	Next Day Delivery	Uploaded	翌日配達
+KM_LABEL	{km} km	Uploaded	{km} km
+MILES_LABEL	{miles} Miles	Uploaded	{マイル} マイル
+TODAY_LOWERCASED	today	Uploaded	今日
+CLOSED_LOWERCASED	closed	Uploaded	閉まっている
+ESTIMATED_DISTANCE	Estimated distance from {postalCode}	Uploaded	{postalCode}からの推定距離
+CSS_AVAILABLE	Drop off timeslots available for this location.	Uploaded	この場所で利用可能なドロップオフのタイムスロット。
+SERVICE_PROVIDERS_NOT_AVAILABLE	No valid service providers are available for the provided zip / postal code	Uploaded	指定された郵便番号では有効なサービスプロバイダーが利用できません
+STORE_NOT_SELECTED_ERROR	Please select store to continue.	Uploaded	続行するにはストアを選択してください。
+CHANGE_FULFILLMENT_OPTION	Change Fulfillment Option	Uploaded	フルフィルメントオプションの変更
+WATER_RESISTANT_WARNING_LABEL	Please be aware that after your device has been repaired, your device will be of like kind and quality, however it may no longer be water resistant and some features and functions may perform differently. Would you like to continue?	Uploaded	デバイスの修理後は、デバイスの種類と品質は同等になりますが、耐水性がなくなったり、一部の機能の動作が異なる場合があることに注意してください。続けますか?
+WATER_RESISTANT_WARNING_MESSAGE	If customer selects “No”, only device replacement option will be available, click continue to go to device selection page.	Uploaded	お客様が「いいえ」を選択した場合、デバイス交換オプションのみが利用可能になります。「続行」をクリックしてデバイス選択ページに進みます。
+WATER_RESISTANT_WARNING_LABEL_NO_AE	Please be aware that after your device has been repaired, your device will be of like kind and quality, however it may no longer be water resistant and some features and functions may perform differently.	Uploaded	デバイスの修理後は、デバイスの種類と品質は同等になりますが、耐水性がなくなったり、一部の機能の動作が異なる場合があることに注意してください。
+NO_STORES_IN_ZIPCODE	There are no stores available for carry in repair within the updated zip code. Enter another zip code or change the fulfillment method to mail in repair.	Uploaded	更新された郵便番号内には持ち込み修理が可能な店舗はありません。別の郵便番号を入力するか、配送方法を修理郵送に変更してください。
+AVAILABLE_STORES	Available Stores	Uploaded	利用可能な店舗
+NEXT_AVAILABLE	Next Available · 	Uploaded	次に利用可能 ·
+TOMORROW_LOWERCASED	tomorrow	Uploaded	明日
+AVAILABLE_SERVICERS	Available Servicers	Uploaded	利用可能なサービサー
+SELECT_DATE_AND_TIME	Choose Date and Time of your Appointment	Uploaded	予約の日時を選択してください
+L2_PROVIDER_MSG	Direct scheduling is not available for this provider. They will contact the customer within 2 days to schedule an appointment date and time.	Uploaded	このプロバイダーでは直接スケジュールを使用できません。 2 日以内に担当者からお客様にご連絡し、予約日時を調整します。
+SCHEDULED_WITH	Your repair is scheduled with	Uploaded	修理の予定は
+SPECIAL_INSTRUCTIONS	Special Instructions for Servicer (Beware of dog, go to back door, etc.)	Uploaded	サービサーへの特別な指示（犬に注意、裏口に行くなど）
+CURRENT_SERVICER	Current Servicer	Uploaded	現在のサービサー
+APPOINTMENT_DATE_TIME	Appointment Date/Time:	Uploaded	予約日時:
+RETAIL_OSR_CHANGE_PROVIDER	Changing providers after a claim has been started may cause significant delays in the repair time. Exhaust all other options before reassigning	Uploaded	請求の開始後にプロバイダーを変更すると、修理時間が大幅に遅れる可能性があります。再割り当てする前に他のオプションをすべて検討してください
+REASON_FOR_CHANGE	Reason for change	Uploaded	変更理由
+PHN_NUM	Phone Number	Uploaded	電話番号
+L2_RESCHEDULE_APPOINTMENT	Provide customer with the service center phone number to reschedule directly with them	Uploaded	直接予約を変更できるよう、サービス センターの電話番号をお客様に提供します。
+CSS_SLOT_SELECTION_ERROR	Error occured in confirming the selected slot. Please go to Actions / Incident Path Determination to resume and try again.	Uploaded	選択したスロットの確認中にエラーが発生しました。 「アクション/インシデント パスの決定」に移動して再開し、再試行してください。
+CHANGE_STORE_DETAILS_MESSAGE	To change the store, please click on the "Change Store Details" button at the bottom of the page.	Uploaded	店舗を変更する場合は、ページ下部の「店舗詳細変更」ボタンをクリックしてください。
+SCHEDULED_ON	Your repair is scheduled on	Uploaded	修理の予定日は
+CSS_OPT_OUT_MESSAGE	The customer also has the option to walk into the location selected anytime to drop off the device within the next 14 days. Select Continue for a drop-off without a scheduled time.	Uploaded	また、顧客は、今後 14 日以内であれば、いつでも選択した場所に行ってデバイスをドロップオフすることもできます。予定時刻なしで降車する場合は、「続行」を選択します。
+CHANGE_STORE_DETAILS	Change Store Details	Uploaded	ストア詳細の変更
+NO_SLOTS_AVAILABLE	No slots available	Uploaded	利用可能なスロットがありません
+SUMARY_OF_PROBLEM_SELECTED	Summary of problem selected:	Uploaded	選択した問題の概要:
+YESTERDAY	Yesterday	Uploaded	昨日
+PROCESSING_REFUND	Processing Refund	Uploaded	返金処理中
+LOADING_ASSET_DETAILS	Loading Asset Details...	Uploaded	アセットの詳細を読み込み中...
+FETCHING_CLIENT_STORES_DETAILS	Fetching Client Stores Details	Uploaded	クライアントストアの詳細を取得する
+HANDLING_CONSTRAINT	Handling Constraint…	Uploaded	制約の処理…
+FETCHING_ASSET_COLOR	Fetching Asset Color	Uploaded	アセットの色の取得
+STARTING_ECV	Starting ECV	Uploaded	ECVの開始
+BTA_NOTES	This amount will be billed to your current account and may take up to two billing cycles to appear on your statement.	Uploaded	この金額は現在のアカウントに請求され、明細書に表示されるまでに最大 2 請求サイクルかかる場合があります。
+PACKING_MATERIALS_INCLUDED	Packing materials included: Yes	Uploaded	梱包材が含まれています: はい
+RESHPREQ	Reship Request	Uploaded	再発送リクエスト
+CONTACT_PREFER_NON_PBUI	If contact information needs to be updated, please connect the customer to the carrier. The claim will need to be cancelled and refiled once the address has been updated.	Uploaded	連絡先情報を更新する必要がある場合は、お客様を通信事業者に接続してください。住所が更新されたら、請求をキャンセルして再申請する必要があります。
+REGISTRATION_STATUS	Registration Status	Uploaded	登録状況
+SEARCH	Search	Uploaded	検索
+CHECK_REIMBURSEMENT_INSTRCUTIONS_1	Will be received within 10 business days of reimbursement approval	Uploaded	払い戻し承認後 10 営業日以内に受領されます
+CONTACT_WITH_LIQUID_REASON	The product has come into contact with liquid Only covered for portable products.  Ex. Laptops, Tablets	Uploaded	製品が液体と接触した場合 ポータブル製品のみが対象となります。元。ラップトップ、タブレット
+PAYMENT_METHOD	Payment Method	WorkbasketUploaded	支払方法
+SAVING_AMOUNT_AND_TAXES	Saving amount and taxes...	Uploaded	貯蓄額と税金…
+PROBLEM_DETAILS	Problem Details	Uploaded	問題の詳細
+EXPRESS_CHECKIN_ASSET_ID	Asset ID	Uploaded	アセットID
+UPDATING_PHONE_IN_TANSIT_OVERRIDE_REASON	Updating Phone In Tansit Override Reason	Uploaded	Tansit オーバーライド理由で電話を更新しています
+CUSTOMER_CASE_NUMBER	Customer Case Number	Uploaded	顧客ケース番号
+GETTING_AGGREGATE_LIMIT_AND_FMV	Getting Aggregate Limit and FMV	Uploaded	集計制限と FMV の取得
+RETAIL_OSR_FORCE_BOOK_ADD_DETAILS_TEXT	Customer will be contacted within 2 business days with repair options.	Uploaded	修理オプションについては 2 営業日以内にお客様にご連絡いたします。
+CLIENTSETTLEMENT_THRID_PARTY_PAYMENT_SUBMITTED_IPD	A claim has been submitted for this customer via Third Party Payment. Resume if change is needed	Uploaded	この顧客に対する請求は、第三者支払い経由で送信されました。変更が必要な場合は再開する
+PROGRAM_NAME	Program Name	Uploaded	プログラム名
+UPSELL_OFFER_PA1TIER3	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+DEREGISTRATION_SUCCESS	Device has been deregistered successfully. Close the popup and continue with the claim.	Uploaded	デバイスは正常に登録解除されました。ポップアップを閉じて、請求を続行してください。
+UPSELL_OFFER_PA1TIER4	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+REGISTRATION_START_DATE	Registration Start Date	Uploaded	登録開始日
+UPSELL_OFFER_PA1TIER1	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim.  Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier.  Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed.   Enrollment is optional and will auto-renew monthly until canceled.  Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges.  You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+CREATING_ATL_WORKBASKET_REQUEST	Creating ATL Workbasket request	Uploaded	ATL ワークバスケット リクエストの作成
+UPSELL_OFFER_PA1TIER2	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+NICK_NAME	Nick Name	Uploaded	ニックネーム
+WITHIN_5_BUSINESS_DAYS	within 5 business days	Uploaded	5営業日以内
+PROCESSING_BULK_REFUND	Processing Bulk Refund…	Uploaded	一括返金処理中…
+WAIVE_DEDUCTIBLE	Waive Deductible?	Uploaded	控除を免除しますか?
+ORIGIN	Origin	Uploaded	起源
+PBL_MODAL_INSTRUCTION_MESSAGE	When customer has completed their payment click continue Note: Customer will see $0 as the service fee amount when submitting the payment.  The $0 amount is because we are only doing a pre-auth on the card when creating the claim. 	Uploaded	お客様が支払いを完了したら、「続行」をクリックします 注: 支払いを送信すると、顧客にはサービス手数料額として 0 ドルが表示されます。金額が 0 ドルなのは、請求の作成時にカードの事前認証のみを行っているためです。
+COUNTER_DAYS	day(s)	Uploaded	日々）
+LENGTH_RANGE_0_TO_9_INCHES	0-9 inches	Uploaded	0～9インチ
+CREDIT_CARD_COMPONENT_DETAILS	Please fill in card information provided by customer	Uploaded	お客様から提供されたカード情報を入力してください
+UPDATING_PROFILE	Updating Profile	Uploaded	プロフィールの更新
+UPDATING_SELECTED_SHIPPING_METHOD	Updating selected Shipping Method	Uploaded	選択した配送方法を更新しています
+MAIL_IN_REPAIR	Mail-In Repair	Uploaded	郵送修理
+REGISTERING_DEVICE	Registering device	Uploaded	デバイスの登録
+EXPRESS_CHECKIN_INCIDENT_DESCRIPTION	Incident Description	Uploaded	事件の説明
+CONTINUE	Continue	Uploaded	続く
+SCREEN_SIZE	Screen Size	Uploaded	画面サイズ
+DATE_AND_TIME_OF_LAST_INTERACTION	Date & Time of Last interaction	Uploaded	最後のインタラクションの日付と時刻
+FETCHING_QUESTIONNAIRES	Fetching Questionnaires	Uploaded	アンケートの取得
+CREATING_REISSUE	Creating Reissue	Uploaded	再発行の作成
+SELECT_PROFILE	Select Profile	Uploaded	プロファイルの選択
+CALL_REASON_REGISTRATION	Registration	Uploaded	登録
+NOT_AVAILABLE	N/A	Uploaded	該当なし
+PBL_MODAL_PAY_RJCTD_ERROR_RETAIL_MSG	The card entered was rejected by the payment processor. Please click on "Change Information" to resend the link and request the customer try a different card	Uploaded	入力されたカードは支払い処理業者によって拒否されました。 [情報の変更] をクリックしてリンクを再送信し、お客様に別のカードを試してもらうよう依頼してください。
+CURRENT_REGISTRATION_STATUS	Current Registration Status	Uploaded	現在の登録状況
+ADD_DTLS_TOOL_TIP_TEXT	Any additional details for a successful repair. For example, any additional issues that were not already selected.	Uploaded	修復を成功させるための追加の詳細。たとえば、まだ選択されていない追加の問題などです。
+FETCHING_ASSET_HISTORY	Fetching Asset History	Uploaded	アセット履歴の取得
+CASE_NUMBER	Case Number	Uploaded	事件番号
+EMAIL	Email	Uploaded	Eメール
+ASSET_ID	Asset Id	Uploaded	アセットID
+EXPRESS_CHECKIN_WHAT_HAPPENED?	What happened?	Uploaded	どうしたの？
+FETCHING_CLIENT_CONFIGURATIONS	Fetching client configurations	Uploaded	クライアント構成の取得
+DEVICE_NICKNAME	Device Nickname	Uploaded	デバイスのニックネーム
+PRODUCT	Product	Uploaded	製品
+FETCHING_ASSET_DETAILS	Fetching Asset Details	Uploaded	アセットの詳細の取得
+EXPRESS_CHECKIN_ASSET_VERIFIED	Asset Verified	Uploaded	資産検証済み
+VERIFICATION_CODE	Verification Code	Uploaded	検証コード
+SMART_PIN_UNAVAILABLE	Not able to receive emails or texts	Uploaded	メールやテキストメッセージが受信できない
+SCRIPT_TO_ANSWER_WHY_SHOULD_I_PAY_DEDUCTIBLE	Paying a low monthly fee gives you the option of paying a small deductible to have your phone replaced and activated versus paying full retail price plus an activation fee in the event you need to file a claim.	Uploaded	低額の月額料金を支払うことで、携帯電話の交換とアクティベーションに少額の免責金額を支払うことができ、請求を提出する必要がある場合に小売価格の全額とアクティベーション料金を支払うことができます。
+UPDATING_REPLACEMENT_ORDER	Updating Replacement Order	Uploaded	交換注文の更新
+ASSET_NOT_SELECTED_ERROR	Please select asset to continue	Uploaded	続行するにはアセットを選択してください
+VERIFIED_BY_PRIMARY_ACCOUNT_HOLDER	Verified by primary account holder	Uploaded	主要アカウント所有者による確認済み
+DAMAGE	Damage	Uploaded	ダメージ
+FETCHING_INCIDENT_PATHS	Fetching Incident Paths	Uploaded	インシデントパスの取得
+SELECTED_METHOD	Selected Method	Uploaded	選択された方法
+OTHER_ASSET_LABEL	Caller Provides Other Asset	Uploaded	呼び出し元が他のアセットを提供する
+ATTEMPTING_TO_TRANSFER_TO_IVR	Attempting to transfer to IVR…	Uploaded	IVR に転送しようとしています…
+START_INCIDENT	Start Incident	Uploaded	インシデントの開始
+CLAIM_SUBMITTED_IPD	A claim has already been submitted for this customer.'	Uploaded	この顧客についてはすでに請求が提出されています。」
+PAYMENT_DECLINED_UPDATE_BILLING_DETAILS	Payment was declined.  Update the billing details or try a different payment method.	Uploaded	支払いが拒否されました。請求の詳細を更新するか、別の支払い方法を試してください。
+FETCHING_ASSET_MAKE	Fetching Asset Make	Uploaded	アセットメイクの取得
+APP_LABELS_CHANGE_FULFILLMENT_OPTION	Change Fulfillment Option	Uploaded	フルフィルメントオプションの変更
+BASE_QUESTION_ERROR_LABEL	Reason is required	Uploaded	理由は必須です
+CARD_NUMBER	Card Number	Uploaded	カード番号
+MAX_PIN_ATTEMPT_REACHED	The maximum number of attempts to validate using Security Verification PIN has been reached. Please proceed to the next verification method if available.	Uploaded	セキュリティ検証 PIN を使用した検証の最大試行回数に達しました。利用可能な場合は、次の確認方法に進んでください。
+SUBMITTING_REFUND	Submitting Refund	Uploaded	返金の送信
+CHANGE_STORE	Change Store	Uploaded	ストアを変更する
+REQUEST_SENT_TO_WORKBASKET	Request is sent to {workbasketType} Workbasket	Uploaded	リクエストは {workbasketType} ワークバスケットに送信されます
+CANNOT_VERIFY_CALLER_BUTTON	Cannot Verify Caller	Uploaded	発信者を確認できません
+UPDATE_AND_CONTINUE	Update & Continue	Uploaded	更新して続行
+SENDING_VERIFICATION_CODE	Sending Verification Code	Uploaded	認証コードの送信
+WALK_IN_REPAIR	Walk-In Repair	Uploaded	持ち込み修理
+IMEI	IMEI	Uploaded	IMEI
+EXPRESS_CHECKIN_PHONE_NUMBER	Phone Number	Uploaded	電話番号
+PHONE_LABEL	Phone	Uploaded	電話
+THRID_PARTY_PAYMENT_SUBMITTED_IPD	A replacement claim has been submitted for this customer via Third Party Payment. Resume if change is needed	Uploaded	この顧客に対して、サードパーティ支払い経由で交換請求が送信されました。変更が必要な場合は再開する
+START	Start	Uploaded	始める
+STDEXCH	STDEXCH	Uploaded	STDEXCH
+OTHER_COLOR_PREFERED	Other Color Prefered	Uploaded	他の色の優先
+ORIGINAL	original	Uploaded	オリジナル
+RETURN_FEE_TAX_LABEL	+ Taxes(only if applicable)	Uploaded	+ 税金(該当する場合のみ)
+VIEW_HOLDS	View Holds	Uploaded	保留を表示する
+ERROR_GENERIC_MESSAGE	Payment Details Error: either form failure and/or process payment error	Uploaded	支払い詳細エラー: フォームの失敗または支払い処理エラー、あるいはその両方
+CARRIER	Carrier	Uploaded	キャリア
+BANK_ACCOUNT_NUMBER	Bank Account Number	Uploaded	銀行の口座番号
+UPDATE_ASSET_DETAILS	Update Asset Details	Uploaded	アセットの詳細を更新する
+AGRMT_ID	Agrmt ID	Uploaded	アグリメントID
+SMALL_PARTS_VALIDATION_ERROR	Please select at least one checkbox and at least one sub checkbox (if applicable)	Uploaded	少なくとも 1 つのチェックボックスと少なくとも 1 つのサブ チェックボックスを選択してください (該当する場合)
+LOCKED	Locked	Uploaded	ロックされています
+CUSTOMER_NOT_HAPPY	Customer Not Happy ヽ(ಠ_ಠ)ノ	Uploaded	お客様にご満足いただけませんでしたヽ(ಠ_ಠ)ノ
+CANCEL_INCIDENT	Cancel Incident	Uploaded	インシデントのキャンセル
+RESOLUTION	Resolution	Uploaded	解決
+CONTACT_PHONE	Contact Phone	Uploaded	連絡先電話番号
+ENRICHING_DATA	Enriching data...	Uploaded	データを充実させています...
+WITHIN_2_HOURS	within 2 hours	Uploaded	2時間以内
+BILLING_VERIFICATION_QUESTION	Does subscriber response match?	Uploaded	加入者の応答は一致していますか?
+NEW_CARD_INNER_MSG	Please inform the customer to provide different card details or choose another payment option if applicable	Uploaded	別のカードの詳細を提供するか、該当する場合は別の支払いオプションを選択するようお客様に伝えてください。
+LENGTH_RANGE_ABOVE_18_INCHES	18 inches and up	Uploaded	18インチ以上
+VERIZON_QUESTION_MESSAGE_4	We want to help you avoid these fees, so were going to ask some probing questions to determine the best path to get you up and running.	Uploaded	私たちは、お客様がこれらの料金を回避できるよう支援したいと考えており、お客様が稼働するための最適な方法を決定するために、いくつかの詳細な質問をするつもりでした。
+DEDUCTIBLE_SCRIPT_SAY_VIRGIN	Asurion operates like most insurance companies where an excess fee is required for each filed claim. The excess fee should have been explained to you when you purchased the policy. However, If you would like to review your policy terms and conditions you can visit “www.virginmedia.com/protect”. Once you read about your policy terms and conditions you can either contact us or complete your claim online.	Uploaded	Asurion は、提出された請求ごとに超過料金が必要となるほとんどの保険会社と同様に運営されています。超過料金については、保険を購入したときに説明されているはずです。ただし、ポリシーの利用規約を確認したい場合は、「www.virginmedia.com/protect」にアクセスしてください。保険契約条件をお読みになったら、当社にご連絡いただくか、オンラインで請求を完了してください。
+FIELD_INFO_NUMBER_ONLY	Only numbers are allowed	Uploaded	数字のみが許可されます
+SMS	SMS	Uploaded	SMS
+VERIZON_QUESTION_MESSAGE_3	Fees may be up to $500.00.	Uploaded	手数料は最大 $500.00 となる場合があります。
+VERIZON_QUESTION_MESSAGE_2	Fees may be up to $500.00.	Uploaded	手数料は最大 $500.00 となる場合があります。
+VERIZON_QUESTION_MESSAGE_1	We inspect return devices	Uploaded	返品機器を検査します
+PHONE_NUMBER	Phone Number	Uploaded	電話番号
+UPDATING_REIMBURSEMENT_ORDER	Updating Reimbursement Order	Uploaded	払い戻し注文の更新
+LAST_NAME	Last Name	Uploaded	苗字
+EXPRESS_CHECKIN_PERIL_DATE	Peril Date	Uploaded	危険日
+COMMENT	Comment	Uploaded	コメント
+AGENT	Agent	Uploaded	エージェント
+EPAPER_TOKEN	EPaper Token	Uploaded	Eペーパートークン
+OTHER_ASSET_WARNING_MSSG	Selected claim Model is not the Enrolled Asset at the time of loss. Please verify the claimed Asset and peril Date to prevent incorrect submission and verification.	Uploaded	選択した請求モデルは、損失時に登録された資産ではありません。誤った提出や検証を防ぐために、請求された資産と危険日を確認してください。
+CONTINUING_WITH_LAST_ELIGIBLE_CLAIM	Continuing with Last Eligible Claim	Uploaded	最後の適格な請求の続き
+FETCHING_QUESTIONNAIRE_TRANSACTION_RESULTS	Fetching Questionnaire Transaction Results	Uploaded	アンケートトランザクション結果の取得
+CONCURRENCY_MESSAGE	This claim has been modified by another user.  Please click Ok then Resume to complete the claim with the updated information.	Uploaded	この主張は別のユーザーによって変更されました。 [OK] をクリックしてから [再開] をクリックし、更新された情報で請求を完了してください。
+UPDATE	Update	Uploaded	アップデート
+CLAIM_STATUS	Claim Status	Uploaded	請求ステータス
+QUERY_WHY_SHOULD_I_PAY_SERVICE_FEE	なぜ月額料金を払ってサービス料を支払わなければならないのかと顧客から尋ねられたら、何と答えればよいでしょうか	Uploaded	とりあえず料金を決めてサービス料金を支払わなければのかと顧客から考えられたら、何を答えればよいでしょうか
+FETCHING_ASSET_CARRIER	Fetching Asset Carrier	Uploaded	アセットキャリアの取得
+TABLET	Tablet	Uploaded	タブレット
+CLIENT	Client	Uploaded	クライアント
+CREATE_ENROLLMENT_BUTTON	Create Enrollment	Uploaded	登録の作成
+BILLING_VERIFICATION_FAILED	Unfortunately, we cannot continue processing your claim until you are able to validate your account. You may reset your Verizon account PIN at vzw.com/pin	Uploaded	残念ながら、お客様のアカウントが認証されるまで、お客様の請求の処理を続行することはできません。 Verizon アカウントの PIN は vzw.com/pin でリセットできます。
+DEDUCTIBLE_PUSHBACK	Deductible Pushback	Uploaded	控除可能なプッシュバック
+CONSTRAINT_UPDATED_MESSAGE	Hold has been modified. Please click Ok then Resume to complete the claim with the updated information.	Uploaded	ホールドが変更されました。 [OK] をクリックしてから [再開] をクリックし、更新された情報で請求を完了してください。
+PAYMENT_ERROR_TRY_DIFFERENT_CARD	Please try again with different card	Uploaded	別のカードでもう一度お試しください
+FETCHING_PAYMENT_DETAILS	Fetching payment details	Uploaded	支払い詳細の取得
+IN_HOME_REPAIR	In-Home	Uploaded	自宅で
+LOADING_DEVICE_EXTENSION_DETAILS	Loading device extension details	Uploaded	デバイス拡張機能の詳細をロードしています
+CREATED_DATE	Created Date	Uploaded	作成日
+NOT_SATISFIED_WITH_DEVICE	Not satisfied with the device	Uploaded	デバイスに満足していない
+CHECK_#	Check #	Uploaded	チェック ＃
+EDIT_FEE	Edit Fee	Uploaded	編集料金
+STATUS	Status	Uploaded	状態
+WORK_OBJECT_TYPE	Work Object Type	Uploaded	作業オブジェクトのタイプ
+VERIFICATION_METHODS_API_DOWN_SMART_PIN_MSG	The system is currently unavailable to retrieve the customer's PIN. Please validate via verification code by SMS or email	Uploaded	現在、システムは顧客の PIN を取得できません。 SMS または電子メールで確認コードを介して検証してください
+MDN	MDN	Uploaded	MDN
+COMPLETION_DATE	Completion Date	Uploaded	完了日
+REASON	Reason	Uploaded	理由
+UPSELL_OFFER_ADVINS~ADVPRO	["AT&T Protect Advantage for 1 includes these great benefits for one low monthly price:","- Insurance coverage for for your device","- $29 cracked screen repair deductible","- Unlimited battery replacements during coverage period with $0 deductible, with ProTech approval","- Unlimited ProTech expert support","- Unlimited secure cloud storage for photos and videos.","- Three available claims in a 12 month period","It only takes a few moments to complete the upgrade, and you can start enjoying the added benefits right away."]	Uploaded	["AT&T Protect Advantage for 1 には、低額の月額料金で次のような優れた特典が含まれています:"、"- デバイスに対する保険補償"、"- 29 ドルの画面割れ修理の免責金額"、"- 免責金額 0 ドルで、補償期間中無制限のバッテリー交換、 ProTech の承認付き"、"- 無制限の ProTech 専門家サポート"、"- 写真とビデオのための無制限の安全なクラウド ストレージ。"、"- 12 か月間で 3 件の請求が可能"、"アップグレードの完了には数分しかかかりません。すぐに追加のメリットを享受し始めることができます。」]
+EXP_MM	EXP.MM	Uploaded	経験値MM
+INTERNET_BLUETOOTH_LABEL	Internet or Bluetooth	Uploaded	インターネットまたは Bluetooth
+MALFUNCTION	Malfunction	Uploaded	故障
+FETCHING_HOLDS	Fetching Holds	Uploaded	ホールドのフェッチ
+UPDATING_ASSET_DETAILS	Updating asset details...	Uploaded	アセットの詳細を更新しています...
+PROCESSING_WORK_ITEM	Processing work item...	Uploaded	作業項目を処理しています...
+SERVICE_FEE_PUSHBACK	Service Fee Pushback	Uploaded	サービス料金のプッシュバック
+RETURN_FEE_LABEL	Fee if not returned	Uploaded	返却されなかった場合の手数料
+CALL_REASON	Call Reason	Uploaded	電話の理由
+ADDRESS	Address	Uploaded	住所
+NO	No	Uploaded	いいえ
+SUBMITTING_BUYOUT	Submitting Buyout	Uploaded	バイアウトの送信
+EXPRESS_CHECKIN_NAME	Name	Uploaded	名前
+EXPRESS_CHECKIN_VERIFIEDASSETID	VerifiedAssetId	Uploaded	検証済み資産ID
+PHONE	Phone	Uploaded	電話
+FAILURE_DETAILS	Failure Details	Uploaded	障害の詳細
+CUSTOMER_NOT_VERIFIED_MSG	Security Verification failed based on the submitted information. Please verify the information with the customer and try again.	Uploaded	送信された情報に基づくセキュリティ検証は失敗しました。お客様に情報をご確認いただき、再度お試しください。
+CALL_REASON_OTHER	Other	Uploaded	他の
+FETCHING_SEGMENT_DATA	Fetching segment data	Uploaded	セグメントデータの取得
+REFERENCE	Reference	Uploaded	参照
+FETCHING_BRANDS_FOR_DEVICE	Fetching brands for device	Uploaded	デバイスのブランドを取得しています
+INCIDENT_DATE_ERROR_LABEL	Incident Date is required	Uploaded	事件発生日は必須です
+CALL_REASON_LABEL	Please select the reason for the call	Uploaded	電話の理由を選択してください
+TYPE_IS_REQUIRED	Type is required	Uploaded	タイプは必須です
+VERIFYING_PASSCODE	Verifying PassCode	Uploaded	パスコードの確認
+NEW_DEVICE_DETAILS	New Device Details	Uploaded	新しいデバイスの詳細
+FETCHING_CONFIG_MANAGER_DATA	Fetching config manager data	Uploaded	構成マネージャーのデータを取得しています
+APPROVED_AMOUNT_LABEL	Additional reimbursement amount has been approved! New reimbursement amount is:	Uploaded	追加の償還額が承認されました。新たな償還額は次のとおりです。
+SMART_PIN_HEADER	Security Verification Method	Uploaded	セキュリティ検証方法
+DROP_OFF_TIME	Drop-off Time	Uploaded	降車時間
+FETCHING_CONTACT_POINTS	Fetching Contact Points	Uploaded	連絡先の取得
+TRACKING#	Tracking#	Uploaded	追跡＃
+MAX_SLOTS	The device registration limit of 4 devices has been met.	Uploaded	デバイス登録制限の 4 台に達しました。
+ADD_DEVICE_LABEL	Add Device & Start Incident	Uploaded	デバイスを追加してインシデントを開始
+SHIP_TO_REPAIR	Ship for Repair	Uploaded	修理のために発送する
+RESUME_INCIDENT	Resume Incident	Uploaded	インシデントを再開する
+SR_STATUS	SR Status	Uploaded	SRステータス
+DRIVERS_LICENSE_NUMBER	Drivers License Number	Uploaded	運転免許証番号
+COSMETIC_DAMAGE	Costmetic Damage	Uploaded	コストダメージ
+SERVICE_ORDER_NUMBER	Service Order Number	WorkbasketUploaded	サービス注文番号
+TOTAL_DUE	Total Due	Uploaded	支払総額
+QUERY_WHY_SHOULD_I_PAY_DEDUCTIBLE	What should I say if the customer asks why they have to pay a monthly fee and still pay a deductible?	Uploaded	なぜ月額料金を支払っているのに免責金額を支払わなければならないのかを顧客に尋ねられたら、何と答えるべきでしょうか?
+FETCHING_SERVICE_PROVIDERS	Fetching Service Providers	Uploaded	サービスプロバイダーの取得
+VERIFYING_ADDRESS_AND_EMAIL	Verifying Address And Email	Uploaded	住所とメールアドレスの確認
+LIQUID_DAMAGE	LQDDMG	Uploaded	LQDDMG
+FETCHING_CUSTOMER_ENROLLMENT_OFFERS	Fetching Customer Enrollment Offers	Uploaded	顧客登録オファーの取得
+EDIT_AMOUNT_REQUEST	Edit Amount Request	Uploaded	金額リクエストの編集
+FEE_NOT_APPLICABLE	Fee not Applicable.	Uploaded	料金は適用されません。
+RETRIEVING_CASE_DETAILS	Retrieving Case Details	Uploaded	ケースの詳細の取得
+MODEL_NUMBER	Model Number	Uploaded	モデル番号
+CRACKED_SCREEN	Cracked Screen	Uploaded	ひび割れた画面
+PFR_SUBMITTED_IPD	A PFR reimbursement request has already been submitted for this customer. Please check Account Home for updates.	Uploaded	この顧客に対して PFR 償還リクエストはすでに送信されています。最新情報については、アカウント ホームを確認してください。
+FETCHING_REGISTERED_DEVICES	Fetching Registered Devices	Uploaded	登録されたデバイスの取得
+FETCHING_AVAILABLE_PROFILES	Fetching Available Profiles	Uploaded	利用可能なプロファイルの取得
+UPDATING_INTERACTION	Updating Interaction	Uploaded	インタラクションの更新
+TODAYS_HOURS	Today's Hours	Uploaded	本日の営業時間
+N_I_D	National Id	Uploaded	国民ID
+UPSELL_OFFER_MDPPINSB~MDPPSUPPB	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial AT&T Protect Advantage for 4 upgrade offer: ","The monthly charge is $40.00 per mobile account enrolled, billed to your wireless account. You get eight shared claims within a consecutive 12 month period, with a maximum device value of $2500 per claim. A non-refundable deductible will be charged to your wireless account for each approved claim. Deductible amounts for devices connected to the AT&T network range from $25-$299, depending on the device tier. For devices not connected to the AT&T network, like a Wi-Fi tablet, deductible amounts range from $89-$299, depending upon the type of device, and whether it needs to be repaired or replaced. For a full list of eligible devices and the deductible amounts go to phoneclaim.com/att. Claims may be fulfilled with new or refurbished equipment of the same model, or other models of like kind and quality. Color, features, and accessory compatibility is not guaranteed. You may cancel your optional insurance coverage at any time and receive a prorated refund of your monthly charge. For coverage details, visit phoneclaim.com/att"]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の AT&T Protect Advantage for 4 アップグレード オファーに同意する場合、すべての通話で必要です: ","月額料金は、モバイル アカウントごとに $40.00 です。登録され、ワイヤレス アカウントに請求されます。連続 12 か月以内に 8 件の共有請求があり、1 件のデバイスの最大価格は 2500 ドルです。承認された請求ごとに、返金不可の免責金額がワイヤレス アカウントに請求されます。 AT&T ネットワークに接続されているデバイスの範囲は、デバイス層に応じて 25 ～ 299 ドルです。AT&T ネットワークに接続されていないデバイス (Wi-Fi タブレットなど) の控除額は、デバイスの種類に応じて 89 ～ 299 ドルの範囲です。修理または交換が必要かどうか。対象となるデバイスの完全なリストと免責金額については、phoneclaim.com/att をご覧ください。請求は、同じモデルの新品または再生品、あるいは同様の種類および品質の他のモデルで対応される場合があります。 。色、機能、アクセサリの互換性は保証されません。オプションの保険はいつでもキャンセルでき、月々の料金の日割り返金を受けることができます。補償範囲の詳細については、phoneclaim.com/att をご覧ください。"]
+BANK_CHECK_DETAILS	Bank Check Details	Uploaded	銀行小切手の詳細
+OPTIONS	Options	Uploaded	オプション
+ASSET_START_DATE	Asset Start Date	Uploaded	資産開始日
+SUBMITTING_WORKITEM	Submitting workitem	Uploaded	作業項目の送信
+CONTACT_WITH_LIQUID_LABEL	Contact with Liquid	Uploaded	液体との接触
+DAYS_IN_REPAIR	Days In Repair	Uploaded	修理日数
+PROGRAM	Program	Uploaded	プログラム
+FETCHING_PROFILE_PERMISSIONS	Fetching Profile Permissions	Uploaded	プロファイル権限の取得
+OK_BTN_LABEL	OK	WorkbasketUploaded	わかりました
+2_ADDITIONAL_PROBLEM	2. Additional Problem	Uploaded	2. さらなる問題
+CHANGE_PAYMENT_METHOD	Change Payment Method	Uploaded	支払い方法の変更
+ACTIVE_PERIOD	Active Period	Uploaded	活動期間
+SERVICE_REQUEST_#	Service Request #	Uploaded	サービス要求 ＃
+PICK_UP_FROM_STORE	Customer is picking up the device from Verizon store.	Uploaded	お客様は Verizon ストアからデバイスを受け取ります。
+UPDATE_DEVICE_DETAILS	Update Device Details	Uploaded	デバイスの詳細を更新する
+OPEN_ATL_WB	There is an open ATL Work Basket Item that needs to be resolved before there can be any action taken on this case.	Uploaded	このケースに対してアクションを実行する前に、解決する必要がある未解決の ATL ワーク バスケット アイテムがあります。
+CHECKING_IVR_DATA	Checking IVR data...	Uploaded	IVR データを確認しています...
+PERIL_QUESTION_MESSAGE	Please ask additional questions regarding the device.	Uploaded	デバイスに関するその他の質問をしてください。
+RECEIVED_DATE	Received Date	Uploaded	受け取った日付
+DEDUCTIBLE_SCRIPT_SAY_THREEUK	Asurion operates like most insurance companies where an excess fee is required for each filed claim. The excess fee should have been explained to you when you purchased the policy. However, If you would like to review your policy terms and conditions you can visit “www.three.co.uk/threerescue”. Once you read about your policy terms and conditions you can either contact us or complete your claim online.	Uploaded	Asurion は、提出された請求ごとに超過料金が必要となるほとんどの保険会社と同様に運営されています。超過料金については、保険を購入したときに説明されているはずです。ただし、保険契約条件を確認したい場合は、「www.three.co.uk/threerescue」にアクセスしてください。保険契約条件をお読みになったら、当社にご連絡いただくか、オンラインで請求を完了してください。
+PBL_MODAL_PAY_RJCTD_ERROR_MSG	The card entered was rejected by the payment processor. Please click on "Change Information" to resend the link and request the customer try a different card. If needed, you can send the customer a Resume Payment on Web email	Uploaded	入力されたカードは支払い処理業者によって拒否されました。 [情報の変更] をクリックしてリンクを再送信し、お客様に別のカードを試すよう依頼してください。必要に応じて、Web での支払い再開メールを顧客に送信できます。
+UPDATING_ELIGIBILITY_ACTIONS	Updating Eligibility Actions	Uploaded	適格性アクションの更新
+SEARCH_BY	Search By	Uploaded	で検索
+PIN_VERIFICATION	PIN Verification	Uploaded	PIN認証
+PHONE/SMS_DESTINATION	Phone/SMS Destination	Uploaded	電話/SMSの宛先
+SERVICE_COST	Service Cost	Uploaded	サービスコスト
+GENERATING_NEW_THIRD_PARTY_PAYMENT_URL	Generating New Third Party Payment URL	Uploaded	新しいサードパーティ支払い URL の生成
+CANCEL_BTN_LABEL	Cancel	WorkbasketUploaded	キャンセル
+SCRIPT_TO_ANSWER_NOT_AWARE_OF_DEDUCTIBLE	Asurion operates like most insurance companies where a deductible is required for each filed claim. If you would like to review your deductible terms and amount you can visit “PhoneClaim.com”. Once you read about your deductible terms you can also file your claim online for convenience.	Uploaded	Asurion は、提出された請求ごとに免責金額が必要なほとんどの保険会社と同様に運営されています。免責条件と金額を確認したい場合は、「PhoneClaim.com」にアクセスしてください。免責条項を読んだら、便利なオンラインで請求を提出することもできます。
+ADDITIONAL_SMALL_PARTS_QUESTION	Additional Questions	Uploaded	追加の質問
+OTHER	Other	Uploaded	他の
+EXPRESS_CHECKIN_EMAIL_ADDRESS	Email Address	Uploaded	電子メールアドレス
+REQUEST	Request	Uploaded	リクエスト
+REFUSING_PASSCODE_VERIFICATION	Refusing PassCode Verification	Uploaded	パスコード認証の拒否
+INCIDENT_DESCRIPTION	Incident Description	Uploaded	事件の説明
+OPERATING_SYSTEM_LABEL	Operating System or App Issues	Uploaded	オペレーティング システムまたはアプリの問題
+ACCEPTING_PASSCODE_VERIFICATION	Accepting PassCode Verification	Uploaded	パスコード検証の受け入れ
+SMP_METHOD_MOBILE	Send Text Message To ******	Uploaded	****** にテキストメッセージを送信
+OTHER_PHYSICAL_DAMAGE	Other Physical Damage	Uploaded	その他の物理的損傷
+CHECK_VOID_DATE	Check Void Date	Uploaded	無効日の確認
+BANK_CHECK_NUMBER	番号を確認する	Uploaded	番号を確認する
+REIMBURSEMENT_METHOD	Reimbursement Methods	Uploaded	償還方法
+SR_NUMBER	SR Number	Uploaded	SR番号
+OVERRIDING_ECV	Overriding ECV	Uploaded	ECV の上書き
+WALK_IN_REPAIR_SCHEDULED_DROP_OFF_WARNING	The current drop-off time may no longer be available if you change it now.	Uploaded	今すぐ変更すると、現在の降車時刻が利用できなくなる可能性があります。
+FETCHING_SHIPMENT_METHODS	Fetching Shipment Methods	Uploaded	配送方法の取得
+CUSTOMERS_ZIP_CODE	Customers Zip/Postal Code	Uploaded	お客様の郵便番号
+WILL_NOT_CHARGE_LABEL	Will not charge / Stay Charged	Uploaded	充電しない/充電したままにする
+FETCHING_PFR_CASES	Fetching PFR Cases	Uploaded	PFR ケースの取得
+INSURANCE_CLAIMS_LABEL	Insurance Claims Used	Uploaded	使用される保険金請求
+REPAIR_INLINE_SCRIPT	Customer will not be charged until the repair is completed.	Uploaded	修理が完了するまでお客様に料金が請求されることはありません。
+PRIMARY_PROBLEM	Primary Problem	Uploaded	主な問題
+UPDATING_EXISTING_CONTACT_INFORMATION	Updating Existing Contact Information	Uploaded	既存の連絡先情報の更新
+CHANNEL_OF_LAST_INTERACTION	Channel of Last Interaction	Uploaded	最後のインタラクションのチャネル
+SUBMITTING_PRODUCT_RETURN	Submitting Product Return	Uploaded	製品返品の提出
+LICENSE_ISSUED_STATE	License Issued State	Uploaded	ライセンス発行状態
+SENDING_EMAIL	Sending Email...	Uploaded	電子メールを送信中...
+NO_VERIFICATION_METHODS_TXT	Verification not available for this customer.Please end call.	Uploaded	この顧客は認証を利用できません。通話を終了してください。
+CARD_ENDING_IN	Card Ending in	Uploaded	で終わるカード
+EXITING_ECV_CONSTRAINT	Exiting ECV Constraint	Uploaded	ECV 制約の終了
+CLAIM_STAGE	Claim Stage	Uploaded	請求段階
+LOADING_DEVICE_ATTRIBUTE_FIELDS	Loading Device Attribute Fields...	Uploaded	デバイス属性フィールドをロードしています...
+CLAIM_OPEN	Claim Open	Uploaded	クレームオープン
+CALL_REASON_CLAIM	Claim	Uploaded	請求
+NAME	Name	Uploaded	名前
+LOADING_AVAILABLE_SHIPPING_METHODS	Loading Available Shipping Methods	Uploaded	利用可能な配送方法を読み込んでいます
+REQUESTED_AMOUNT_VALIDATION_ERROR	Amount Requested must be more than amount offered.  Enter the total amount being requested.	Uploaded	要求された金額は提示された金額より多くなければなりません。要求される合計金額を入力します。
+SCRIPT_INLINE_TO_ANSWER_WHY_SHOULD_I_PAY_DEDUCTIBLE	Paying a low monthly premium gives you the option of paying a small excess fee to have your phone replaced, versus paying the full retail price in the event you need to make a claim.	Uploaded	低額の月々の保険料を支払うことで、携帯電話の交換に少額の超過料金を支払うことができ、請求が必要な場合には小売価格の全額を支払うことができます。
+REGISTER_DEVICE__START_INCIDENT	Register Device & Start Incident	Uploaded	デバイスの登録とインシデントの開始
+NICKNAME	Nickname	Uploaded	ニックネーム
+SEND_PBL_INFO	Send Payment Link	Uploaded	支払いリンクを送信する
+MDN_/_DEVICE	MDN / Device	Uploaded	MDN / デバイス
+OSR_COVID_MESSAGE	An Asurion certified technician will come to your location.  You will receive a confirmation email shortly with additional details about what to expect and how to prepare for your repair	Uploaded	Asurion 認定技術者があなたの場所まで伺います。すぐに、予期される内容と修理の準備方法に関する追加の詳細が記載された確認メールが届きます。
+WILL_NOT_CHARGE_REASON	Battery Issue - Only covered for Laptops The product will not charge or stay charged due to the battery	Uploaded	バッテリーの問題 - ラップトップのみが対象 バッテリーが原因で製品が充電されない、または充電されたままになる
+GETTING_CHARGE_DETAILS	Getting charge details	Uploaded	料金の詳細を取得する
+SEND_PBL_INSTRUCTIONS	Please select a method to send the payment link.	Uploaded	支払いリンクを送信する方法を選択してください。
+PICKUPDROPOFF_DROPOFF	Pick Up/Drop Off: Drop Off	Uploaded	ピックアップ/ドロップオフ:ドロップオフ
+POLICY_NUMBER	Policy Number	Uploaded	規約の番号
+NOTES	Notes	Uploaded	ノート
+FETCHING_SERVICE_PROVIDERS_AVAILABILITY	Fetching Service Providers Availability	Uploaded	サービスプロバイダーの可用性を取得する
+ASSET_TYPE	Asset Type	Uploaded	資産タイプ
+MDN_LABEL	MDN	Uploaded	MDN
+RETURN_MANAGEMENT_NOTE_TEXT_1	Note: Based on triage results, your product may still need to be shipped to the depot for repair. We will notify you if this is the case.	Uploaded	注: トリアージの結果に基づいて、製品を修理のためにデポに発送する必要がある場合があります。その場合はお知らせいたします。
+IS_NOT_A_NUMBER	is not a number	Uploaded	数字ではありません
+SHOW	Show	Uploaded	見せる
+SAVE_AND_CLOSE	Save & Close	Uploaded	保存して閉じる
+POSTAL_INVALID	Entered postal code is either invalid or did not return a city or state. Please try again or enter details manually	Uploaded	入力された郵便番号が無効であるか、都市または州が返されませんでした。もう一度試すか、詳細を手動で入力してください
+ERROR_WITH_PAYMENT_SUBMISSION	There was an error during payment submission	Uploaded	支払いの送信中にエラーが発生しました
+DELIVERY_FAILED	Delivery failed	Uploaded	配信に失敗しました
+CLAIM_MODE_OFFLINE	Offline Filing Mode	Uploaded	オフラインファイリングモード
+REQUESTING_TO_REPLACE_SERVICE_REQUEST	Requesting to replace Service Request...	Uploaded	サービスリクエストの交換をリクエスト中...
+INCIDENT_DATE_LABEL	When did this incident happen?	Uploaded	この事件はいつ起こりましたか?
+GETTING_CLIENT_CHANNEL_SETTINGS	Getting client channel settings	Uploaded	クライアントチャネル設定の取得
+WEEKLY_HOURS_LABEL	Weekly Hours	Uploaded	週間営業時間
+SMARTPIN_LABEL	Smart PIN Validation	Uploaded	スマート PIN 検証
+MONDAY	Monday	Uploaded	月曜日
+PHYSICAL_OR_VISIBLE_BATTERY_DAMAGE	Physical Or Visible Battery Damage	Uploaded	物理的または目に見えるバッテリーの損傷
+3_SUMMARY_REVIEW	3. Summary Review	Uploaded	3. 総括レビュー
+SERIAL_NUMBER_LESS_THAN_32	Serial Number has to be less than 32 characters	Uploaded	シリアル番号は 32 文字未満である必要があります
+NAME_INPUT_MESSAGE_PROMPT	Confirm the first and last name are spelled correctly and remove any special characters	Uploaded	姓と名が正しく綴られていることを確認し、特殊文字を削除してください
+STARTING_A_CLAIM	Starting a Claim	Uploaded	請求の開始
+OTHER_ISSUES_REASON	Only covered for portable products.  Ex. Laptops, Tablets	Uploaded	ポータブル製品のみが対象となります。元。ラップトップ、タブレット
+RETURN_EXTENSION_INPROGRESS	Return Extension In-Progress	Uploaded	返却延長が進行中
+EXPRESS_CHECKIN_CREATE_CLAIM	Create Claim	Uploaded	クレームの作成
+FETCHING_FULFILLMENT_OPTIONS	Fetching Fulfillment Options	Uploaded	フルフィルメント オプションの取得
+INTNL_SHIPPING_LABEL	The replacement device is shipped to an international shipping address	Uploaded	交換用デバイスは海外の配送先住所に発送されます
+ECHECK_MESSAGING	Today, {SYSDATE}, I’d like to confirm that you, {CUSTOMER_LASTNAME}, are authorizing a one-time payment in the amount of {SERVICE_FEE} to be processed in approximately 1-2 banking days as an electronic funds transfer or draft drawn from your account identified as routing number {ENTERED_ROUTING_NUMBER} and account number {ENTERED_ACCOUNT_NUMBER} and, if necessary, electronic credits to your account to correct erroneous debits. You also authorize us to collect any applicable return fees and/or costs incurred by us if this electronic funds transfer is not successful.	Uploaded	本日、{SYSDATE} 様、{CUSTOMER_LASTNAME} 様に、電子送金または手形として約 1 ～ 2 銀行営業日以内に処理される {SERVICE_FEE} の 1 回限りのお支払いを承認していることを確認させていただきます。ルーティング番号 {ENTERED_ROUTING_NUMBER} および口座番号 {ENTERED_ACCOUNT_NUMBER} として識別されるアカウントから引き落とされ、必要に応じて、誤った引き落としを修正するためにアカウントへの電子クレジットが引き出されます。また、お客様は、この電子送金が成功しなかった場合に当社が発生する該当する返品手数料および/または費用を当社が徴収することを承認するものとします。
+INSURANCE_CLAIM_?	Insurance Claim ?	Uploaded	保険請求?
+FETCHING_EXTERNAL_APP_CONFIG	Fetching External App Config	Uploaded	外部アプリ構成の取得
+ESTIMATED_DELIVERY_DATE	Estimated Delivery Date	Uploaded	お届け予定日
+PAYMENT_DECLINED_INCORRECT_BILLING_ADDRESS	Billing address is incorrect.  Update the billing details or try a different payment method.	Uploaded	請求先住所が間違っています。請求の詳細を更新するか、別の支払い方法を試してください。
+STORE_DETAILS	Store Details	Uploaded	店舗詳細
+EMAIL_DESTINATION	Email Destination	Uploaded	メールの宛先
+SECURITY_VERIFICATION	Security Verification	Uploaded	セキュリティの検証
+CREATING_WORK_BASKET_ITEM_FOR_SERVICE_BENCH	Creating work basket item for Service Bench	Uploaded	Service Ben のワーク バスケット アイテムの作成
+DEVICE_/_NICKNAME	Device / Nickname	Uploaded	デバイス/ニックネーム
+REIMBURSEMENT_REQUIRED	Reimbursement Method is required	Uploaded	払い戻し方法は必須です
+UPSELL_OFFER_PA4TIERS	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial  Protect Advantage for 4 upgrade offer:","The monthly charge is $45.00 per mobile account enrolled, billed to your wireless account. You can get eight shared claims for physical damage, loss and theft In any 12 consecutive months and six shared claims for accidental damage from handling within any 12 consecutive months, with a maximum device value of $3500 per claim. You also get unlimited claims for out of warranty malfunctions. A non-refundable deductible or service fee will be charged to your wireless account for each approved claim.  Deductible amounts for devices connected to the AT&T network range from $25 to $275 depending on the device tier. For Wi-Fi tablets not connected to the AT&T network, the deductible or service fee amounts are $89 to repair and $199 to replace. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed.   Enrollment is optional and will auto-renew monthly until canceled.  Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges.  You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 4 アップグレード オファーに同意する場合、すべての通話で必要になります。","月額料金は、登録されているモバイル アカウントごとに 45.00 ドルです。連続 12 か月以内の物理的損傷、紛失、盗難に対する 8 件の共有請求と、連続 12 か月以内の取り扱いによる偶発的な損傷に対する 6 件の共有請求を受け取ることができ、1 件の請求につき最大デバイス価格は 3,500 ドルです。また、保証対象外の故障に対する無制限の請求も受けられます。承認された請求ごとに、返金不可の免責金額またはサービス料金がワイヤレス アカウントに請求されます。AT&T ネットワークに接続されているデバイスの免責金額は、デバイス層に応じて 25 ドルから 275 ドルの範囲ですAT&T ネットワークに接続されていない Wi-Fi タブレットの場合、免責金額またはサービス料金は修理に $89、交換に $199 です。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションで、キャンセルされるまで毎月自動更新されます。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することでいつでもキャンセルでき、未経過料金の返金を受けられます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」]
+RETURN_MANAGEMENT_TEXT_3	Most repairs are triaged within 2 hours	Uploaded	ほとんどの修理は 2 時間以内に優先順位付けされます
+DEREGISTER_DEVICE_LABEL	Deregister	Uploaded	登録を解除する
+RETURN_MANAGEMENT_TEXT_4	Repairs have a 12 month warranty	Uploaded	修理には12か月の保証が付いています
+RETURN_MANAGEMENT_TEXT_1	No appointment necessary	Uploaded	予約は必要ありません
+RETURN_MANAGEMENT_TEXT_2	Bring your product and power cord to the selected location	Uploaded	製品と電源コードを選択した場所に持っていきます
+FEATURE_QUERY_WHY_SHOULD_I_PAY_DEDUCTIBLE	What should I say if the customer asks why they have to pay a monthly premium and still pay an excess fee?	Uploaded	顧客がなぜ月々の保険料を支払っているのに超過料金を支払わなければならないのかと尋ねたら、どう答えるべきでしょうか?
+CHANGE_METHOD_OF_PAYMENT	Change Method of Payment	Uploaded	支払い方法の変更
+STOLEN	Stolen	Uploaded	盗まれた
+MLFNC_HEADER_SMALLPARTS	What is malfunctioning?	Uploaded	故障とは何ですか?
+QUERY_INLINE_NOT_AWARE_OF_DEDUCTIBLE	What should I say if the customer says I was not aware that an excess fee was going to be required?	Uploaded	超過料金が必要になるとは知らなかったと顧客が言ったら何と言えばよいでしょうか?
+SELECTED_CARRIER	Selected Carrier	Uploaded	選択した通信事業者
+VZW_WARRANTY_CLAIMS	VzW Warranty Claims	Uploaded	VzW の保証請求
+CIS_COVID_MESSAGE	You may have the option to remain in your car to drop-off and pick-up your device.  Availability is dependent on location and location conditions	Uploaded	車に乗ったままデバイスを預けたり受け取ったりすることもできる場合があります。可用性は場所と立地条件によって異なります
+ADDED	Added	Uploaded	追加した
+ACSRY_LABEL_OR	Accessories requested for ...	Uploaded	要求された付属品...
+MLFUNC	Something is wrong with the device	Uploaded	デバイスに問題があります
+FETCHING_LANGUAGE_LABELS	Fetching Language Labels	Uploaded	言語ラベルの取得
+PART_DESCRIPTION	Part Description	Uploaded	部品の説明
+CLAIM_TYPE	Claim Type	Uploaded	請求の種類
+RETURN_MANAGEMENT_LABEL	Additional Details	Uploaded	さらなる詳細
+ADRV_VERIFICATION	Name/address verification	Uploaded	名前/住所の確認
+ESCALATION	Escalation	Uploaded	エスカレーション
+CHECK_STATUS	Check Status	Uploaded	ステータスの確認
+REQUEST_REIMBURSE_ADDITIONAL_AMOUNT	Request Additional Reimbursement Amount	Uploaded	追加の払い戻し額をリクエストする
+CHECKING_FOR_ALL_REGISTERED_ASSETS	Checking for all registered assets...	Uploaded	登録されているすべてのアセットを確認しています...
+WORK_TYPE	Work Type	Uploaded	作業の種類
+NEW_AMIGO_PAGUITO_INFO	Please make sure you explain to the customer about the possibility of using this deductible as a downpayment for a brand new Amigo Paguito!	Uploaded	この免責金額を新品のアミーゴ パギートの頭金として使用できる可能性について、必ずお客様に説明してください。
+SHIP_LABEL_DELIVERY_METHOD	Shipping Label Delivery Method	Uploaded	配送ラベルの配送方法
+CHANGE_CLAIM_DETAILS	Change Claim Details	Uploaded	請求詳細の変更
+ASSET_END_DATE	Asset End Date	Uploaded	資産終了日
+SENDING_COMMUNICATION	Sending Communication	Uploaded	通信の送信
+RETAIL_NO_RESULTS_FOUND	No enrollment was found.   Ask the customer for additional   details and search again. Make sure that this is the information   provided at enrollment.	Uploaded	登録が見つかりませんでした。   顧客に追加の要求をする   詳細を確認して再度検索してください。これが情報であることを確認してください   入学時に提供されます。
+CHECKOUT_TRANSFER_FAILED	IVR Checkout transfer failed. Try again or manually fill in below fields with customer's payment information	Uploaded	IVR チェックアウト転送に失敗しました。もう一度試すか、下のフィールドに顧客の支払い情報を手動で入力してください
+PINNED_NOTES_MAX_LIMIT_MSG	The maximum amount of pinned notes has been reached. (3) Please unpin an existing note and try again.	Uploaded	固定されたノートの最大数に達しました。 (3) 既存のメモの固定を解除して、もう一度お試しください。
+TAX	Tax	WorkbasketUploaded	税
+CREATING_REIMBURSEMENT_ORDER	Creating Reimbursement Order	Uploaded	払い戻し注文の作成
+FETCHING_PFR_SHIPPING_METHODS	Fetching PFR Shipping Methods	Uploaded	PFR 配送方法の取得
+WRAPPING_UP_YOUR_CLAIM	Wrapping up your claim	Uploaded	主張をまとめる
+BYPASS_VALIDATION	Bypass Validation	Uploaded	検証のバイパス
+EXPRESS_CHECKIN_MAKE/MODEL	Make/Model	Uploaded	メーカー/モデル
+RETAIL_STDEXCH_ADDITIONAL_DETAILS_TEXT_1	Product return is not required.	Uploaded	商品の返品は必要ありません。
+RETAIL_STDEXCH_ADDITIONAL_DETAILS_TEXT_2	Customer will receive an email with available options within 1 business day	Uploaded	お客様は 1 営業日以内に利用可能なオプションを記載した電子メールを受け取ります
+RETAIL_STDEXCH_ADDITIONAL_DETAILS_TEXT_3	If no replacement options are available, FMV reimbursement will be offered.	Uploaded	交換オプションが利用できない場合は、FMV の払い戻しが提供されます。
+ACCOUNT_NUMBER	Account No.	Uploaded	アカウントなし。
+FETCHING_SECURITY_TOKEN	Fetching Security Token	Uploaded	セキュリティトークンの取得
+PBL_MODAL_SENDCOMM_ERROR_MESSAGE	There was an error with sending communication, please try again	Uploaded	通信の送信中にエラーが発生しました。もう一度お試しください。
+VERIFYING_CUSTOMER	Verifying Customer	Uploaded	顧客の確認
+CREATED_BY	Created By	Uploaded	によって作成された
+FETCHING_PAYMENT_METHODS__CREATING_CHARGE_ORDER	Fetching Payment Methods & Creating Charge Order	Uploaded	支払い方法の取得と請求オーダーの作成
+NONTECH	Non-technical problem	Uploaded	技術的以外の問題
+VERIZON_QUESTION_MESSAGE	Read aloud to customer:	Uploaded	お客様に読み上げます:
+CREATION_DATE	Creation Date	Uploaded	作成日
+DEVICE_PRICE	Device Price	Uploaded	デバイスの価格
+INTERACTIVE_VOICE_LOGGING_IN	Interactive Voice Logging in…	Uploaded	対話型音声ログイン中…
+PIN_MAX_ATTEMPT_REACHED	You have reached the maximum attempts to validate your account through Security Verification PIN. Please proceed the verification process via Address Verifcation if available.If you are able to validate through Address Verification, please click on the continue to proceed with the claim flow. If unable to validate through Address Verification, click on the 'Cannot Verify Caller' button on the lower right.	Uploaded	セキュリティ検証 PIN によるアカウント検証の最大試行回数に達しました。可能な場合は、住所検証を介して検証プロセスを続行してください。住所検証を介して検証できた場合は、[続行] をクリックして請求フローを続行してください。アドレス検証で検証できない場合は、右下の [発信者を検証できない] ボタンをクリックします。
+UPDATING_AGGREGATE_LIMITS	Updating Aggregate Limits...	Uploaded	集計制限を更新しています...
+CALLER_NAME	Caller Name	Uploaded	発信者名
+VIEW_CASE_DETAILS	View Case Details	Uploaded	ケースの詳細を表示
+CLAIM_MODE_ONLINE	Live Call Mode	Uploaded	ライブ通話モード
+POSTAL_NULL	Unfortunately, there was no enrolled postal code on file. Please select "Shipping Address" or select "New Address" and enter in new address for payment	Uploaded	残念ながら、登録された郵便番号はファイルにありませんでした。 「配送先住所」を選択するか、「新しい住所」を選択して支払い用の新しい住所を入力してください
+CLOSED	Closed	Uploaded	閉まっている
+SERVICE_FEE	Service Fee	Uploaded	サービス料
+NEW_CARD_MSG	New credit card information is needed. Please enter new credit card information	Uploaded	新しいクレジット カード情報が必要です。新しいクレジットカード情報を入力してください
+GETTING_AVAILABLE_ASSET_TYPES	Getting Available Asset Types...	Uploaded	利用可能なアセット タイプを取得しています...
+PART	Part	Uploaded	一部
+UPS_STRIKE_MSG	Due to the UPS strike, there may be shipping delays. We will work on getting your replacement to you as soon as possible	Uploaded	UPS のストライキにより、配送に遅れが生じる可能性があります。できるだけ早く交換品をお届​​けできるよう努めます
+CRACKED_SCREEN_MESSAGE_SAMSUNG	Note: For Non Fold/Non Flip Devices, advise customers to remove their case and screen protector prior to assessing device damage.	Uploaded	注: 折りたたみ式/フリップ式でないデバイスの場合は、デバイスの損傷を評価する前にケースとスクリーン プロテクターを外すようお客様にアドバイスしてください。
+REQUEST_APPROVED	Request Is Approved	Uploaded	リクエストは承認されました
+BEST_DESCRIBES_PROBLEM	What best describes the problem?	Uploaded	この問題を最もよく説明しているものは何でしょうか?
+BACKORDER_MSG	Back Ordered	Uploaded	入荷待ち
+PAYMENT_DECLINED_ASK_DIFFERENT_PAYMENT_METHOD	Payment was declined.  Ask the customer for a different payment method.	Uploaded	支払いが拒否されました。お客様に別のお支払い方法を依頼してください。
+PBL_MODAL_SYS_ERROR_MSG	A system error occurred in the payment process. Please try again, or send the customer a Resume Payment on Web email	Uploaded	支払い処理でシステムエラーが発生しました。もう一度お試しいただくか、お客様に「Web での支払い再開」メールを送信してください
+NAME_POSTAL_CODE	Name, Postal Code	Uploaded	名前、郵便番号
+TODAY	Today	Uploaded	今日
+CREATING_MAIL_COMMUNICATION_REQUEST	Creating Mail Communication Request	Uploaded	メール通信リクエストの作成
+QUERY_NOT_AWARE_OF_DEDUCTIBLE	What should I say if the customer says I was not aware that a deductible was going to be required	Uploaded	免責金額が必要になるとは知らなかったと顧客が言ったら何と言えばよいでしょうか
+SHIPPING_DETAILS	Shipping Details	Uploaded	発送詳細
+CLAIM_DATE	Claim Date	Uploaded	請求日
+PLEASE_PROVIDE_ADDITIONAL_DETAILS	Please Provide Additional Details	Uploaded	追加の詳細を入力してください
+NEXT_ACTION_CANCEL	Please Provide the Correct Device Details or Click Cancel to go Back to Incident Path Determination.	Uploaded	正しいデバイスの詳細を入力するか、「キャンセル」をクリックしてインシデント パスの決定に戻ってください。
+SUR/RRD/RUD_CLAIMS	SUR/RRD/RUD Claims	Uploaded	SUR/RRD/RUD の請求
+SCRATCHES_DENTS_REASON	Cosmetic Damage - Not covered The product has scratches, dents or other damage that does not impact the functionality of the product.	Uploaded	外観上の損傷 - 対象外 製品の機能に影響を及ぼさない傷、凹み、その他の損傷がある商品。
+AMOUNT_REQUESTED	要求金額	Uploaded	要求金額
+EXPRESS_CHECKIN_LSU_WARNING	If you have not already done so, I recommend you suspend service on your claimed device in order to avoid unauthorized usage and charges to your account. Would you like me to provide you the direct number for ATT Customer Care or transfer you at the end of our call?	Uploaded	まだ停止していない場合は、不正使用やアカウントへの請求を避けるために、請求したデバイスのサービスを一時停止することをお勧めします。 ATT カスタマー ケアの直通番号をお知らせしますか、それとも電話が終わったら転送しますか?
+UPSELL_OFFER_PA4BTIERS	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial  Protect Advantage for Business for 4 upgrade offer:","The monthly charge is $45.00 per mobile account enrolled, billed to your wireless account. You can get eight shared claims for physical damage, loss and theft In any 12 consecutive months and six shared claims for accidental damage from handling within any 12 consecutive months, with a maximum device value of $3500 per claim. You also get unlimited claims for out of warranty malfunctions. A non-refundable deductible or service fee will be charged to your wireless account for each approved claim.  Deductible amounts for devices connected to the AT&T network range from $25 to $275 depending on the device tier. For Wi-Fi tablets not connected to the AT&T network, the deductible or service fee amounts are $89 to repair and $199 to replace. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed.   Enrollment is optional and will auto-renew monthly until canceled.  Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges.  You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for Business for 4 アップグレード オファーに同意する場合、すべての通話で必要になります。","月額料金はモバイル 1 台あたり $45.00 です。アカウントが登録され、ワイヤレス アカウントに請求されます。連続 12 か月以内の物理的損傷、紛失、盗難に対する 8 件の共有請求と、連続 12 か月以内の取り扱いによる偶発的損害に対する 6 件の共有請求を取得できます。デバイスの最大価格は 1 件あたり 3,500 ドルです。保証対象外の故障については、無制限の請求も受けられます。承認された請求ごとに、返金不可の免責金額またはサービス料金がワイヤレス アカウントに請求されます。AT&T ネットワークに接続されているデバイスの免責金額は、状況に応じて 25 ドルから 275 ドルの範囲です。デバイス層。AT&T ネットワークに接続されていない Wi-Fi タブレットの場合、免責金額またはサービス料金は修理に $89、交換に $199 です。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションで、キャンセルされるまで毎月自動更新されます。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することでいつでもキャンセルでき、未経過料金の返金を受けられます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」]
+CLAIM_MODE_RESEARCH	Research Mode	Uploaded	研究モード
+SCRIPT_INLINE_REPAIR_TO_ANSWER_WHY_SHOULD_I_PAY_DEDUCTIBLE	Paying a low monthly premium gives you the option of paying a small excess fee to have your phone repaired, versus paying the full retail price in the event you need to make a claim.	Uploaded	低額の月々の保険料を支払うことで、携帯電話の修理に少額の超過料金を支払うことができ、請求が必要な場合には小売価格の全額を支払うことができます。
+CREATED_WB_ITEM_LABEL	A request to review the reimbursement amount has been created. Advise the customer that they will be contacted within 1 business day.	Uploaded	償還金額の見直しリクエストが作成されました。 1 営業日以内に連絡することをお客様に伝えます。
+PROCESSING_EIF_ESCALATION	Processing EIF Escalation	Uploaded	EIF エスカレーションの処理
+LOADING_REIMBURSEMENT_DETAILS	Loading reimbursement details	Uploaded	払い戻しの詳細をロードしています
+REPAIR_LOCATION	Repair Location	Uploaded	修理箇所
+UPSELL_OFFER_LP4BTIERS	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial  Protect Advantage for Business for 4 upgrade offer:","The monthly charge is $45.00 per mobile account enrolled, billed to your wireless account. You can get eight shared claims for physical damage, loss and theft In any 12 consecutive months and six shared claims for accidental damage from handling within any 12 consecutive months, with a maximum device value of $3500 per claim. You also get unlimited claims for out of warranty malfunctions. A non-refundable deductible or service fee will be charged to your wireless account for each approved claim.  Deductible amounts for devices connected to the AT&T network range from $25 to $275 depending on the device tier. For Wi-Fi tablets not connected to the AT&T network, the deductible or service fee amounts are $89 to repair and $199 to replace. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed.   Enrollment is optional and will auto-renew monthly until canceled.  Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges.  You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for Business for 4 アップグレード オファーに同意する場合、すべての通話で必要になります。","月額料金はモバイル 1 台あたり $45.00 です。アカウントが登録され、ワイヤレス アカウントに請求されます。連続 12 か月以内の物理的損傷、紛失、盗難に対する 8 件の共有請求と、連続 12 か月以内の取り扱いによる偶発的損害に対する 6 件の共有請求を取得できます。デバイスの最大価格は 1 件あたり 3,500 ドルです。保証対象外の故障については、無制限の請求も受けられます。承認された請求ごとに、返金不可の免責金額またはサービス料金がワイヤレス アカウントに請求されます。AT&T ネットワークに接続されているデバイスの免責金額は、状況に応じて 25 ドルから 275 ドルの範囲です。デバイス層。AT&T ネットワークに接続されていない Wi-Fi タブレットの場合、免責金額またはサービス料金は修理に $89、交換に $199 です。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションで、キャンセルされるまで毎月自動更新されます。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することでいつでもキャンセルでき、未経過料金の返金を受けられます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」]
+SERVICE_CENTER_NAME	Service Center Name	Uploaded	サービスセンター名
+CUSTOMER_REFUSED	Customer Refused	Uploaded	顧客が拒否した
+SAVING_SELECTED_STORE	Saving Selected Store	Uploaded	選択したストアを保存する
+PINNED_NOTES	Pinned Notes	Uploaded	固定されたメモ
+CREATING_SEND_COMMUNICATION_REQUEST	Creating Send Communication Request	Uploaded	送信通信リクエストの作成
+VERIFY_CUSTOMER_FAILURE_MSG	Customer identification services are unavailable. Please proceed with offline verification	Uploaded	本人確認サービスはご利用いただけません。オフライン認証を続行してください
+REMOTE_TECH	Remote Tech	Uploaded	リモート技術
+UPDATING_ADDRESS	Updating Address	Uploaded	住所を更新中
+REPLACE_SUBMITTED_IPD	An advanced exchange claim has already been submitted for this customer. Please check Account Home for updates.	Uploaded	この顧客については、事前交換請求がすでに送信されています。最新情報については、アカウント ホームを確認してください。
+LOADING_WORKITEMS	Loading Workitems…	Uploaded	作業項目をロード中…
+REPAIR_UNSUCCESSFUL_DESCRIPTION	The previous repair claim was unsuccessful. Click resume incident to view post repair options.	Uploaded	前回の修理請求は失敗しました。インシデントを再開をクリックすると、修復後のオプションが表示されます。
+ADVEXCH	Advanced Exchange	Uploaded	事前交換
+OPEN_SERVICE_SOLUTIONS_WB	There is an open Service Solutions Work Basket Item that needs to be resolved before there can be any action taken on this case.	Uploaded	このケースに対してアクションを実行する前に、解決する必要がある未解決のサービス ソリューション ワーク バスケット アイテムがあります。
+IVR_CHECKOUT_DESCRIPTION_MESSAGING	Automated IVR Checkout is available for this customer. Does the customer agree to IVR Checkout?	Uploaded	この顧客は自動 IVR チェックアウトを利用できます。顧客は IVR チェックアウトに同意しますか?
+ACCOUNT_NO	Account Number	Uploaded	口座番号
+INSURANCE_CLAIMS	Insurance Claims	Uploaded	保険金請求
+EPAPER_TOKEN_v3	Billing Token	Uploaded	請求トークン
+TOTAL_AMOUNT	Total Amount	WorkbasketUploaded	合計金額
+1_PRIMARY_PROBLEM	1. Primary Problem	Uploaded	1. 主な問題
+MAX_REGISTRATION_FOR_PROGRAM	Max Registerations Reached, System Can not File a Claim For This Device	Uploaded	最大登録数に達しました。システムはこのデバイスの要求を提出できません
+PICKUPDROPOFF_PICKUP	Pick Up/Drop Off: Pick Up	Uploaded	ピックアップ/ドロップオフ: ピックアップ
+PAYMENT_METHOD_REQUESTED	Payment method requested:	Uploaded	要求された支払い方法:
+I_M_E_I	IMEI Number	Uploaded	IMEI番号
+Q_THERE_MDN_ASSOCIATED_WITH_DEVICE	Is there an MDN associated with this device?	Uploaded	このデバイスに関連付けられた MDN はありますか?
+NO_FMV_FOUND	Fair Market Value is not available for this product. Please edit desired amount through Edit Amount Request button.	Uploaded	この製品の公正市場価格は利用できません。金額リクエストの編集ボタンからご希望の金額を編集してください。
+UPDATING_DEVICE_DETAILS	Updating device details	Uploaded	デバイスの詳細を更新しています
+SEARCHING_CUSTOMER	Searching Customer	Uploaded	顧客を探しています
+SAME_DAY_DETAILS	Expert will arrive {deliveryDay}, {selectedDate} between {selectedTimeSlot}	Uploaded	エキスパートは {deliveryDay}、{selectedDate} の間に {selectedTimeSlot} の間に到着します
+CREATING_NEW_ENROLLMENT	Creating new enrollment	Uploaded	新規登録の作成
+CAPTURE_EU_USER_RELATIONSHIP_DETAILS	Any communications will still go to the policyholder. However, the person added onto the policy will be able to process claims and make changes to the policy without us needing to speak to you, is that ok?	Uploaded	すべての通信は引き続き保険契約者に送信されます。ただし、ポリシーに追加された担当者は、私たちがあなたと話すことなく、請求を処理したり、ポリシーを変更したりすることができますが、大丈夫ですか?
+END_CALL	End Call	Uploaded	通話終了
+REGISTER_DEVICE_LABEL	Register Device & Start Incident	Uploaded	デバイスの登録とインシデントの開始
+BEST_DESCRIBES_DAMAGE	What best describes the type of damage?	Uploaded	損傷の種類を最もよく表すものは何ですか?
+FETCHING_REPLACEMENT_EQUIPMENTS	Fetching Replacement Equipments	Uploaded	交換用機器の入手
+GETTING_FULLFIMENT_OPTIONS	Getting Fullfiment Options...	Uploaded	フルフィルメント オプションを取得しています...
+Q_MDN_ASSOCIATED_WITH_DEVICE	is the MDN associated with this device?	Uploaded	MDN はこのデバイスに関連付けられていますか?
+EXPRESS_CHECKIN_SMS/TEXT_UPDATES	SMS/Text Updates	Uploaded	SMS/テキストアップデート
+ENTER_NEW_CREDIT_CARD_INFO	Enter New Credit Card Info	Uploaded	新しいクレジットカード情報を入力してください
+SHIPPING_METHOD	Shipping Method	Uploaded	配送方法
+GOT_IT	Got It	Uploaded	わかった
+SEARCHING_CLIENT_CHANNEL_SETTING	Searching client channel setting	Uploaded	クライアントチャネル設定の検索
+SEARCH_CLAIM_NUMBER	Search - Claim Number, Name,  Product, Color, Brand...	Uploaded	検索 - クレーム番号、名前、製品、色、ブランド...
+PACKING_MATERIALS_NOT_INCLUDED	Packing materials included: No	Uploaded	梱包材が含まれています: いいえ
+SYSTEM	System	Uploaded	システム
+SUR_DAMAGE_QUESTIONNAIRES_WARNING	Note: Advise customers to remove their case and screen protector prior to assessing device damage.	Uploaded	注: デバイスの損傷を評価する前に、ケースとスクリーン プロテクターを外すようお客様にアドバイスしてください。
+RETAIL_OSR_ADDITIONAL_DETAILS_TEXT_1	A repair technician will come to your home.	Uploaded	修理技術者がご自宅まで伺います。
+VERIFYING_DEVICE_DETAILS	Verifying device details	Uploaded	デバイスの詳細の確認
+EXPRESS_CHECKIN_WHICH_DEVICE_WAS_AFFECTED?	Which device was affected?	Uploaded	どのデバイスが影響を受けましたか?
+MIR_THRID_PARTY_PAYMENT_SUBMITTED_IPD	A repair request has been submitted for this customer via Third Party Payment. Resume if change is needed	Uploaded	この顧客に対して、サードパーティ支払い経由で修理リクエストが送信されました。変更が必要な場合は再開する
+RETAIL_OSR_ADDITIONAL_DETAILS_TEXT_4	For their safety, please ensure children and pets will be away from the repair area.	Uploaded	安全のため、子供やペットが修理エリアに近づかないようにしてください。
+RETAIL_OSR_ADDITIONAL_DETAILS_TEXT_5	Our servicer may call you to perform additional triage.	Uploaded	当社のサービサーが追加の優先順位付けを行うためにお客様に電話する場合があります。
+RETAIL_OSR_ADDITIONAL_DETAILS_TEXT_2	Someone over the age of 18 must be present when the technician arrives.	Uploaded	技術者が到着するときは、18 歳以上の方が立ち会わなければなりません。
+RETAIL_OSR_ADDITIONAL_DETAILS_TEXT_3	Be sure the product is accessible to the technician.	Uploaded	技術者が製品にアクセスできることを確認してください。
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_7	If the customer selects the virtual card option and the card is lost, the customer will need to contact the customer support number in their cardholder agreement provided when the card is accepted.	Uploaded	顧客がバーチャル カード オプションを選択し、カードを紛失した場合、顧客は、カードの受け入れ時に提供されるカード所有者契約に記載されているカスタマー サポート番号に連絡する必要があります。
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_6	Once the customer selects a payout method it cannot be changed.	Uploaded	顧客が支払い方法を選択すると、変更することはできません。
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_5	Reimbursements through Paypal or Local Bank Transfer are received within 3 business days	Uploaded	Paypal または現地銀行振込による払い戻しは 3 営業日以内に受領されます
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_4	Paypal: Customer must have an active Paypal account before using this method and must use the email associated with their Paypal account	Uploaded	Paypal: この方法を使用する前に、顧客は有効な Paypal アカウントを持っている必要があり、Paypal アカウントに関連付けられた電子メールを使用する必要があります。
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_3	Venmo: Customer must use the mobile phone number associated with their Venmo account when selecting this method	Uploaded	Venmo: この方法を選択する場合、お客様は Venmo アカウントに関連付けられた携帯電話番号を使用する必要があります
+DIGITAL_REIMBURSEMENT_INSTRCUTIONS_2	Reimbursements through Paypal and Venmo are received within 3 business days	Uploaded	Paypal と Venmo を介した払い戻しは 3 営業日以内に受領されます
+OOSContact_Text	The customers replacement device was determined to be out of stock by the fulfillment vendor after the order was placed. Please log an escalation	Uploaded	注文後、フルフィルメントベンダーによって、顧客の交換用デバイスの在庫がないと判断されました。エスカレーションを記録してください
+THIRD_PARTY_PAYMENT_SUBMITTED_IPD	A replacement claim has been submitted for this customer via Third Party Payment. Resume if change is needed	Uploaded	この顧客に対して、サードパーティ支払い経由で交換請求が送信されました。変更が必要な場合は再開する
+COLOR	color	Uploaded	色
+CREATING_PFR_SERVICE_ORDER	Creating PFR Service Order	Uploaded	PFR サービス注文の作成
+MAKE_NOUN	Make	Uploaded	作る
+BANK_ROUTING_NUMBER	Bank Routing Number	Uploaded	銀行ルーティング番号
+SHOW_ALL_AGREEMENTS_LINK	Show all agreement Associated with this Mobile Device Number	Uploaded	このモバイル デバイス番号に関連付けられたすべての契約を表示
+SMRT_PIN_ERROR_MSG	Unable to Send Smart Pin. Please verify customer using Name and Address	Uploaded	スマート PIN を送信できません。名前と住所を使用して顧客を確認してください
+FAILURE_LINK_LABEL	Failure Links	Uploaded	失敗したリンク
+CANCELLING_ENROLLMENT	Cancelling enrollment	Uploaded	登録をキャンセルする
+ICARE_MESSAGE	Use iCare to file or resume claim for this selected agreement. Please end call on Horizon and continue on iCare	Uploaded	iCare を使用して、この選択した契約の請求を提出または再開します。 Horizo​​n での通話を終了し、iCare を続けてください
+CHANGE_INFO	Change Information	Uploaded	変更情報
+DAMAGE_HEADER_SMALLPARTS	What Kind of damage?	Uploaded	どのような被害ですか？
+CURRENT	Current	Uploaded	現在
+VALIDATING_STORE_ADDRESS	Validating store address	Uploaded	ストアの住所を検証しています
+LAPTOP	Laptop	Uploaded	ラップトップ
+NEXT_BUSINESS_DAY	Next business day	Uploaded	翌営業日
+FETCHING_ASSET_MODEL	Fetching Asset Model	Uploaded	アセットモデルの取得
+DEDUCTIBLE_SCRIPT_SAY_TESCO	Asurion operates like most insurance companies where an excess fee is required for each filed claim. The excess fee should have been explained to you when you purchased the policy. However, If you would like to review your policy terms and conditions you can visit “www.tescomobile.com/protect”. Once you read about your policy terms and conditions you can either contact us or complete your claim online.	Uploaded	Asurion は、提出された請求ごとに超過料金が必要となるほとんどの保険会社と同様に運営されています。超過料金については、保険を購入したときに説明されているはずです。ただし、保険契約条件を確認したい場合は、「www.tescomobile.com/protect」にアクセスしてください。保険契約条件をお読みになったら、当社にご連絡いただくか、オンラインで請求を完了してください。
+EMAIL_ID	Email Address	Uploaded	電子メールアドレス
+ACCESSORIES	Accessories	Uploaded	アクセサリー
+DEREGISTERING_DEVICE	Deregistering Device	Uploaded	デバイスの登録を解除しています
+PAYMENT_DECLINED_CVC	CVV is incorrect or invalid.  Update the billing details or try a different payment method.	Uploaded	CVV が正しくないか無効です。請求の詳細を更新するか、別の支払い方法を試してください。
+LOADING_DEVICE_DETAILS	Loading device details...	Uploaded	デバイスの詳細を読み込んでいます...
+LOADING_MERCURY_REPLACEMENT_ORDERS	Loading Mercury Replacement Orders...	Uploaded	Mercury 交換注文を読み込んでいます...
+NO_EMAIL	No Email	Uploaded	メールなし
+VERIFYING_EMAIL_ADDRESS	Verifying Email Address	Uploaded	メールアドレスの認証
+REPLACEMENT_REPAIR_INLINE_SCRIPT	Repair eligibility will be determined upon inspection of the claimed device. If the device cannot be repaired, the customer may have option to replace it	Uploaded	修理の適格性は、請求されたデバイスの検査によって決定されます。デバイスを修理できない場合、お客様はデバイスを交換するオプションを選択できる場合があります
+SUBMITTING_CLAIM	Submitting Claim	Uploaded	請求の提出
+CHECKING_LOCK_STATUS	Checking lock status	Uploaded	ロック状態の確認
+NAME_AND_ADDRESS_LABEL	Name & Address Validation	Uploaded	名前と住所の検証
+CALL_REASON_PRIMARY_BUTTON_LABEL	Continue	Uploaded	続く
+UNINSURED	Uninsured	Uploaded	無保険
+CHECKBOX_VALIDATION_ERROR_LABEL	Detailed Answer is required	Uploaded	詳細な回答が必要です
+RECEIPT_REQUIRED	A PFR claim is in progress. Advise customer that a receipt is required and can be uploaded at phoneclaim.com, or by clicking on the link previously provided in email	Uploaded	PFR 請求が進行中です。領収書が必要であり、phoneclaim.com にアップロードするか、以前に電子メールで提供されたリンクをクリックすることでアップロードできることをお客様に伝えます。
+SHIPPER	Shipper	Uploaded	荷主
+UNPIN	UnPin	Uploaded	ピンを外す
+UPDATING_ENROLLMENT	Updating Enrollment	Uploaded	登録の更新
+RETAIL_MIR_FORCE_BOOK_ADD_DETAILS_TEXT	Customer will be contacted within 2 business days	Uploaded	2営業日以内にお客様にご連絡いたします
+GETTING_ASSET_ATTRIBUTES	Getting Asset Attributes	Uploaded	アセット属性の取得
+CST_OOSContact_DAX_Text	The customers replacement device was determined to be out of stock by the fulfillment vendor after the order was placed. Please contact DAX to verify the status this shipment.	Uploaded	注文後、フルフィルメントベンダーによって、顧客の交換用デバイスの在庫がないと判断されました。この出荷のステータスを確認するには、DAX にお問い合わせください。
+CUSTOMER_VERIFICATION_MAX_ATTEMPT_REACHED_MSG	You have reached the maximum attempts to validate your enrollment with AT&T. Please call AT&T @ 1-800-331-0500 to discuss your enrollment or reset your account validation information. Note: If you change your account validation information with AT&T, please allow at least 30 minutes before calling back in order for our records to be updated.	Uploaded	AT&T への登録を検証する最大試行回数に達しました。登録について話し合うか、アカウント検証情報をリセットするには、AT&T @ 1-800-331-0500 に電話してください。注: AT&T でアカウント検証情報を変更する場合は、記録が更新されるよう、少なくとも 30 分待ってから再度電話してください。
+CONFIRMING_SELECTED_SLOT	Confirming Selected Slot	Uploaded	選択したスロットの確認
+PBL_MODAL_ERROR_TITLE	Error	Uploaded	エラー
+MOBILE_NUMBER	Mobile Number	Uploaded	携帯電話番号
+FETCH_LATEST_NOTES	Fetch Latest Notes	Uploaded	最新のメモを取得する
+CLIENTSETTLEMENT_BIO_HOLD	The customer needs to provide datos biometricos to continue with the claim. Note: Go to the actions link to resend instructions.	Uploaded	請求を続行するには、顧客は datos biometricos を提供する必要があります。注: 指示を再送信するには、アクション リンクに移動します。
+EXPEDITED	Expedited	Uploaded	迅速化
+CLAIMS	Claims	Uploaded	請求
+CREATING_INCIDENT	Creating Incident	Uploaded	インシデントの作成
+FRONTLINE_ADDITIONAL_FUND	How is the amount determined? The reimbursement amount is based off of the age and condition of the product immediately prior to the breakdown.	Uploaded	金額はどのように決まるのですか？ 補償金額は、故障直前の製品の使用年数と状態に基づいて決定されます。
+LAST_USED_CREDIT_CARD	Last Used Credit Card	Uploaded	最後に使用したクレジット カード
+INVALID_FIRST_NAME	Invalid First Name	Uploaded	無効な名
+SERVICE_REQUEST_NUMBER	Service Request Number	Uploaded	サービスリクエスト番号
+UPDATING_SIGNATURE_REQUIRED_CONSTRAINT	Updating Signature Required Constraint	Uploaded	署名必須制約の更新
+IVR_CHECKOUT_BUTTON_LABEL	Transfer to IVR	Uploaded	IVRに転送
+SYSTEM_FREEZES_LABEL	System Freezes or Running Slow	Uploaded	システムがフリーズするか動作が遅い
+INCREMENTAL_FEES	Incremental fee if the returned device has additional damage beyond a cracked screen:	Uploaded	返品されたデバイスに画面割れ以外の追加の損傷がある場合の追加料金:
+PIN_UNKNOWN_LABEL	Pin Unknown	Uploaded	ピン不明
+IS_THIS_A_CLAIM	Is this a Claim?	Uploaded	これはクレームですか?
+FETCHING_ACCOUNT_SUMMARY	Fetching Account Summary	Uploaded	アカウントの概要を取得しています
+FLIP_FOLD_DEVICE_WARNING	FLIP/FOLD: If the claimed device is either a Flip or Fold model and If customer believes their pre-installed screen protector needs to be replaced due to air bubbles, faint lines, or adhesive issues, then refer them to an Asurion Store. You can check for a nearby Asurion Store at	Uploaded	フリップ/フォールド: 請求されたデバイスがフリップ モデルまたはフォールド モデルの場合、お客様が気泡、かすれ線、接着剤の問題によりプレインストールされたスクリーン プロテクターを交換する必要があると考える場合は、Asurion ストアを紹介します。お近くのアシュリオンストアはこちらでご確認いただけます。
+SMRT_PIN_MAX_ATTEMPT_REACHED_NO_ADRV_MSG	The maximum attempts to validate using the verification code has been reached.	Uploaded	確認コードを使用した検証の最大試行回数に達しました。
+FRIDAY	Friday	Uploaded	金曜日
+INITIATING_NEW_SERVICE_REQUEST	Initiating new service request	Uploaded	新しいサービスリクエストの開始
+FAILURE_LINK_SCRIPT	List of Failures for scenarios	Uploaded	シナリオの失敗リスト
+UPDATING_TRIAGE	Updating Triage	Uploaded	トリアージの更新
+UPSELL_UPGRADE_QUESTION	Would You Like To Proceed With Your Upgrade?	Uploaded	アップグレードを続行しますか?
+SUB-STATUS	Sub-Status	Uploaded	サブステータス
+OTHER_ISSUES_LABEL	Other	Uploaded	他の
+CONTINUE_BTN_LABEL	Continue	Uploaded	続く
+FETCHING_AVAILABLE_REIMBURSEMENT_METHODS	Fetching Available Reimbursement Methods..	Uploaded	利用可能な払い戻し方法を取得しています。
+FETCHING_CLIENT_CHANNELS	Fetching Client Channels	Uploaded	クライアントチャンネルの取得
+CATEGORY	Category	Uploaded	カテゴリー
+DEVICE_RETURN_NOT_REQUIRED	Claim device return is not required.	Uploaded	デバイスの返却を要求する必要はありません。
+FETCHING_SHIPPING_METHOD	Fetching Shipping Method	Uploaded	配送方法の取得
+EXPRESS_CHECK_IN_INSTRUCTION_SCRIPT	Verify the claim details. Once complete, click on "Create Claim" to continue. If any details are incorrect or caller has other questions, click on "Make Changes".	Uploaded	請求の詳細を確認します。完了したら、「Create Claim」をクリックして続行します。詳細が間違っている場合、または発信者に他の質問がある場合は、[変更] をクリックしてください。
+APPROVAL_REASON	Approval Reason	Uploaded	承認理由
+UNLOCKING_WORK_ITEM	Unlocking Work Item	Uploaded	作業項目のロックを解除しています
+NOTE_TYPE	Note Type	Uploaded	音符の種類
+PAYMENT_INVOICED	Payment Invoiced.	Uploaded	支払いは請求されました。
+CAPTURING_EGIFT_CARD_DETAILS	Capturing eGift Card details	Uploaded	eギフトカードの詳細を取得する
+INTERACTIVE_VOICE_LOGGING_OUT	Interactive Voice Logging out...	Uploaded	対話型音声からログアウトしています...
+START_DATE	Start Date	Uploaded	開始日
+ECHECK_AUTH_DISAGREED	Customer must agree to complete the claim using the eCheck payment method.  Please verify with customer or select an alternate payment method to continue	Uploaded	お客様は、eCheck 支払い方法を使用して請求を完了することに同意する必要があります。続行するには、お客様に確認するか、別の支払い方法を選択してください
+STARTING_INCIDENT	Starting Incident	Uploaded	インシデントの開始
+DEVICE_RETURN_DETAILS	Device return details	Uploaded	デバイスの返品の詳細
+CHANGING_FULFILLMENT_OPTION	Changing Fulfillment Option	Uploaded	フルフィルメントオプションの変更
+UNRECOV	Unrecoverable	Uploaded	回復不能
+FILTER_NOTES_BY	Search notes or type keyword	Uploaded	メモを検索するかキーワードを入力します
+PIN	Pin	Uploaded	ピン
+FETCHING_SERVICE_PROVIDER_TYPE	Fetching Service Provider Type	Uploaded	サービスプロバイダータイプの取得
+THURSDAY	Thursday	Uploaded	木曜日
+CRACKED_SCREEN_LABEL	Cracked Screen	Uploaded	ひび割れた画面
+LAST_UPDATED	Last Updated	Uploaded	最終更新
+ISP_NOTES	In Store Payment	Uploaded	店頭でのお支払い
+NO_FMV_FOUND_WB_ITEM_CREATED	Fair Market Value is not available for this product. Service Solution Item has been created. Customer will be contacted within 1 business day. You can finish the call.	Uploaded	この製品の公正市場価格は利用できません。サービス ソリューション アイテムが作成されました。 1 営業日以内にお客様にご連絡いたします。通話を終了できます。
+CALLER_VERIFICATION	Caller Verification	Uploaded	発信者の認証
+ERROR_WITH_PBL_PROCESS	Error with Pay By Link Process	Uploaded	Pay By Link プロセスでのエラー
+DEVICE_TYPE	Device Type	Uploaded	デバイスタイプ
+ORDER_DATE	Order Date	Uploaded	注文日
+AGREEMENT_STATUS	Agreement Status	Uploaded	契約状況
+DEVICE	Device	Uploaded	デバイス
+UPDATING_CONTACT_POINTS	Updating Contact Points	Uploaded	連絡先の更新
+END_DATE`	End Date	Uploaded	終了日
+UPDATING_CLAIM_MODE	Updating Claim Mode	Uploaded	クレームモードの更新
+STORE_TO_DEPOT_NO_ACTIONS	Product was sent to depot from the store so there are no actions available for this case.	Uploaded	製品は店舗からデポに送信されたため、このケースに対して利用できるアクションはありません。
+SEND_BUTTON_LABEL	Send	Uploaded	送信
+DEVICE_DETAILS	Device Details	Uploaded	デバイスの詳細
+RETAIL_RPLCMNTS__WITH_SAL_ADDITIONAL_DETAILS_TEXT_4	If no replacements are available, the customer will be contacted with additional options	Uploaded	交換品がない場合は、追加のオプションについてお客様にご連絡します。
+RETAIL_RPLCMNTS__WITH_SAL_ADDITIONAL_DETAILS_TEXT_2	Once the {assettype} is received by the depot a request for replacement will be created	Uploaded	{assettype} がデポに受信されると、交換リクエストが作成されます
+RETAIL_RPLCMNTS__WITH_SAL_ADDITIONAL_DETAILS_TEXT_3	Customer will receive a link to select a replacement	Uploaded	お客様は交換品を選択するためのリンクを受け取ります
+MAKE	Make	Uploaded	作る
+RETAIL_RPLCMNTS__WITH_SAL_ADDITIONAL_DETAILS_TEXT_1	will be replaced - Customer MUST back up their data before sending it in	Uploaded	交換されます - お客様はデータを送信する前にデータをバックアップする必要があります
+REQUEST_OVERRIDE	Request Override	Uploaded	リクエストオーバーライド
+PROFILE	Profile	Uploaded	プロフィール
+FETCHING_AVAILABILITY_SLOT	Fetching availability slot	Uploaded	利用可能なスロットを取得しています
+EXPRESS_CHECKIN_HOW_CAN_WE_CONTACT_YOU?	How can we contact you?	Uploaded	どうすれば連絡できますか?
+SYSTEM_FREEZES_REASON	Software Issue - Not covered Product will not connect to internet or Bluetooth	Uploaded	ソフトウェアの問題 - 対象外 製品がインターネットまたは Bluetooth に接続しない
+DETAILS_TXT	Details	Uploaded	詳細
+FOLDABLE_SCREEN_ISSUE_WARNING	Note: Select screen issue only for issues with outer screen (lines, dead pixels) if not select Damage - Other Physical Damage	Uploaded	注: 損傷 - その他の物理的損傷を選択しない場合は、外側の画面の問題 (線、ピクセル不良) についてのみ画面の問題を選択します。
+CANCELLING_REISSUE	Cancelling Reissue	Uploaded	再発行のキャンセル
+CLEAR	Clear	Uploaded	クリア
+INCIDENT_DATE	Incident Date	Uploaded	事件発生日
+SCRIPT_TO_ANSWER_WHY_SHOULD_I_PAY_SERVICE_FEE	Paying a low monthly fee gives you the option of paying a small service fee to have your phone replaced and activated versus paying full retail price plus an activation fee in the event you need to file a claim.	Uploaded	低額の月額料金を支払うことで、少額のサービス料金を支払って携帯電話の交換とアクティベーションを行うことができます。請求を行う必要がある場合には、小売価格の全額とアクティベーション料金を支払う必要がなくなります。
+CLEAR_ALL	Clear all	Uploaded	すべてクリア
+BILLING_ADDRESS	Billing Address	Uploaded	請求先住所
+RESEND_BUTTON_LABEL	Resend	Uploaded	再送信
+CLOSE	Close	Uploaded	近い
+MOBILE_DEVICE_NUMBER	Mobile Device Number	Uploaded	モバイルデバイス番号
+INCIDENT_DETAILS	Incident Details	Uploaded	事件の詳細
+QUERY_NOT_AWARE_OF_SERVICE_FEE	サービス料が必要になるとは知らなかったと顧客が言ったら何と言えばよいでしょうか?	Uploaded	サービス料が必要になるとは知らなかったと顧客が言ったら何と言えばよいでしょうか?
+FRONTLINE_PIN_MSG	Your current role does not allow pinning notes. Please contact CST for assistance.	Uploaded	現在の役割ではメモを固定することはできません。 CST にお問い合わせください。
+EMPTY_BOX	Empty Box	Uploaded	空箱
+WEDNESDAY	Wednesday	Uploaded	水曜日
+EMAIL_ADDRESS	Email Address	Uploaded	電子メールアドレス
+VALIDATING_BULK_DATA	Validating Bulk Data...	Uploaded	バルクデータを検証しています...
+INCIDENT_SUB_TYPE	Incident Sub Type	Uploaded	インシデントのサブタイプ
+SETTING_NEW_CONTACT_INFORMATION	Setting New Contact Information	Uploaded	新しい連絡先情報を設定する
+RESUMING_INCIDENT	Resuming Incident	Uploaded	インシデントの再開
+VERIFYING_PAYMENT_INFORMATION	Verifying payment information…	Uploaded	支払い情報を確認しています…
+SHIPMENT_ORDER_CANCELLED_IPD_MSG	A shipment error occurred at AT&T. Resume and resubmit the claim to place a new shipping order.	Uploaded	AT&T で出荷エラーが発生しました。請求を再開して再送信し、新しい配送注文を出します。
+CRACKED_SCREEN_REASON	The product has a cracked screen Only covered for portable products.  Ex. Laptops, Tablets	Uploaded	製品の画面にひびが入っている ポータブル製品のみが対象となります。元。ラップトップ、タブレット
+QUERY_NOT_AWARE_OF_SERVICE_FEE_RETAIL	デバイスを修理できない場合は、提供されている他のオプションにサービス料金が適用されます	Uploaded	デバイスを修理できない場合は、提供されている他のオプションにサービス料金が適用されます
+AGENT_ASSISTED_PAY	Proceed with Agent Assisted Pay	Uploaded	エージェント支援による支払いを続行する
+EDIT	Edit	Uploaded	編集
+CREATING_ENVELOP_ORDER_REQUEST	Creating Envelop Order Request	Uploaded	封筒注文リクエストの作成
+UPDATE_ASSET_NOTES	Notes: Brand can't be updated. If you need to update the Brand - please register a new product. Existing values for attributes can be edited but not removed.	Uploaded	注: ブランドは更新できません。ブランドを更新する必要がある場合は、新しい製品を登録してください。属性の既存の値は編集できますが、削除することはできません。
+BILLING_ADDRESS_COMPONENT_DETAILS	Please select billing address associated with customer's card information	Uploaded	顧客のカード情報に関連付けられた請求先住所を選択してください
+CHANNEL	Channel	Uploaded	チャネル
+INSTALLMENTS	Installments	Uploaded	分割払い
+SEND_PBL_ADTL_INSTRUCTIONS	Note: if the customer is unable to make the payment now advise them that they can go to Asurion.com to complete their claim when they are ready.	Uploaded	注: お客様が支払いを行えない場合は、準備ができたら Asurion.com にアクセスして請求を完了できることを伝えてください。
+EDIT_DEDUCTIBLE	EDIT DEDUCTIBLE	Uploaded	免責金額の編集
+EXPRESS_CHECKIN_PERIL_QUESTION/ANSWER	Peril Question/Answer	Uploaded	危険に関する質問/回答
+BILL_TO_ACCOUNT	Bill to Account	Uploaded	アカウントへの請求
+CAPTURE_USER_DETAILS	Capture the customer name.	Uploaded	顧客名をキャプチャします。
+CAPTURE_USER_RELATIONSHIP_DETAILS	Capture the customer name and their relationship to the Account Holder.	Uploaded	顧客名とアカウント所有者との関係を記録します。
+VERIFYING_ADDRESS	Verifying Address	Uploaded	住所の確認
+REGISTER_DEVICE	Register Device	Uploaded	デバイスの登録
+REIMBURSEMENT_AMOUNT	Reimbursement Amount	Uploaded	償還額
+CUSTOMER_ADDRESS	Customer Address	Uploaded	顧客の住所
+RETAIL_INCORRECT_SCREENSIZE	The screen size you've entered is less than 24". Confirm the size before submitting	Uploaded	入力した画面サイズは 24 インチ未満です。送信する前にサイズを確認してください
+LINK_SENT_PBL_SUCCESS	Link Sent - Success	Uploaded	リンク送信 - 成功
+FETCHING_ASSET_INFORMATION	Fetching asset information	Uploaded	資産情報の取得
+FETCHING_ADDRESSES	Fetching Addresses	Uploaded	アドレスの取得
+SMRT_PIN_MAX_ATTEMPT_REACHED_MSG	The maximum attempts to validate using the verification code has been reached. Please continue using Name and Address validation.	Uploaded	確認コードを使用した検証の最大試行回数に達しました。引き続き名前と住所の検証を使用してください。
+DESCRIPTION	Description	Uploaded	説明
+RETURN_FEE_AGREED	Customer Agree to Fee?	Uploaded	顧客は料金に同意しますか?
+ZIP_POSTAL_CODE	ZIP / Postal Code	Uploaded	郵便番号
+CONSTRAINT_UPDATED_LABEL	Hold Updated	Uploaded	更新を保留
+CHECK_ORDER_STATUS	Check Order Status	Uploaded	注文ステータスの確認
+INVALID_LAST_NAME	Invalid Last Name	Uploaded	無効な姓
+SCRIPT_TO_ANSWER_NOT_AWARE_OF_SERVICE_FEE	Asurion operates like most insurance companies where a deductible or service fee is required for each filed claim. If you would like to review your deductible or service fee terms and amount you can visit “PhoneClaim.com”. Once you read about your terms you can also file your claim online for convenience.	Uploaded	Asurion は、提出された請求ごとに免責金額またはサービス料が必要となるほとんどの保険会社と同様に運営されています。免責金額またはサービス料金の条件と金額を確認したい場合は、「PhoneClaim.com」にアクセスしてください。規約を読んだら、便利なようにオンラインで請求を提出することもできます。
+RADIO_SELECTION_ERROR_LABEL	This field is required	Uploaded	この項目は必須です
+PERIL	Peril	Uploaded	危険
+DAMAGE_ON_RECEIPT	Damage upon receipt	Uploaded	受け取り時のダメージ
+PRIMARYANDLOCKED	Primary & Locked	Uploaded	プライマリおよびロック済み
+YYYY	YYYY	Uploaded	YYYY
+RESENDING_SHIPPING_INFORMATION_TO_CUSTOMER	Resending shipping information to customer…	Uploaded	お客様に配送情報を再送信しています…
+UPDATING_BLOCKED_ADDRESS_CONSTRAINT	Updating Blocked Address Constraint	Uploaded	ブロックされたアドレス制約の更新
+FAILURE_DETAILS_FOR	Failure Details For	Uploaded	障害の詳細
+CREATING__UPDATING_SERVICE_ORDER	Creating / Updating Service Order	Uploaded	サービスオーダーの作成/更新
+SENDING_SMART_PIN	Sending Smart Pin	Uploaded	スマートピンの送信
+SEND_PBL	Send	Uploaded	送信
+ORDERED_#	Ordered #	Uploaded	順序付けられました ＃
+SELECT_VERIFICATION_METHOD	Select Verification Method	Uploaded	検証方法の選択
+CAPTURE_PAYMENT_INFORMATION	Capture Payment Information	Uploaded	支払い情報の取得
+QUANTITY	Quantity	Uploaded	量
+CREDIT_CARD_SECTION_LABEL	Credit/Debit Card Information	Uploaded	クレジット/デビットカード情報
+SIGNATURE	Signature	Uploaded	サイン
+EDIT_BUTTON_TEXT	Edit	Uploaded	編集
+EXPRESS_CHECKIN_ENTER_EMAIL_ADDRESS	Enter Email Address	Uploaded	メールアドレスを入力してください
+BILLING_ADDRESS_NOT_APPLICABLE	Billing Address not applicable for payment method selected	Uploaded	請求先住所は選択した支払い方法には適用されません
+CCR_OOSContact_CST_Text	The customers replacement device was determined to be out of stock by the fulfillment vendor after the order was placed. Please contact CST for assistance with this claim.	Uploaded	注文後、フルフィルメントベンダーによって、顧客の交換用デバイスの在庫がないと判断されました。この申し立てについてサポートが必要な場合は、CST にお問い合わせください。
+ENTER_LICENSE_NO	Enter License Number	Uploaded	ライセンス番号を入力してください
+TUESDAY	Tuesday	Uploaded	火曜日
+ESCALATION_ALERT_TEXT	This customer may be escalated. Please read the notes before taking any actions on the account.	Uploaded	この顧客はエスカレーションされる可能性があります。アカウントに対して何らかのアクションを起こす前に、注意事項をお読みください。
+REPAIR_SUBMITTED_IPD	A repair claim has already been submitted for this customer. Resume if change is needed	Uploaded	この顧客に対してはすでに修理請求が提出されています。変更が必要な場合は再開する
+WITHIN_24_HOURS	within 24 hours	Uploaded	24時間以内に
+FEE_DETAILS	Fee Details	Uploaded	料金詳細
+CONTACT_EMAIL	Contact Email	Uploaded	連絡先メールアドレス
+IS_REQUIRED	is required	Uploaded	が必要です
+FEE_DIALOG_TITLE	Waive Service Fee	Uploaded	サービス料の免除
+REPLACEMENT_DEVICE_BACKUP_MSG	It's recommended that you backup your photos and videos before repair	Uploaded	修復する前に写真やビデオをバックアップすることをお勧めします
+DEVICE_LABEL	Device	Uploaded	デバイス
+YES	Yes	Uploaded	はい
+UPSELL_OFFER_LPA4TIERS	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial  Protect Advantage for 4 upgrade offer:","The monthly charge is $45.00 per mobile account enrolled, billed to your wireless account. You can get eight shared claims for physical damage, loss and theft In any 12 consecutive months and six shared claims for accidental damage from handling within any 12 consecutive months, with a maximum device value of $3500 per claim. You also get unlimited claims for out of warranty malfunctions. A non-refundable deductible or service fee will be charged to your wireless account for each approved claim.  Deductible amounts for devices connected to the AT&T network range from $25 to $275 depending on the device tier. For Wi-Fi tablets not connected to the AT&T network, the deductible or service fee amounts are $89 to repair and $199 to replace. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed.   Enrollment is optional and will auto-renew monthly until canceled.  Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges.  You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 4 アップグレード オファーに同意する場合、すべての通話で必要になります。","月額料金は、登録されているモバイル アカウントごとに 45.00 ドルです。連続 12 か月以内の物理的損傷、紛失、盗難に対する 8 件の共有請求と、連続 12 か月以内の取り扱いによる偶発的な損傷に対する 6 件の共有請求を受け取ることができ、1 件の請求につき最大デバイス価格は 3,500 ドルです。また、保証対象外の故障に対する無制限の請求も受けられます。承認された請求ごとに、返金不可の免責金額またはサービス料金がワイヤレス アカウントに請求されます。AT&T ネットワークに接続されているデバイスの免責金額は、デバイス層に応じて 25 ドルから 275 ドルの範囲ですAT&T ネットワークに接続されていない Wi-Fi タブレットの場合、免責金額またはサービス料金は修理に $89、交換に $199 です。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションで、キャンセルされるまで毎月自動更新されます。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することでいつでもキャンセルでき、未経過料金の返金を受けられます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」]
+SCRIPT_FOR_SERVICE_FEE_REFUSAL_RETAIL	If the customer refuses to pay the service fee, Go to Helix and Click the Start a Tech Lead chat button in the bottom right corner. Enter the required information.	Uploaded	お客様がサービス料金の支払いを拒否した場合、 Helix に移動し、右下隅にある [Tech Lead チャットを開始する] ボタンをクリックします。 必要な情報を入力します。
+DEDUCTIBLE	Deductible	Uploaded	免責金額
+IVR_CHECKOUT_DESCRIPTION_MESSAGING_2	If customer refuses, select "No" and fill in payment details in order to Continue from the page.	Uploaded	お客様が拒否した場合は、「いいえ」を選択し、支払いの詳細を入力してページから続行してください。
+CHECK_CLEAR_DATE	Check Clear Date	Uploaded	クリア日を確認する
+EXPRESS_CHECKIN_INCIDENT_TYPE	Incident Type	Uploaded	インシデントの種類
+LSU_MESSAGE	To prevent unauthorized use of your missing device,it will be deactivated when you submit this claim. Your replacement device will include a postage-paid envelope to return your device if recovered.	Uploaded	紛失したデバイスの不正使用を防ぐため、この申し立てを送信するとデバイスは無効化されます。交換用デバイスには、デバイスが回収された場合に返送するための切手支払い済みの封筒が同梱されています。
+ASSISTED_PAY_UNAVAILABLE	Agent Assisted Pay is not available, please proceed with available payment options	Uploaded	Agent Assisted Pay はご利用いただけません。利用可能な支払いオプションに進んでください。
+EU_QUESTION_MESSAGE_3	We want to avoid your order being stopped, so we are going to ask you some additional questions and it is important that you tell us accurate information as it could impact the outcome.	Uploaded	ご注文が停止されることを避けたいため、追加の質問をさせていただきます。結果に影響を与える可能性があるため、正確な情報をお知らせいただくことが重要です。
+PBL_MODAL_SYS_ERROR_RETAIL_MSG	A system error occurred in the payment process. Please try again.	Uploaded	支払い処理でシステムエラーが発生しました。もう一度試してください。
+EU_QUESTION_MESSAGE_2	and your warranty would be invalid if physical or liquid damage is found.	Uploaded	物理的または液体の損傷が見つかった場合、保証は無効になります。
+ATL_ADDITIONAL_FUND	Customer asks to speak with another supervisor: Assure the customer that you are the best person to speak with.  Advise the customer that the reimbursement amount is based off of the replacement value cost and that you will review the request with the team to see if the amount can be adjusted.  Denial of additional funds: Advise the customer that after reviewing all of the information we are unable to adjust the reimbursement amount.  If needed, advise the customer that you can provide them with the supporting information showing the current replacement value.	Uploaded	お客様は別のスーパーバイザーと話をするよう求めています。 あなたが話すのに最適な人物であることを顧客に保証します。払い戻し金額は交換価格に基づいており、チームでリクエストを確認して金額を調整できるかどうかを確認することをお客様に伝えます。  追加資金の拒否: すべての情報を確認した後、払い戻し金額を調整することはできないことをお客様に伝えます。必要に応じて、現在の交換価格を示すサポート情報を提供できることをお客様に伝えます。
+BILLING_VERIFICATION_MESSAGE	Thank you for the information you have provided. For security purposes, I will need to confirm the address on your wireless bill or account. May I please have that address?	Uploaded	情報を提供していただきありがとうございます。セキュリティ上の理由から、ワイヤレス請求書またはアカウントの住所を確認する必要があります。その住所を頂けますか？
+SR_TYPE	SR Type	WorkbasketUploaded	SRタイプ
+FETCHING_REFUNDS_ELIGIBLE_SERVICE_REQUESTS	Fetching Refunds Eligible Service Requests	Uploaded	払い戻しの対象となるサービス リクエストの取得
+FETCHING_HOLD_NOTES	Fetching Hold Notes	Uploaded	ホールドノートの取得
+EU_QUESTION_MESSAGE_1	We fully inspect returned devices	Uploaded	返品されたデバイスを完全に検査します
+AMOUNT_LABEL	Amount:	Uploaded	額：
+DETERMINING_INCIDENT_PATH	Determining Incident Path	Uploaded	インシデント経路の決定
+LOADING_REPAIR_RESUME_ACTIONS	Loading Repair Resume Actions	Uploaded	修復再開アクションのロード中
+FETCHING_CUSTOMER_VERIFICATION_METHODS	Fetching Customer Verification Methods	Uploaded	顧客検証メソッドの取得
+EXPRESS_CHECK_IN_SAY_SCRIPT	I see you are looking to file a claim today. Lets verify the details and I'll get it taken care of for you.	Uploaded	今日、請求を提出しようとしているようですね。詳細を確認させていただき、対応させていただきます。
+SCRATCHES_DENTS_LABEL	Scratches, Dents, Other Damage	Uploaded	傷、へこみ、その他のダメージ
+CASE_NO.	Case No.	Uploaded	事件番号
+LOST	Lost	Uploaded	失った
+CVV_CODE	CVV Code	Uploaded	CVVコード
+VERIFYING_CUSTOMER_IDENTITY	Verifying Customer Identity	Uploaded	顧客の身元確認
+FULFILLMENT_METHOD	Fulfillment Method	Uploaded	履行方法
+REPAIR_PAYMENT_FAILED	Payment Failed	Uploaded	支払いに失敗しました
+APPOINTMENT	Appointment	Uploaded	予定
+CHECKING_DEVICE_WATER_RESISTANCE_STATUS	Checking Device Water Resistance Status	Uploaded	デバイスの耐水性ステータスの確認
+SATURDAY	Waive Satuday Delivery Fee?	Uploaded	土曜日の配送料を免除しますか?
+TYPE	Type	Uploaded	タイプ
+CREATING_ESCALATION_WORK_BASKET	Creating Escalation Work Basket	Uploaded	エスカレーション作業バスケットの作成
+SMS_OPT_IN	SMS Opt In	Uploaded	SMS オプトイン
+LSU_WARNING	If you have not already done so, I recommend you suspend service on your claimed device in order to avoid unauthorized usage and charges to your account. Would you like me to provide you the direct number for ATT Customer Care or transfer you at the end of our call?	Uploaded	まだ停止していない場合は、不正使用やアカウントへの請求を避けるために、請求したデバイスのサービスを一時停止することをお勧めします。 ATT カスタマー ケアの直通番号をお知らせしますか、それとも電話が終わったら転送しますか?
+CRACKED_SCREEN_MESSAGE_DEFAULT	Note: Advise customers to remove their case and screen protector prior to assessing device damage.	Uploaded	注: デバイスの損傷を評価する前に、ケースとスクリーン プロテクターを外すようお客様にアドバイスしてください。
+SHIPPING_FEE	Shipping Fee	Uploaded	送料
+ECHECK_AUTHORIZE_PAYMENT	Based on the terms and conditions we have discussed, and the disclosures made to you, do you agree to and authorize the payment?	Uploaded	私たちが話し合った利用規約とあなたに行われた開示に基づいて、支払いに同意し、承認しますか?
+PREDICTED_OUTCOME	Based on the answers selected, predicted incident type and sub type is:	Uploaded	選択した回答に基づいて、予測されるインシデントのタイプとサブタイプは次のとおりです。
+CHECKING_ELIGIBILITY_AND_SUBMITTING_INCIDENT	Checking Eligibility And Submitting Incident	Uploaded	資格の確認とインシデントの送信
+EXPRESS_CHECKIN_COLOR	Color	Uploaded	色
+ALL_AGREEMENTS_SHOWN	All agreements are shown for current client.	Uploaded	現在のクライアントに関するすべての契約が表示されます。
+TIMING	Timing	Uploaded	タイミング
+SCRIPT_TO_ANSWER_NOT_AWARE_OF_SERVICE_FEE_RETAIL	Other than the service fee there are no additional charges for diagnostics, shipping and repair of the device	Uploaded	サービス料金以外に、デバイスの診断、配送、修理に追加料金はかかりません。
+CHECKING_DATA_RECOVERY_ELIGIBILITY	Checking Data Recovery Eligibility	Uploaded	データ復元の適格性を確認する
+RETURN_MANAGEMENT	Claim device return is not required.	Uploaded	デバイスの返却を要求する必要はありません。
+FETCHING_CITIES_BY_POSTAL_CODE	Fetching Cities by Postal Code	Uploaded	郵便番号による都市の取得
+REGISTRATION_END_DATE	Registration End Date	Uploaded	登録終了日
+RMA_INLINE_MESSAGE	If you do not return your claimed equipment, do you authorize Asurion or its service provider to collect payment of a non-return fee by electronic funds transfer(s) or draft(s) drawn from your account?	Uploaded	請求された機器を返却しない場合、Asurion またはそのサービスプロバイダーに対し、電子送金または口座から引き出される手形により未返却料金の支払いを徴収する権限を与えますか?
+CHECKING_FOR_INPROGRESS_ENROLLMENT_REQUESTS	Checking for in-progress enrollment requests	Uploaded	進行中の登録リクエストを確認する
+ADDITIONAL_DETAILS	Any additional details?	Uploaded	追加の詳細はありますか?
+CONTACT_PREFER_ADDRESS_CHANGE	The address cannot be updated while there is an open claim. If the address needs to be updated:     * Cancel the claim     * Update the enrolled address     * Re-file the claim	Uploaded	未処理の請求がある間は、住所を更新することはできません。アドレスを更新する必要がある場合:     * クレームをキャンセルする     ※登録住所を更新してください     * 請求を再提出する
+SMP_METHOD_EMAIL	Send E-mail to	Uploaded	電子メールの送信先
+SAVE_BTN	Save	Uploaded	保存
+SEND_TO_WEB_BTN_LABEL	Resume Payment on Web	Uploaded	Web上で支払いを再開する
+NOTE_TEXT	Note Text	Uploaded	注記のテキスト
+IN_STORE_REPAIR	In-Store Repair	Uploaded	店頭修理
+UPDATING_CONSTRAINT	Updating Constraint	Uploaded	制約の更新
+WALK_IN_REPAIR_SCHEDULED	Walk-In Repair Scheduled Drop-off	Uploaded	持ち込み修理の定期引き取り
+LENGTH_RANGE_10_TO_17_INCHES	10-17 inches	Uploaded	10～17インチ
+NO_REGISTERED_ASSETS_FOUND	No Registered Assets found	Uploaded	登録されたアセットが見つかりません
+CHANGE_DROP_OFF_TIME	Change Drop-off Time	Uploaded	降車時刻の変更
+MODEL	Model	Uploaded	モデル
+PENDING	Pending	Uploaded	保留中
+EXPRESS_CHECKIN_MAKE_CHANGES	Make Changes	Uploaded	変更を加える
+CLAIM_INPROGRESS_DEREGISTER	Note: The customer has reached their maximum number of registered lines, and there are no registration slots available to deregister. Proceed to Incident Path Determination page to cancel this incident.	Uploaded	注: 顧客は登録回線の最大数に達しており、登録を解除できる登録スロットがありません。このインシデントをキャンセルするには、「インシデント パスの決定」ページに進んでください。
+PBL_MODAL_TITLE	Link Sent	Uploaded	リンクを送信しました
+NO_RESULTS_FOUND	No Results were found. Please try another search	Uploaded	結果が見つかりませんでした。別の検索をお試しください
+CALL_REASON_STATUS	Status	Uploaded	状態
+UPDATING_SHIP_TO_ENROLL_CONSTRAINT	Updating Ship to Enroll Constraint	Uploaded	Ship to Enroll 制約の更新
+INCIDENT_TYPE	Incident Type	Uploaded	インシデントの種類
+OVERRIDE_CONTINUE_ANYWAY	Override & continue anyway	Uploaded	とにかくオーバーライドして続行する
+PAYEE_NAME	Payee Name	Uploaded	支払者名
+SMARTPIN_EMAIL_MESSAGE_SENT	Success! Smart PIN code has been sent to the  {clientName}  account holder's enrolled Email Address.	Uploaded	成功！スマート PIN コードが、{clientName} アカウント所有者の登録済み電子メール アドレスに送信されました。
+OTHER_CHECKBOX_QUESTION	Other Physical Damage	Uploaded	その他の物理的損傷
+CUSTOMER_VERIFICATION_ERROR	Error in customer verification	Uploaded	顧客確認エラー
+UPSELL_OFFER_MDPPINS~MDPPSUPP	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial AT&T Protect Advantage for 4 Upgrade offer.","The monthly charge is $40.00 per mobile account enrolled, billed to your wireless account. You get eight shared claims within a consecutive 12 month period, with a maximum device value of $2500 per claim. A non-refundable deductible will be charged to your wireless account for each approved claim. Deductible amounts for devices connected to the AT&T network range from $25-$299, depending on the device tier. For devices not connected to the AT&T network, like a Wi-Fi tablet, deductible amounts range from $89-$299, depending upon the type of device, and whether it needs to be repaired or replaced. For a full list of eligible devices and the deductible amounts go to phoneclaim.com/att. Claims may be fulfilled with new or refurbished equipment of the same model, or other models of like kind and quality. Color, features, and accessory compatibility is not guaranteed. You may cancel your optional insurance coverage at any time and receive a prorated refund of your monthly charge. For coverage details, visit phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の AT&T Protect Advantage for 4 Upgrade オファーを受け入れる場合、すべての通話で必要です。","月額料金は、モバイル アカウントあたり 40.00 ドルです。登録され、ワイヤレス アカウントに請求されます。連続 12 か月以内に 8 件の共有請求があり、1 件のデバイスの最大価格は 2500 ドルです。承認された請求ごとに、返金不可の免責金額がワイヤレス アカウントに請求されます。 AT&T ネットワークに接続されているデバイスの範囲は、デバイス層に応じて 25 ～ 299 ドルです。AT&T ネットワークに接続されていないデバイス (Wi-Fi タブレットなど) の控除額は、デバイスの種類に応じて 89 ～ 299 ドルの範囲です。修理または交換が必要かどうか。対象となるデバイスの完全なリストと免責金額については、phoneclaim.com/att をご覧ください。請求は、同じモデルの新品または再生品、あるいは同様の種類および品質の他のモデルで対応される場合があります。 。色、機能、アクセサリの互換性は保証されません。オプションの保険はいつでもキャンセルでき、月々の料金の日割り返金を受けることができます。補償範囲の詳細については、phoneclaim.com/att をご覧ください。」]
+PBL_MODAL_NO_PCI_ERROR_MSG	Customer has not yet completed the payment process. Please confirm process was successfully completed before clicking "Continue"	Uploaded	顧客はまだ支払いプロセスを完了していません。 「続行」をクリックする前に、プロセスが正常に完了したことを確認してください。
+PFR_CLAIM	PFR Claim Transfer to Advance Agent.	Uploaded	PFR 請求を事前エージェントに転送します。
+CREATING_NEW_INTERACTION_REQUEST	Creating New Interaction Request	Uploaded	新しいインタラクションリクエストの作成
+SUNDAY	Sunday	Uploaded	日曜日
+INTERNET_BLUETOOTH_REASON	Software Issue - Not covered Product will not connect to internet or Bluetooth	Uploaded	ソフトウェアの問題 - 対象外 製品がインターネットまたは Bluetooth に接続しない
+PAYEE	Payee	Uploaded	受取人
+DATE	Date	Uploaded	日付
+TERMINATION_DATE	Termination Date	Uploaded	退職日
+CONCURRENCY_NOTIFICATION	Claim Status Notification	Uploaded	請求状況の通知
+AGREEMENT_SEARCH_LABEL	Agreement Search	Uploaded	契約書の検索
+OVERRIDE_AND_CONTINUE_ANYWAY	Override & continue anyway	Uploaded	とにかくオーバーライドして続行する
+PAYMENT_AMOUNT_OFFERED	Payment amount offered:	Uploaded	提示された支払い金額:
+SELECT_LANGUAGE	Select Language	Uploaded	言語を選択する
+ADDITIONAL_DETAILS_ERROR_LABEL	Additional details are required	Uploaded	追加の詳細が必要です
+SENT	Sent	Uploaded	送信済み
+CHANGE_FULFILLMENT	Change Fulfillment	Uploaded	変更の履行
+UPDATING_CUSTOMER_UPSELL_RESPONSE	Updating Customer Upsell Response	Uploaded	顧客のアップセル応答の更新
+FULFILLMENT	Fulfillment	Uploaded	充実
+FETCHING_CUSTOMER_UPSELL_OFFERS	Fetching Customer Upsell Offers	Uploaded	顧客のアップセルオファーの取得
+EU_QUESTION_MESSAGE	Read aloud to customer:	Uploaded	お客様に読み上げます:
+SAY	Say	Uploaded	言う
+FREE_TEXT_ERROR_LABEL	Free text explanation is required	Uploaded	自由記述による説明が必要です
+REGISTER_PRODUCT	Register Product	Uploaded	製品を登録する
+FIRST_NAME	First Name	Uploaded	ファーストネーム
+CHECKING_CLAIM_LIMIT	Checking Claim Limit	Uploaded	請求限度額の確認
+PROCESSING_PAYMENT_TO_BILLING_GATEWAY	Processing payment to Billing Gateway…	Uploaded	請求ゲートウェイへの支払いを処理しています…
+PACKAGE_NOT_RECEIVED	Package not received	Uploaded	荷物が届かない
+PAYMENT_ERROR_TRY_AGAIN	Please try again with the same card	Uploaded	同じカードでもう一度お試しください
+NOTE	Note	Uploaded	注記
+NO_VERIFICATION_METHODS_MSG	Verification not available for this customer. Please refer customer to clientName in order to setup a passcode. Please end call or select bypass.	Uploaded	この顧客は認証を利用できません。パスコードを設定するには、お客様に clientName を案内してください。通話を終了するか、バイパスを選択してください。
+SMARTPIN_MOBILE_MESSAGE_SENT	Success! Smart PIN code has been sent to the  {clientName}  account holder's enrolled Phone Number	Uploaded	成功！スマート PIN コードが {clientName} アカウント所有者の登録された電話番号に送信されました
+TOTAL	Total	Uploaded	合計
+STARTING_A_REPLACEMENT_CLAIM	Starting a replacement claim	Uploaded	交換請求の開始
+UPSELL_OFFER_LPA1TIER3	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+UPSELL_OFFER_LPA1TIER4	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+UPSELL_OFFER_LPA1TIER1	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+UPSELL_OFFER_LPA1TIER2	["If the customer is interested or wants to know more, read the following script. This script is required on every call when the customer accepts the initial Protect Advantage for 1 offer.","With Protect Advantage for 1 you also get:","- Unlimited claims for out of warranty malfunctions","- Three claims for physical damage, loss and theft in any 12 consecutive months","- Two claims in any 12 consecutive months for accidental damage from handling","There is a max device value of $3500 per claim. Replacement deductibles/service fees apply that range from $25 to $275 based on the device tier. Replacements may be AT&T Certified Restored and color, features and accessory compatibility is not guaranteed. Enrollment is optional and will auto-renew monthly until canceled. Cancel any time at att.com in your wireless account or by calling 888.562.8662 and get a refund for unearned charges. You can see program terms and repair details at anytime at phoneclaim.com/att."]	Uploaded	["顧客が興味がある場合、または詳細を知りたい場合は、次のスクリプトをお読みください。このスクリプトは、顧客が最初の Protect Advantage for 1 オファーを受け入れる場合、すべての通話で必要です。","Protect Advantage for 1 では、次の特典も得られます。" 、「- 保証対象外の故障に対する無制限の請求」、「- 連続 12 か月で物理的損傷、紛失、盗難に対する 3 件の請求」、「- 取り扱いによる偶発的な損傷については、連続 12 か月で 2 件の請求」、「請求ごとにデバイスの最大価値は 3500 ドルです。交換の免責金額/サービス料は、デバイス層に基づいて 25 ドルから 275 ドルの範囲で適用されます。交換品は AT&T Certified Restored である場合があり、色、機能、アクセサリの互換性は保証されません。登録はオプションであり、自動的に行われます。キャンセルされるまで毎月更新してください。ワイヤレス アカウントの att.com で、または 888.562.8662 に電話することで、いつでもキャンセルでき、未払い料金は返金されます。プログラムの規約と修理の詳細は、phoneclaim.com/att でいつでも確認できます。」
+RETRIEVING_CONTACT_POINT	Retrieving Contact Point	Uploaded	連絡先の取得
+OPERATING_SYSTEM_REASON	Software Issue - Not covered The product is having issues with the operating system or specific apps	Uploaded	ソフトウェアの問題 - 対象外 製品のオペレーティング システムまたは特定のアプリに問題がある
+PROCESSING_REIMBURSEMENT_REQUEST	Processing Reimbursement Request	Uploaded	払い戻しリクエストの処理
+DEVICE_RETURN_REQUIRED	Claim device return is required.	Uploaded	デバイスの返却を要求してください。
+REGISTERED	Registered	Uploaded	登録済み
+ADD_USER_BUTTON	Add User	Uploaded	ユーザーを追加する
+APPLE_REPAIR_OPTION	Apple Repair Option	Uploaded	Apple修理オプション
+APPLE_REPAIR	The customer will	Uploaded	お客様は、
+APPLE_REPAIR_STEP1	1. Visit getsupport.apple.com (requires customer login - agents cannot assist)	Uploaded	1. getsupport.apple.com にアクセスします (顧客のログインが必要です。エージェントはサポートできません)。
+APPLE_REPAIR_STEP2	2. Click iPhone.	Uploaded	2. 「iPhone」をクリックします。
+APPLE_REPAIR_STEP3	3. Choose an option that best describes the problem(s).	Uploaded	3. 問題を最もよく説明するオプションを選択します。
+APPLE_REPAIR_STEP4	4. Follow the options to arrange for repair of your device.	Uploaded	4. オプションに従って、デバイスの修理を手配します。
+APPLE_REPAIR_STEP5	5. Back up your content and upgrade to the newest software available if possible, and turn off Find my iPhone.	Uploaded	5. コンテンツをバックアップし、可能であれば最新のソフトウェアにアップグレードし、「iPhone を探す」をオフにします。
+APPLE_REPAIR_STEP6	6. If you bring your device to an Apple Store or Apple Authorized Service Provider, we strongly suggest scheduling an appointment to avoid a lengthy wait.	Uploaded	6. Apple Store または Apple 正規サービスプロバイダーにデバイスを持ち込む場合は、長時間待たされることを避けるために予約をすることを強くお勧めします。
+CONTACT_DETAILS_LABEL	Contact Details	Uploaded	連絡先の詳細
+EMAIL_LABEL	Email	Uploaded	Eメール
+INTNL_SHIPPING_EMAIL_REQUIRE	Please provide a valid Email Address to which Communication will be sent for uploading a Copy of your Passport for verification purpose.	Uploaded	確認のためにパスポートのコピーをアップロードするための通信の送信先となる有効な電子メール アドレスを入力してください。
+PAY_BY_TWILIOPAY_LABEL	Agent Assist Pay	Uploaded	エージェントアシストペイ
+EPAPER_LABEL	ePaper	Uploaded	電子ペーパー
+CREDIT_CARD_LABEL	Credit Card ***	Uploaded	クレジットカード ***
+ECHECK_LABEL	ECHECK ***	Uploaded	チェックしてください ***
+THIRD_PARTY_PAY_LABEL	Third Party Pay	Uploaded	第三者の支払い
+PAY_BY_LINK_LABEL	Pay by Link	Uploaded	リンクで支払う
+ACCOUNT_LABEL	Account ***	Uploaded	アカウント ***
+INVOICE_LABEL	INVOICE	Uploaded	請求書
+PAY_IN_STORE_LABEL	Pay In Store	Uploaded	店舗で支払う
+STANDARD_SERVICE_FEE	Standard Service Fee	Uploaded	標準サービス料金
+STANDARD_DEDUCTIBLE	Standard Deductible	Uploaded	標準免責金額
+PAYMENT_DETAILS	Payment Details	Uploaded	支払詳細
+REWORK_PAYMENT_DTLS_MSG	This claim is a rework. Service fee is not required.	Uploaded	この主張はやり直しです。サービス料は必要ありません。
+MANAGE_DEDUCTIBLE_BUTTON	Manage Deductible	Uploaded	免責金額の管理
+ESCALATION_WORK_ID	Escalation Work ID: 	Uploaded	エスカレーション作業ID:
+REDUCED_DEDUCTIBLE	Reduced Deductible	Uploaded	免責金額の軽減
+PURCHASE_AMOUNT	Purchase Amount	Uploaded	購入金額
+PAYMENT_METHOD_HEADER	Payment Method	Uploaded	支払方法
+INCLUDED	Included	Uploaded	付属
+LAST_DIGITS_GIFT_CARD	Last 4 Digits of the Purchase Card	Uploaded	購入カードの下 4 桁
+DEDUCTIBLE_PAYMENT	Payment of the {reducedAmount} deductible will be billed to your ATT Wireless account.	Uploaded	{reducedAmount} 控除額の支払いは、ATT Wireless アカウントに請求されます。
+AGREE_SUBMIT_ORDER_SERVICE_ERROR_MESSAGE	Service error while submitting this claim.	Uploaded	この申し立ての送信中にサービス エラーが発生しました。
+NEXT_ACTION_ERROR_MESSAGE	Next Action: Please try again by clicking Actions from top menu and select Incident Path Determination.	Uploaded	次のアクション: 上部メニューから [アクション] をクリックし、[インシデント パスの決定] を選択して、再試行してください。
+SUBMIT_ORDER_SCHEDULE_SOFT_ERROR	There was an error in scheduling for the selected repair slot. Please click the Change Drop-off time or Change store to continue.	Uploaded	選択した修復スロットのスケジュール設定でエラーが発生しました。続行するには、[返却時間の変更] または [店舗の変更] をクリックしてください。
+MANAGE_ESCALATION_MESSAGE	An escalation has been submitted to review the deductible. Talk to an adjuster to resolve the customer escalation.	Uploaded	控除額を確認するためにエスカレーションが送信されました。お客様からのエスカレーションを解決するには、アジャスターに相談してください。
+DATA_RECOVERY_MESSAGE_TITLE	In-person Data Recovery Support: 	Uploaded	対面でのデータ復旧サポート:
+DATA_RECOVERY_MESSAGE	We’re here for you if you need extra help getting your replacement setup with the data from your original device.  Refer to your confirmation email for additional details about in-person data recovery support.	Uploaded	元のデバイスのデータを使用して交換用のセットアップを行うための特別なサポートが必要な場合は、私たちがお手伝いします。対面でのデータ復旧サポートの詳細については、確認メールを参照してください。
+RETAIL_DPM_CHECKBOX_1	Passwords should be removed/disabled or included with the device. Not including this will prevent the device from being repaired and cause delays.Customer can also create a temporary login with the username of "Asurion" and the password of "Asurion123" (these will be case sensitive).	Uploaded	パスワードは削除/無効にするか、デバイスに含める必要があります。これを含めないと、デバイスの修理ができなくなり、遅延が発生します。お客様は、ユーザー名「Asurion」とパスワード「Asurion123」（大文字と小文字が区別されます）を使用して一時的なログインを作成することもできます。
+RETAIL_DPM_CHECKBOX_2	Data should be backed up before sending in the device. Data may be lost during repair and will not be able to be recovered. This includes pictures, music, files, applications,etc.	Uploaded	デバイスを送付する前にデータをバックアップする必要があります。修理中にデータが失われる可能性があり、復元することはできません。これには、写真、音楽、ファイル、アプリケーションなどが含まれます。
+IS_FMIP_CHECKBOX	Find my iPhone MUST be turned off prior to sending or taking the tablet in for repair.  Failure to do so will result in delays.	Uploaded	Find my iPhone を修理のために送るか持ち込む前に、必ず電源をオフにしてください。そうしないと遅延が発生します。
+RETAIL_RPLCMNTS_TABLET_PRECHECK_1	Data needs to be backed up prior to sending the tablet.  This includes pictures, music, files, applications, etc.	Uploaded	タブレットを発送する前にデータをバックアップする必要があります。これには、写真、音楽、ファイル、アプリケーションなどが含まれます。
+RETAIL_RPLCMNTS_TABLET_PRECHECK_2	"Find my" needs to be turned off and the password removed from the device	Uploaded	「探す」をオフにし、パスワードをデバイスから削除する必要があります
+DISAGREE_SUBMIT_ORDER	Disagree	Uploaded	同意しない
+AGREE_SUBMIT_ORDER	Agree Submit Order	Uploaded	同意する 注文を送信する
+FINANCING_BALANCE	Financing Balance	Uploaded	融資残高
+CLAIMED_DEVICE_HDR	Claimed Device	Uploaded	要求されたデバイス
+RECEIPT_REQUIRED_LABEL	Receipt Required	Uploaded	領収書が必要です
+LIBERTY_PFR_RECEIPT_UPLOADER	Upload receipt via Asurion.com/Liberty	Uploaded	Asurion.com/Liberty 経由で領収書をアップロード
+DEVICE_SELECTION_RECEIPT_EMAIL	Email: receipts@asurion.com	Uploaded	電子メール：receipts@asurion.com
+PFR_FAX_NUMBER	Fax Number : 1-866-935-1159	Uploaded	ファックス番号 : 1-866-935-1159
+CHECK_PAYMENT_HYPERWALLET_RECEIPT_REQUIRED_YES	Customer will receive an email sent to the provided email address with instructions for uploading their receipt. After the claim is complete, customer will receive their check in 2-3 business days.	Uploaded	お客様は、指定された電子メール アドレスに、領収書をアップロードする手順が記載された電子メールを受け取ります。請求が完了すると、顧客は 2 ～ 3 営業日以内に小切手を受け取ります。
+HYPERWALLET_RECEIPT_REQUIRED_YES	Customer will receive an email sent to the provided email address with instructions for uploading their receipt.	Uploaded	お客様は、指定された電子メール アドレスに、領収書をアップロードする手順が記載された電子メールを受け取ります。
+ATT_PFR_RECEIPT_REQ	After we receive your receipt and complete your claim, you should receive your check in 4-5 business days.	Uploaded	弊社が領収書を受け取り、請求を完了した後、4 ～ 5 営業日以内に小切手を受け取る必要があります。
+CHECK_PAYMENT_HYPERWALLET_RECEIPT_REQUIRED_NO	Reimbursement will be processed when the claim is submitted. After the claim is complete, customer will receive their check in 2-3 business days.	Uploaded	請求が提出された時点で払い戻しが処理されます。請求が完了すると、顧客は 2 ～ 3 営業日以内に小切手を受け取ります。
+HYPERWALLET_RECEIPT_REQUIRED_NO	Reimbursement will be processed when the claim is submitted	Uploaded	請求が提出された時点で払い戻しが処理されます
+PFR_RECEIPT_NOT_REQ	After your claim is complete, you will receive your check in 4-5 business days.	Uploaded	請求が完了したら、4 ～ 5 営業日以内に小切手を受け取ります。
+ATT_PFR_RECEIPT_NOT_REQ	After your claim is complete, you will receive your check in 2-3 business days.	Uploaded	請求が完了すると、2 ～ 3 営業日以内に小切手を受け取ります。
+CHECK_RFS_DGTL	Paper Check – customer prefers delivery by mail	Uploaded	紙の小切手 - 顧客は郵送による配達を希望しています
+ONLINE_REIMB	Same Day Digital Reimbursement	Uploaded	当日のデジタル払い戻し
+REIMBURSEMENT_AMT_HDR	Reimbursement Amount	Uploaded	償還額
+RETAIL_VALUE	Retail Value	Uploaded	小売価格
+PAYMENT_METHOD_TYPE	Payment Method Type	Uploaded	支払い方法の種類
+DEDUCTIBLE_TAX	Deductible Tax	Uploaded	控除対象税
+PAYMENT_METHODS	Payment Methods	Uploaded	お支払い方法
+RETAIL_VALUE_TAX	Retail Value Tax	Uploaded	小売価格税
+HYPERWALLET_DIGITAL_WARNING	For digital payment, in order to proceed and continue please ensure that email address is captured and selected. You can add an email address via Edit Button in the Contact Details Box.	Uploaded	デジタル支払いの場合、続行するには電子メール アドレスが取得され、選択されていることを確認してください。 [連絡先の詳細] ボックスの [編集] ボタンから電子メール アドレスを追加できます。
+TOTAL_REIMBURSIBLE_AMOUNT	Total Reimbursable Amount	Uploaded	償還可能総額
+PFR_ORDER_REVIEW_TOOL_TIP	This amount is the retail value plus tax. The deductible will be charged to the wireless account	Uploaded	この金額は小売価格に消費税を加えた金額です。控除額はワイヤレス アカウントに請求されます
+PFR_PAYMENT_METHOD_CHECK	Be advised: After the claim is complete, customer will receive their check in 3-5 days.	Uploaded	ご注意ください: 請求完了後、お客様は 3 ～ 5 日以内に小切手を受け取ります。
+REIMBURSABLE_AMT_MSG	Deductible paid for previous claim is included in the replacement amount.	Uploaded	以前の請求に対して支払われた免責金額は交換金額に含まれます。
+REIMB_METHODS_CHANGED_MSG	The digital (online) reimbursement option is no longer available for this claim. The reimbursement method has been updated to check and should arrive in 3-5 business days.	Uploaded	この請求では、デジタル (オンライン) 払い戻しオプションは利用できなくなりました。払い戻し方法が更新されましたので、3 ～ 5 営業日以内に到着する予定です。
+CHECK_FIND_MY_STATUS	Check Find my Status	Uploaded	「ステータスを探す」にチェックを入れます
+OPEN_VIRTUAL_DEVICE	Open Virtual Device	Uploaded	仮想デバイスを開く
+SERIAL_NUMBER_INFORMATION	Serial Number Information	Uploaded	シリアル番号情報
+REIMBURSEMENT_ADDRESS	Reimbursement Address	Uploaded	払い戻し住所
+MAX_CLAIM_INLINE_TELUS_MSG	This will be the maximum number of claims allowed within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内で許可されるクレームの最大数になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_ASURIONMOBILITY_MSG	Our records indicate that this will be your 3rd completed claim within a 12-month period. Your coverage will be removed from your account after the completion of this claim. You will receive a letter with information regarding the cancellation. Would you like to continue with your claim?	Uploaded	当社の記録によると、これは 12 か月以内に完了した請求が 3 回目となることがわかります。この請求が完了すると、補償はアカウントから削除されます。キャンセルに関する情報が記載された手紙が届きます。主張を続けますか?
+MAX_CLAIM_INLINE_BELLMOBILITY_MSG	This will be the maximum number of claims allowed within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内で許可されるクレームの最大数になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_VIRGINPLUS_MSG	This will be the maximum number of claims allowed within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内で許可されるクレームの最大数になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_CLAROBRAZILPREPAID_MSG	This will be the maximum number of claims allowed within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内で許可されるクレームの最大数になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_KOODO_MSG	This will be the maximum number of claims allowed within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内で許可されるクレームの最大数になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_USCELLULAR_MSG	This will be 3 claims in the past 12 months for this customer. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	この顧客の場合、過去 12 か月間で 3 件の請求が行われることになります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_ATT_MSG	We’d like to have you as a customer again in the future. I’ll check for other device protection plan options at the end of your claim.	Uploaded	将来的にはまたお客様としてご利用いただきたいと思っております。請求の最後に、他のデバイス保護プランのオプションを確認します。
+MAX_THIRD_CLAIM_CLR_MSG	This will be 3 claims within 12 Months of the current Insurance policy. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	現在の保険契約から 12 か月以内に 3 件の請求が行われます。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_CLR_MSG	This will be 2 claims within coverage of the current certificate. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	これは、現在の証明書の範囲内の 2 つの請求になります。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_SECOND_CLAIM_CLR_MSG	This will be 2 claims within 12 Months of the current Insurance policy. The customer’s insurance will be cancelled once this claim is fulfilled. Does the customer wish to continue with this claim?	Uploaded	現在の保険契約から 12 か月以内に 2 件の請求が行われます。この請求が履行されると、顧客の保険はキャンセルされます。お客様はこの請求を継続することを希望していますか?
+MAX_CLAIM_INLINE_MSG	We would like to have you as a customer again in the future. I will check for other options at the end of your claim.	Uploaded	将来的にはまたお客様としてご利用いただきたいと思っております。請求の最後に他のオプションがないか確認させていただきます。
+MAX_CLAIM_OPTION_QUESTION	Customer Wants To Continue With The Claim?	Uploaded	お客様は請求の続行を希望していますか?
+SHIP_TO_STORE	Ship to Store	Uploaded	ストアに発送
+IS_FIND_MY_OFF	Is Find my off?	Uploaded	「私を探す」はオフですか?
+IS_FIND_MY_OFF_REQUIRED	Is Find my off? is required	Uploaded	「私を探す」はオフですか?が必要です
+SERVICE_ERROR	A system error occurred while processing your request. Please click on Actions and select Incident Path Determination to resume the claim.  If the problem persists, complete the claim using ePaper.	Uploaded	リクエストの処理中にシステム エラーが発生しました。請求を再開するには、「アクション」をクリックし、「インシデント経路の決定」を選択してください。問題が解決しない場合は、電子ペーパーを使用して請求を完了してください。
+NO_STORE_SELECTED_ERROR	Please select a store from the available list to continue	Uploaded	続行するには、利用可能なリストからストアを選択してください
+REIMBURSEMENT_METHOD_INSTRUCTIONS_CHECK	Customer will receive a check within 10 business days	Uploaded	顧客は 10 営業日以内に小切手を受け取ります
+REIMBURSEMENT_METHOD_INSTRUCTIONS_DIGITAL	Customer will receive  an email within 24 to 72 hours with a link to Hyperwallet	Uploaded	24 ～ 72 時間以内に、Hyperwallet へのリンクが記載された電子メールがお客様に届きます。
+ORDER_REVIEW	Order Review	Uploaded	注文レビュー
+CANCEL	Cancel	Uploaded	キャンセル
+CUSTOMER_DETAILS	Customer Details	Uploaded	お客様情報
+FULL_NAME	Full Name	Uploaded	フルネーム
+CLAIM_DETAILS	Claim Details	Uploaded	請求の詳細
+UPDATED_DATE	Updated Date	Uploaded	更新日
+AGREEMENT_DETAILS	Agreement Details	Uploaded	契約内容
+ENROLLMENT_DATE	Enrollment Date	Uploaded	登録日
+MAKE_AND_MODEL	Make & Model	Uploaded	メーカーとモデル
+REGION	Region	Uploaded	地域
+CLIENT_CHANNEL	Client Channel	Uploaded	クライアントチャネル
+WORKBASKET_TABLE_COLUMN_HEADER_ACCOUNT_HOME	Account Home	WorkbasketUploaded	アカウントホーム
+WORKBASKET_TABLE_COLUMN_HEADER_ACTION	Action	WorkbasketUploaded	アクション
+WORKBASKET_TABLE_COLUMN_HEADER_AGE_(DAYS)	Age (Days)	WorkbasketUploaded	年齢 (日数)
+WORKBASKET_TABLE_COLUMN_HEADER_AMOUNT	Amount	WorkbasketUploaded	額
+WORKBASKET_TABLE_COLUMN_HEADER_BASICS_ELIGIBILITY_FAILURE_CODE	BASICS Eligibility Failure Code	WorkbasketUploaded	BASICS 適格性失敗コード
+WORKBASKET_TABLE_COLUMN_HEADER_BASICS_ELIGIBILITY_STATUS	BASICS Eligibility Status	WorkbasketUploaded	BASICS 資格ステータス
+WORKBASKET_TABLE_COLUMN_HEADER_BULK_UPLOAD_ID	Bulk Upload ID	WorkbasketUploaded	一括アップロードID
+WORKBASKET_TABLE_COLUMN_HEADER_CPR_FINANCE_ID	CPR FInance ID	WorkbasketUploaded	CPR ファイナンス ID
+WORKBASKET_TABLE_COLUMN_HEADER_CASE_#	Case #	WorkbasketUploaded	場合 ＃
+WORKBASKET_TABLE_COLUMN_HEADER_CASE_NUMBER	Case Number	WorkbasketUploaded	事件番号
+WORKBASKET_TABLE_COLUMN_HEADER_CHARGE_ORDER_ID	Charge Order ID	WorkbasketUploaded	チャージオーダーID
+WORKBASKET_TABLE_COLUMN_HEADER_CLAIM_#	Claim #	WorkbasketUploaded	請求 ＃
+WORKBASKET_TABLE_COLUMN_HEADER_CLAIMED_MAKE	Claimed make	WorkbasketUploaded	主張されたメーカー
+WORKBASKET_TABLE_COLUMN_HEADER_CLAIMED_MODEL	Claimed model	WorkbasketUploaded	主張されているモデル
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT	Client	WorkbasketUploaded	クライアント
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT_NAME	Client Name	WorkbasketUploaded	クライアント名
+WORKBASKET_TABLE_COLUMN_HEADER_CONTACT_EMAIL	Contact Email	WorkbasketUploaded	連絡先メールアドレス
+WORKBASKET_TABLE_COLUMN_HEADER_CONTACT_PHONE	Contact Phone	WorkbasketUploaded	連絡先電話番号
+WORKBASKET_TABLE_COLUMN_HEADER_CREATED_BY	Created By	WorkbasketUploaded	によって作成された
+WORKBASKET_TABLE_COLUMN_HEADER_CREATED_DATE	Created Date	WorkbasketUploaded	作成日
+WORKBASKET_TABLE_COLUMN_HEADER_CREATED_ON	Created On	WorkbasketUploaded	作成日
+WORKBASKET_TABLE_COLUMN_HEADER_CUSTOMER_NAME	Customer Name	WorkbasketUploaded	顧客名
+WORKBASKET_TABLE_COLUMN_HEADER_DAX_FINANCE_ID	Dax Finance ID	WorkbasketUploaded	ダックス・ファイナンスID
+WORKBASKET_TABLE_COLUMN_HEADER_ENROLLED_DATE	Enrolled Date	WorkbasketUploaded	入学日
+WORKBASKET_TABLE_COLUMN_HEADER_ENROLLMENT_DATE	Enrollment Date	WorkbasketUploaded	登録日
+WORKBASKET_TABLE_COLUMN_HEADER_ENROLLMENT_PROGRAM	Enrollment Program	WorkbasketUploaded	登録プログラム
+WORKBASKET_TABLE_COLUMN_HEADER_ESCALATION_REASON	Escalation Reason	WorkbasketUploaded	エスカレーションの理由
+WORKBASKET_TABLE_COLUMN_HEADER_ESCALATION_STATUS	Escalation Status	WorkbasketUploaded	エスカレーションステータス
+WORKBASKET_TABLE_COLUMN_HEADER_ESCALATION_SUB_REASON	Escalation Sub Reason	WorkbasketUploaded	エスカレーションのサブ理由
+WORKBASKET_TABLE_COLUMN_HEADER_FEE_TYPE	Fee Type	WorkbasketUploaded	料金の種類
+WORKBASKET_TABLE_COLUMN_HEADER_FOLLOW_UP_DATE	Follow Up date	WorkbasketUploaded	フォローアップ日
+WORKBASKET_TABLE_COLUMN_HEADER_FULL_NAME	Full Name	WorkbasketUploaded	フルネーム
+WORKBASKET_TABLE_COLUMN_HEADER_ITEM_ID	Item ID	WorkbasketUploaded	アイテムID
+WORKBASKET_TABLE_COLUMN_HEADER_LAST_UPDATED_ON	Last Updated On	WorkbasketUploaded	最終更新日
+WORKBASKET_TABLE_COLUMN_HEADER_LOCKED_BY	Locked By	WorkbasketUploaded	ロック者
+WORKBASKET_TABLE_COLUMN_HEADER_MDN	MDN	WorkbasketUploaded	MDN
+WORKBASKET_TABLE_COLUMN_HEADER_MAKE_&_MODEL	Make & Model	WorkbasketUploaded	メーカーとモデル
+WORKBASKET_TABLE_COLUMN_HEADER_NOTE	Note	WorkbasketUploaded	注記
+WORKBASKET_TABLE_COLUMN_HEADER_NOTES	Notes	WorkbasketUploaded	ノート
+WORKBASKET_TABLE_COLUMN_HEADER_ORDER_DATE	Order Date	WorkbasketUploaded	注文日
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_ERROR_TYPE	Payment Error Type	WorkbasketUploaded	支払いエラーの種類
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_METHOD	Payment Method	WorkbasketUploaded	支払方法
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_TYPE	Payment Type	WorkbasketUploaded	払いの種類
+WORKBASKET_TABLE_COLUMN_HEADER_PRODUCT	Product	WorkbasketUploaded	製品
+WORKBASKET_TABLE_COLUMN_HEADER_PRODUCT_TYPE	Product Type	WorkbasketUploaded	製品の種類
+WORKBASKET_TABLE_COLUMN_HEADER_PROGRAM	Program	WorkbasketUploaded	プログラム
+WORKBASKET_TABLE_COLUMN_HEADER_RECEIPT_AVAILABLE	Receipt Available	WorkbasketUploaded	領収書あり
+WORKBASKET_TABLE_COLUMN_HEADER_RECEIPT_REQUIRED	Receipt Required	WorkbasketUploaded	領収書が必要です
+WORKBASKET_TABLE_COLUMN_HEADER_REFUND_REASON	Refund Reason	WorkbasketUploaded	返金理由
+WORKBASKET_TABLE_COLUMN_HEADER_RESOLUTION	Resolution	WorkbasketUploaded	解決
+WORKBASKET_TABLE_COLUMN_HEADER_SO_NUMBER	SO Number	WorkbasketUploaded	SO番号
+WORKBASKET_TABLE_COLUMN_HEADER_SR_NUMBER	SR Number	WorkbasketUploaded	SR番号
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_ORDER_#	Service Order #	WorkbasketUploaded	サービス注文番号
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_REQUEST_#	Service Request #	WorkbasketUploaded	サービス要求 ＃
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_REQUEST_NUMBER	Service Request Number	WorkbasketUploaded	サービスリクエスト番号
+WORKBASKET_TABLE_COLUMN_HEADER_SETTLED_AMOUNT	Settled Amount	WorkbasketUploaded	決済金額
+WORKBASKET_TABLE_COLUMN_HEADER_SOURCE	Source	WorkbasketUploaded	ソース
+WORKBASKET_TABLE_COLUMN_HEADER_STATE/PROVIDENCE	State/Providence	WorkbasketUploaded	州/州
+WORKBASKET_TABLE_COLUMN_HEADER_STATUS	Status	WorkbasketUploaded	状態
+WORKBASKET_TABLE_COLUMN_HEADER_SUBMIT	Submit	WorkbasketUploaded	提出する
+WORKBASKET_TABLE_COLUMN_HEADER_TYPE	Type	WorkbasketUploaded	タイプ
+WORKBASKET_TABLE_COLUMN_HEADER_UNREAD_EMAIL	UnRead Email	WorkbasketUploaded	未読メール
+WORKBASKET_TABLE_COLUMN_HEADER_UPDATED_DATE	Updated Date	WorkbasketUploaded	更新日
+WORKBASKET_TABLE_COLUMN_HEADER_VENDOR	Vendor	WorkbasketUploaded	ベンダー
+WORKBASKET_TABLE_COLUMN_HEADER_VENDOR_ORDER_#	Vendor Order #	WorkbasketUploaded	ベンダー注文番号
+NO_RESULTS	No results!	WorkbasketUploaded	結果がありません！
+PENDING_DEVICES	Pending Devices	WorkbasketUploaded	保留中のデバイス
+NOTHING_TO_SHOW	Nothing to show!	WorkbasketUploaded	何も見せられない！
+SUBMIT_BTN_LABEL	Submit	WorkbasketUploaded	提出する
+HOLD_EXIST_MESSAGE	Unable to perform the following request. Currently there is an open hold on this claim. Please try again once the hold is resolved	WorkbasketUploaded	次のリクエストを実行できません。現在、この申し立ては保留中です。保留が解決されたら、もう一度お試しください
+HOLD_WARNING_MESSAGE	There is an open hold for this claim. You will not be able to submit nor approve this workitem until the hold is resolved	WorkbasketUploaded	この主張には未解決の保留が存在する。保留が解決されるまで、この作業項目を送信または承認することはできません
+REFUND_DETAILS	Refund Details	WorkbasketUploaded	払い戻しの詳細
+TOTAL_CHARGED_AMOUNT	Total Charged Amount	WorkbasketUploaded	合計チャージ金額
+REFUND_REQUEST_DATE	Refund Request Date	WorkbasketUploaded	返金リクエスト日
+REFUND_REASON_CODE	Refund Reason Code	WorkbasketUploaded	返金理由コード
+REFUND_METHOD	Refund Method	WorkbasketUploaded	返金方法
+FALLBACK_OPTION	Fallback Option	WorkbasketUploaded	フォールバックオプション
+REFUND_LINE_ITEMS	Refund Line Items	WorkbasketUploaded	払い戻し項目
+LINE_ITEM	Line Item	WorkbasketUploaded	ラインアイテム
+LINE_STATUS	Line Status	WorkbasketUploaded	回線ステータス
+CHARGE_AMOUNT	Charge Amount	WorkbasketUploaded	チャージ金額
+REFUNDED_TO_DATE	Refunded To Date	WorkbasketUploaded	現在までに返金されました
+REMAINING_BALANCE	Remaining Balance	WorkbasketUploaded	保たれているバランス
+REQUESTED	Requested	WorkbasketUploaded	リクエスト済み
+APPROVED	Approved	WorkbasketUploaded	承認された
+TOTAL_REFUND_AMOUNT	Total Refund Amount	WorkbasketUploaded	返還総額
+ELIGIBILITY_DETAILS	Eligibility Details	WorkbasketUploaded	資格の詳細
+REFUND_ELIGIBILITY	Refund Eligibility	WorkbasketUploaded	払い戻しの資格
+REFUND_ELIGIBILITY_APPROVED_AMOUNT	Refund Eligibility Approved Amount	WorkbasketUploaded	返金資格承認額
+FINANCIAL_REFUND_ELIGIBILITY	Financial Refund Eligibility	WorkbasketUploaded	返金の資格
+CORE_DEVICE_NOT_REQUIRED_REASON	Core Device Not Required Reason	WorkbasketUploaded	コアデバイスが不要な理由
+ESCALATE	Escalate	WorkbasketUploaded	エスカレート
+BASICS_ELIGIBILITY_FAILURE_REASON	Basics Eligibility Failure Reason	WorkbasketUploaded	基本的な資格 不合格の理由
+ESCALATE_OPTIONS	Escalate Options	WorkbasketUploaded	エスカレーションオプション
+ACTIONS	Actions	WorkbasketUploaded	行動
+ACTION	Action	WorkbasketUploaded	アクション
+RETURN_TO_WORKQUEUE_REASON	Return to Workqueue Reason	WorkbasketUploaded	ワークキューに戻る理由
+DENIAL_REASON	Denial Reason	WorkbasketUploaded	拒否理由
+DEVICE_EXPECTATION	Device Expectation	WorkbasketUploaded	デバイスの期待値
+ADD_NOTE	Add Note	WorkbasketUploaded	メモを追加
+WORKBASKET_PAYMENT_ORDER_STATUS_APPD	Approved. 	WorkbasketUploaded	承認された。
+WORKBASKET_PAYMENT_ORDER_STATUS_PAYPNDG	Payment Pending. 	WorkbasketUploaded	支払いが保留中です。
+WORKBASKET_PAYMENT_ORDER_STATUS_RSFA	Refund Submitted For Finance Approval.	WorkbasketUploaded	財務承認のために返金が送信されました。
+WORKBASKET_SUBMISSION_MODE_REALTIME	The refund is scheduled for immediate payment.	WorkbasketUploaded	返金は即時に行われる予定です。
+WORKBASKET_SUBMISSION_MODE_OFFLINE	The refund has been queued for review.	WorkbasketUploaded	払い戻しは審査待ちの状態です。
+WORKBASKET_SUBMISSION_MODE_CHARGEREVIEW	Refund has been sent directly to Charge Review.	WorkbasketUploaded	返金は Charge Review に直接送られました。
+WORKBASKET_RETURN_TO_WORKQUEUE_SUCCESS	Item has been successfully returned to queue.	WorkbasketUploaded	アイテムはキューに正常に戻されました。
+WORKBASKET_CANCEL_WORKITEM_SUCCESS	Item has been cancelled. Please click on OK button to go back to dashboard.	WorkbasketUploaded	商品はキャンセルされました。 [OK] ボタンをクリックしてダッシュボードに戻ってください。
+WORKBASKET_CANCEL_WORKITEM_NOT_ATTEMPTED	This work item cannot be cancelled. Please click on OK button to go back to dashboard.	WorkbasketUploaded	この作業項目はキャンセルできません。 [OK] ボタンをクリックしてダッシュボードに戻ってください。
+WORKBASKET_PROCESS_FAILURE	There was an error while submitting workitem data. Please click on OK button to go back to dashboard and try again later.	WorkbasketUploaded	作業項目データの送信中にエラーが発生しました。 [OK] ボタンをクリックしてダッシュボードに戻り、後でもう一度試してください。
+WORKBASKET_CANCEL_WORKITEM_REFUND_DECLINED	Refund submission was not successful. Refund workitem is no longer eligible for refund and has been canceled.	WorkbasketUploaded	払い戻しの送信は成功しませんでした。払い戻し作業項目は払い戻しの対象ではなくなったため、キャンセルされました。
+WORKBASKET_CANCEL_WORKITEM_REFUND_DECLINED_FAIL	Error while submitting workitem data. Please try again.	WorkbasketUploaded	作業項目データの送信中にエラーが発生しました。もう一度試してください。
+WORKBASKET_FINANCE_ESCALATION_MSG	Refund workitem was successfully escalated to Finance.	WorkbasketUploaded	返金作業項目は財務部門に正常にエスカレーションされました。
+WORKBASKET_PROCESS_SUCCESS	Process is completed successfully.	WorkbasketUploaded	処理は正常に完了しました。
+WORKBASKET_PROCESS_WORKITEM_MODAL_TITLE	Process Workitem	WorkbasketUploaded	作業項目の処理
+SHIPPING_HEADER_QUESTION	Do you have the shipment tracking information ?	WorkbasketUploaded	発送追跡情報はありますか?
+REPLACEMENT_ORDER_DETAILS	Replacement Order Details	WorkbasketUploaded	交換注文の詳細
+COMPLETE	complete	WorkbasketUploaded	完了
+RETURN_TO_WORK_QUEUE_SUCCESS	Item has been successfully returned to queue.	WorkbasketUploaded	アイテムはキューに正常に戻されました。
+RETURN_TO_WORK_ITEM_SUCCESS	Work item has been processed successfully.	WorkbasketUploaded	作業項目は正常に処理されました。
+ESCALATION_DETAILS	Escalation Details	WorkbasketUploaded	エスカレーションの詳細
+ESCALATION_TYPE	Escalation Type	WorkbasketUploaded	エスカレーションタイプ
+ESCALATION_REASON	Escalation Reason	WorkbasketUploaded	エスカレーションの理由
+ESCALATION_SUB_REASON	Escalation Sub Reason	WorkbasketUploaded	エスカレーションのサブ理由
+LOADING_WORKBASKETS	Loading Workbaskets...	WorkbasketUploaded	ワークバスケットをロード中...
+WORKBASKET_TABLE_COLUMN_HEADER_WORK_ITEM_COUNT	Work Item Count	WorkbasketUploaded	作業項目数
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_REQUEST_ID	Service Request Id	WorkbasketUploaded	サービスリクエストID
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_ORDER_ID	Service Order Id	WorkbasketUploaded	サービス注文ID
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT_ID	Client Id	WorkbasketUploaded	クライアントID
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT_CHANNEL_ID	Client Channel Id	WorkbasketUploaded	クライアントチャネルID
+WORKBASKET_TABLE_COLUMN_HEADER_AGREEMENT_ID	Agreement Id	WorkbasketUploaded	契約ID
+WORKBASKET_TABLE_COLUMN_HEADER_SHIPPING_ORDER_ID	Shipping Order Id	WorkbasketUploaded	配送注文ID
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_ORDER_ID	Payment Order Id	WorkbasketUploaded	支払い注文ID
+WORKBASKET_TABLE_COLUMN_HEADER_LOCKED	Locked	WorkbasketUploaded	ロックされています
+WORKBASKET_TABLE_COLUMN_HEADER_CUSTOMER_CASE_ID	Customer Case Id	WorkbasketUploaded	顧客ケースID
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT_ACCOUNT_ID	Client Account Id	WorkbasketUploaded	クライアントアカウントID
+WORKBASKET_TABLE_COLUMN_HEADER_SUBSCRIPTION_NUMBER	Subscription Number	WorkbasketUploaded	サブスクリプション番号
+WORKBASKET_TABLE_COLUMN_HEADER_REFUND_REASON_CODE	Refund Reason Code	WorkbasketUploaded	返金理由コード
+WORKBASKET_TABLE_COLUMN_HEADER_CORE_DEVICE_NOT_REQ_REASON_CODE	Core Device Not Req Reason Code	WorkbasketUploaded	コアデバイスが要求されていない理由コード
+WORKBASKET_TABLE_COLUMN_HEADER_CORE_DEVICE_REQUIRED	Core Device Required	WorkbasketUploaded	コアデバイスが必要です
+WORKBASKET_TABLE_COLUMN_HEADER_BASICS_ELIBILITY_CHECKED	Basics Elibility Checked	WorkbasketUploaded	基本的な資格チェック済み
+WORKBASKET_TABLE_COLUMN_HEADER_REFUND_ELIGIBILITY_OVERRIDE_REASON_CODE	Refund Eligibility Override Reason Code	WorkbasketUploaded	払い戻し資格オーバーライド理由コード
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_ORDER_NUMBER	Service Order Number	WorkbasketUploaded	サービス注文番号
+WORKBASKET_TABLE_COLUMN_HEADER_WORK_STATUS	Work Status	WorkbasketUploaded	仕事の状態
+WORKBASKET_TABLE_COLUMN_HEADER_WORK_OBJECT_TYPE	Work Object Type	WorkbasketUploaded	作業オブジェクトのタイプ
+WORKBASKET_TABLE_COLUMN_HEADER_SERVICE_REQUEST_STATUS	Service Request Status	WorkbasketUploaded	サービスリクエストステータス
+WORKBASKET_TABLE_COLUMN_HEADER_VERSION	Version	WorkbasketUploaded	バージョン
+WORKBASKET_TABLE_COLUMN_HEADER_ESCALATION_TYPE	Escalation Type	WorkbasketUploaded	エスカレーションタイプ
+WORKBASKET_TABLE_COLUMN_HEADER_METHOD_OF_PAYMENT	Method Of Payment	WorkbasketUploaded	支払い方法
+WORKBASKET_TABLE_COLUMN_HEADER_CLIENT_ACCOUNT_DOCUMENT_ID	Client Account Document Id	WorkbasketUploaded	クライアントアカウントのドキュメントID
+WORKBASKET_TABLE_COLUMN_HEADER_IS_BOX_DAMAGED	Is Box Damaged	WorkbasketUploaded	箱は破損していますか
+WORKBASKET_TABLE_COLUMN_HEADER_CUSTOMER_REQUESTED_AMOUNT	Customer Requested Amount	WorkbasketUploaded	お客様のご希望金額
+WORKBASKET_TABLE_COLUMN_HEADER_SALVAGE_ORDER_ID	Salvage Order Id	WorkbasketUploaded	サルベージ注文ID
+WORKBASKET_TABLE_COLUMN_HEADER_IS_ADDITIONAL_FUNDS	Is Additional Funds	WorkbasketUploaded	追加の資金です
+WORKBASKET_TABLE_COLUMN_HEADER_WI_ESCALATION_STATUS	Wi Escalation Status	WorkbasketUploaded	Wi エスカレーション ステータス
+WORKBASKET_TABLE_COLUMN_HEADER_LOST_OR_STOLEN	Lost Or Stolen	WorkbasketUploaded	紛失または盗難
+WORKBASKET_TABLE_COLUMN_HEADER_DISPUTE_AMOUNT	Dispute Amount	WorkbasketUploaded	紛争額
+WORKBASKET_TABLE_COLUMN_HEADER_FOLLOWUP_NOTE	Followup Note	WorkbasketUploaded	フォローアップノート
+WORKBASKET_TABLE_COLUMN_HEADER_MODEL	Model	WorkbasketUploaded	モデル
+WORKBASKET_TABLE_COLUMN_HEADER_STATE	State	WorkbasketUploaded	州
+WORKBASKET_TABLE_COLUMN_HEADER_RETURN_REASON	Return Reason	WorkbasketUploaded	返品理由
+WORKBASKET_TABLE_COLUMN_HEADER_INVOICE_EMAIL_ADDR	Invoice Email Addr	WorkbasketUploaded	請求書のメールアドレス
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_AMOUNT	Payment Amount	WorkbasketUploaded	支払金額
+WORKBASKET_TABLE_COLUMN_HEADER_RETAIL_NAME	Retail Name	WorkbasketUploaded	小売名
+WORKBASKET_TABLE_COLUMN_HEADER_AGREEMENT_PURCHASE_DATE	Agreement Purchase Date	WorkbasketUploaded	契約購入日
+WORKBASKET_TABLE_COLUMN_HEADER_ASSET_MAKE	Asset Make	WorkbasketUploaded	資産形成
+WORKBASKET_TABLE_COLUMN_HEADER_ASSET_MODEL	Asset Model	WorkbasketUploaded	資産モデル
+WORKBASKET_TABLE_COLUMN_HEADER_SHIPPING_EXPEDITED	Shipping Expedited	WorkbasketUploaded	急ぎの配送
+WORKBASKET_TABLE_COLUMN_HEADER_NEW_EMAIL_COUNT	New Email Count	WorkbasketUploaded	新規メール数
+WORKBASKET_TABLE_COLUMN_HEADER_PAYMENT_METHOD_TYPE	Payment Method Type	WorkbasketUploaded	支払い方法の種類
+WORKVIEW_ERROR_LOAD	No Data Found. Please reload or return to workbasket dashboard	WorkbasketUploaded	何もデータが見つかりませんでした。リロードするか、ワークバスケット ダッシュボードに戻ってください
+ORDER_SUCCESSFULLY_UPDATED	Order successfully updated!	WorkbasketUploaded	注文が正常に更新されました。
+NOTIFICATION_HEADER	Notification	WorkbasketUploaded	通知
+CANCEL_BTN_LBL	Cancel	WorkbasketUploaded	キャンセル
+CHARACTERS_REMAINING	characters remaining	WorkbasketUploaded	残りの文字
+LOCKED_ITEM_MSG	You can not open this workitem since it is already locked by {string}	WorkbasketUploaded	この作業項目はすでに {string} によってロックされているため、開くことができません
+ITEM_PROCESSING_MSG	We are processing this workitem right now and this process may take up to 30 mins.	WorkbasketUploaded	現在この作業項目を処理中ですが、このプロセスには最大 30 分かかる場合があります。
+EXPORT_CONFIRMATION_TEXT	Export to Excel data loading may take some time. "Save" window will pop up once data is loaded and ready to be saved	WorkbasketUploaded	Excel へのエクスポート データのロードには時間がかかる場合があります。データがロードされ、保存の準備が完了すると、「保存」ウィンドウが表示されます。
+OVERRIDE_DETAILS	Override Details	WorkbasketUploaded	オーバーライドの詳細
+PLEASE_SELECT_ACTION_TYPE	Please select Action Type	WorkbasketUploaded	アクションの種類を選択してください
+PLEASE_SELECT_DENIAL_REASON	Please select Denial Reason	WorkbasketUploaded	拒否理由を選択してください
+PLEASE_ADD_DENIAL_REASON_NOTE	Please add Denial Reason note	WorkbasketUploaded	拒否理由のメモを追加してください
+PLEASE_SELECT_RETURN_TO_WORKQUEUE_REASON	Please select Return to Workqueue Reason	WorkbasketUploaded	ワークキューに戻る理由を選択してください
+SELECT_ITEM	Select Item	WorkbasketUploaded	アイテムを選択
+PLEASE_SELECT_LINE_ITEM_WHICH_NEEDS_TO_BE_REFUNDED	Please select Line Item which needs to be refunded.	WorkbasketUploaded	払い戻しが必要な項目を選択してください。
+REMAINING_BALANCE_IS_ZERO	Remaining Balance is 0	WorkbasketUploaded	残高は0です
+APPROVED_AMOUNT_SHOULD_BE_BETWEEN_ZERO_AND	Approved Amount should be between 0 and	WorkbasketUploaded	承認金額は 0 ～
+APPROVED_AMOUNT_CANT_BE_GREATER_THAN_REMAINING_BALANACE	Approved Amount can't be greater than Remaining Balance	WorkbasketUploaded	承認金額は残高を超えることはできません
+PLEASE_SELECT_WAIVE_DEVICE_EXPECTATION_REASON	Please select Waive Device Expectation reason	WorkbasketUploaded	デバイスの期待を放棄する理由を選択してください
+PLEASE_SELECT_ESCALATE_TO_FINANCE_CHECKBOX_ERROR	Please select Escalate to Finance checkbox if you want to proceed with this claim	WorkbasketUploaded	この申し立てを続行する場合は、「財務にエスカレーション」チェックボックスを選択してください
+PLEASE_SELECT_WAIVE_DEVICE_EXPECTATION_CHECKBOX_ERROR	Please select Waive Device Expectation checkbox and select Override Reason if you want to processed with this claim	WorkbasketUploaded	この申し立てを処理する場合は、「デバイスの期待を放棄する」チェックボックスを選択し、「理由を上書きする」を選択してください。
+PAYMENT_INFORMATION	Payment Information	WorkbasketUploaded	支払情報
+PAYMENT_TYPE	Payment Type	WorkbasketUploaded	払いの種類
+CHARGE_ORDER_TYPE	Charge Order Type	WorkbasketUploaded	チャージオーダータイプ
+AMOUNT	Amount	WorkbasketUploaded	額
+CHARGE_ORDER_STATUS	Charge Order Status	WorkbasketUploaded	チャージオーダーステータス
+REFUND_AMOUNT	Refund Amount	WorkbasketUploaded	返金額
+REFUND_TYPE	Refund Type	WorkbasketUploaded	返金タイプ
+REFUND_STATUS	Refund Status	WorkbasketUploaded	返金ステータス
+WORKBASKET_SUBMIT_WORKITEM_SUCCESS	Work item has been processed successfully.	WorkbasketUploaded	作業項目は正常に処理されました。
+WORKBASKET_UPDATE_PAYMENT_DETAILS_SUCCESS	Amount and Tax values saved successfully.	WorkbasketUploaded	金額と税の値が正常に保存されました。
+ITEMS	Items	WorkbasketUploaded	アイテム
+WORKBASKET_TYPE_PFR	PFR	WorkbasketUploaded	PFR
+WORKBASKET_TYPE_REFUND	Refund	WorkbasketUploaded	返金
+WORKBASKET_TYPE_FINANCE	Finance	WorkbasketUploaded	ファイナンス
+WORKBASKET_TYPE_APFR	APFR	WorkbasketUploaded	APFR
+WORKBASKET_TYPE_PAYMENT_REVIEW	Payment Review	WorkbasketUploaded	支払いのレビュー
+WORKBASKET_TYPE_ATL	ATL	WorkbasketUploaded	ATL
+WORKBASKET_TYPE_OTHER	Other	WorkbasketUploaded	他の
+WORKBASKET_TYPE_CANCELLED_ORDERS	Cancelled Orders	WorkbasketUploaded	キャンセルされた注文
+WORKBASKET_TYPE_ESCALATION	Escalation	WorkbasketUploaded	エスカレーション
+WORKBASKET_TYPE_PEBO_OVERRIDE	PEBO Override	WorkbasketUploaded	PEBO オーバーライド
+WORKBASKET_TYPE_SERVICE_SOLUTION	Service Solution	WorkbasketUploaded	サービスソリューション
+WORKBASKET_TYPE_CLAIMS_DESKTOP	Claims Desktop	WorkbasketUploaded	クレームデスクトップ
+WORKBASKET_TYPE_CLAIM_ACCOUNTING	Claim Accounting	WorkbasketUploaded	請求会計
+WORKBASKET_TYPE_MERCURY_REPLACEMENT_ORDERS	Mercury Replacement Orders	WorkbasketUploaded	水銀交換注文
+WORKBASKET_TYPE_SALES	Sales	WorkbasketUploaded	販売
+CURRENT_SR_CREATED_DATE	Current SR Created Date	Uploaded	現在の SR 作成日
+INWARRANTY_TROUBLESHOOTING_MESSAGE	Please open AT&T Troubleshoot and resolve and attempt to triage any issue the customer is experiencing before proceeding with the warranty claim.	Uploaded	保証請求を進める前に、AT&T トラブルシューティングを開いてお客様が発生している問題を解決し、優先順位を付けてください。
+INWARRANTY_TROUBLESHOOTING_WARNING	If you are not an In-Warranty trained expert, please transfer to our In-Warranty group. Mobility (English) should use 1972677, and Mobility (Spanish) should use 1972678 to transfer.	Uploaded	In-Warranty のトレーニングを受けた専門家ではない場合は、In-Warranty グループに転送してください。転送には、Mobility (英語) では 1972677 を使用し、Mobility (スペイン語) では 1972678 を使用する必要があります。
+LAUNCH_TSR	Launch TS&R	Uploaded	TS&Rを立ち上げる
+TBL_OUTCOME	Troubleshooting Outcome	Uploaded	トラブルシューティングの結果
+REFER_TO_TBL	Refer to Troubleshooting	Uploaded	トラブルシューティングを参照してください
+HLT_CODES	High-Level Trouble	Uploaded	高レベルのトラブル
+LLT_CODES	Low-Level Trouble	Uploaded	低レベルのトラブル
+TRIAGE_ACTION	Triage Action	Uploaded	トリアージアクション
+BATT_TRIAGE_WARNING	Disclaimer: If the customer is not in the Device Care Complete program, continue with AE. Otherwise transfer to tech support for battery triage.	Uploaded	免責事項: お客様が Device Care Complete プログラムに参加していない場合は、AE に進みます。それ以外の場合は、バッテリーの優先順位付けのためにテクニカル サポートに転送してください。
+TRIAGE_LABEL_IN_LINE_BATDMG	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Battery Damage	Uploaded	お客様がこのデバイスのクレームを提出したい場合は、[続行] をクリックして、インシデント タイプ: バッテリー損傷を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_CRCKSCRN	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Cracked Screen	Uploaded	お客様がこのデバイスのクレームを提出したい場合は、「続行」をクリックして、インシデントの種類「画面割れ」を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_OTHDMG	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Other Physical Damage	Uploaded	お客様がこのデバイスの請求を提出したい場合は、「続行」をクリックして、インシデントの種類「その他の物理的損傷」を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_MLFUNC	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Malfunction	Uploaded	お客様がこのデバイスのクレームを提出したい場合は、[続行] をクリックして、インシデント タイプ: 故障を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_BATBTELGBL	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Malfunction	Uploaded	お客様がこのデバイスのクレームを提出したい場合は、[続行] をクリックして、インシデント タイプ: 故障を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_PWRISSUE	If the customer wishes to file a claim for this device, please click on continue then start a new incident using the incident type: Malfunction	Uploaded	お客様がこのデバイスのクレームを提出したい場合は、[続行] をクリックして、インシデント タイプ: 故障を使用して新しいインシデントを開始してください。
+TRIAGE_LABEL_IN_LINE_NONRSHP	This device is not eligible for reship. If the customer wishes to file a claim for this device, please click on continue the start a new incident	Uploaded	このデバイスは再発送の対象外です。お客様がこのデバイスの請求を提出したい場合は、「続行」をクリックして新しいインシデントを開始してください
+TRIAGE_LABEL_IN_LINE_DMA	This device is not eligible for reship. If the customer wishes to file a claim for this device, please click on continue the start a new incident	Uploaded	このデバイスは再発送の対象外です。お客様がこのデバイスの請求を提出したい場合は、「続行」をクリックして新しいインシデントを開始してください
+TRIAGE_REASON	Triage Reason	Uploaded	トリアージの理由
+TRIAGE_OUTCOME_ACTION	Triage Outcome	Uploaded	トリアージの結果
+CASE_STATUS	Case Status	Uploaded	ケースのステータス
+COX_TIER_CHANGE	The replacement device selected is in a different tier than the enrolled device and is not eligible for this customer, please change the selection. If no options are available process a purchase for reimbursement.	Uploaded	選択された交換用デバイスは、登録されたデバイスとは異なる層にあるため、この顧客には適格ではありません。選択を変更してください。利用可能なオプションがない場合は、払い戻しの購入手続きを行ってください。
+TIER_CHANGE_MESSAGE_DEFAULT	The replacement device selected is an advanced model, which has higher features and functions. Selecting this model will increase the Deductible on future service requests to {servicefee} {currencyCode}. Would you like to continue with your selection?	Uploaded	代替機として選択したのは、より高機能・高機能な上位モデルです。このモデルを選択すると、今後のサービス リクエストの控除額が {servicefee} {currencyCode} に増加します。選択を続けますか?
+TIER_CHANGE_MESSAGE_COX	The replacement device selected is an advanced model, which has higher features and functions. Selecting this model will increase the Deductible or Service fee on future service requests to {servicefee} {currencyCode} and will also increase your monthly premium. Would you like to continue with your selection?	Uploaded	代替機として選択したのは、より高機能・高機能な上位モデルです。このモデルを選択すると、今後のサービス リクエストの免責金額またはサービス料金が {servicefee} {currencyCode} に増加し、月々の保険料も増加します。選択を続けますか?
+TIER_CHANGE_MESSAGE_LIBERTY	The replacement device selected is in a different tier than the claimed device. Continuing with this device may cause deductible and premium changes for the customer. Change your search criteria and if no other options are available. Purchase for reimbursement may also be an option.	Uploaded	選択された交換デバイスは、要求されたデバイスとは異なる階層にあります。このデバイスを継続して使用すると、顧客の免責金額と保険料が変更される可能性があります。他に利用可能なオプションがない場合は、検索条件を変更します。償還目的で購入することも選択肢になるかもしれません。
+TIER_CHANGE_MESSAGE_CONSUMER_CELLULAR	The replacement device selected is in a different tier than the enrolled device and is not eligible for this customer, please change the selection. If no options are available process a purchase for reimbursement.	Uploaded	選択された交換用デバイスは、登録されたデバイスとは異なる層にあるため、この顧客には適格ではありません。選択を変更してください。利用可能なオプションがない場合は、払い戻しの購入手続きを行ってください。
+ACCEPT_CONTINUE	Accept & Continue	Uploaded	同意して続行
+CHANGE_SELECTION	Change Selection	Uploaded	選択の変更
+SELECT_ONE_ACCESSORY_MESSAGE	Please select at least one accessory to continue.	Uploaded	続行するには、少なくとも 1 つのアクセサリを選択してください。
+SATURDAY_DELIVERY_NOT_AVAILABLE	The Saturday delivery option is no longer available for this claim. Please select the customers preference of either expedited shipping, or same day delivery if available.	Uploaded	土曜日の配達オプションはこの請求では利用できなくなりました。お急ぎの発送か、可能な場合は同日発送のどちらかをお客様のご希望で選択してください。
+EIF_RED_INLINE	Please ask the Verizon Sales Associate if the following device is in stock. If the device is not in stock, choose a comparable model that is in stock. If no devices are displayed, search Out Of Matrix for a comparable model	Uploaded	次のデバイスの在庫があるかどうか、Verizon 販売担当者にお問い合わせください。デバイスの在庫がない場合は、在庫のある同等のモデルを選択してください。デバイスが表示されない場合は、Out Of Matrix で同等のモデルを検索します。
+NEW_DEVICE_LABEL	New	Uploaded	新しい
+LIKE_NEW_DEVICE_LABEL	Like New	Uploaded	新しいそうな
+SERVICE_ORDER_ERROR	Service Error Occurred	Uploaded	サービスエラーが発生しました
+SELECTED	SELECTED	Uploaded	選択済み
+SELECT	SELECT	Uploaded	選択する
+WAREHOUSE_LABEL	Which warehouse is going to ship this device?	Uploaded	このデバイスはどの倉庫に発送されますか?
+ONLY_ONE_ACCESSORY_ALLOWED	Accessory (Only one accessory allowed)	Uploaded	アクセサリ（アクセサリは 1 つだけ許可されます）
+ACCESSORY_LABEL	Accessories	Uploaded	アクセサリー
+NO_ACCESSORIES	None available	Uploaded	利用可能なものはありません
+INCLUDE_SIM	Include SIM Card?	Uploaded	SIMカードは含まれますか?
+NO_DEVICE_SELECTED	Please search or select replacement equipment.	Uploaded	代替機器を検索または選択してください。
+NO_SHIPPING_OPTION_SELECTED	Please select shipping option.	Uploaded	配送オプションを選択してください。
+SHIPMENT_OPTION	Choose delivery option	Uploaded	配送オプションを選択してください
+EXPECTED_DELIVER	Expected Delivery	Uploaded	配達予定日
+NO_SHIPMENT_METHOD	No shipment method available for this device, please select other available device	Uploaded	このデバイスには利用可能な配送方法がありません。他の利用可能なデバイスを選択してください
+NO_SHIPPABLE_DEVICE_MESSAGE	No In Stock devices available.  Please select a backordered device as needed to complete the claim	Uploaded	利用できる在庫デバイスはありません。請求を完了するには、必要に応じてバックオーダーされたデバイスを選択してください
+PFR_TITLE_LABEL	Escalate to CST to review replacement options with customer.	Uploaded	CST にエスカレーションして、お客様と交換オプションを確認します。
+PFR_DESC_LABEL	We may have an option to complete the customer’s claim right away. You will need to transfer this call to CST so that they can discuss other options.	Uploaded	当社には、お客様の請求を直ちに完了するオプションがある場合があります。他のオプションについて話し合えるように、この通話を CST に転送する必要があります。
+PFR_ESCALATION_UNAVAILABLE	Escalation is currently unavailable.	Uploaded	現在エスカレーションは利用できません。
+SIM_SELECTION_WARNING	We only provide sim cards to T-Mobile customers at this time, If you're with another carrier, contact them to request a new sim card.	Uploaded	現時点では、T-Mobile の顧客にのみ SIM カードを提供しています。別の通信会社をご利用の場合は、その通信会社に連絡して新しい SIM カードをリクエストしてください。
+PFR_CARD_TITLE	Reverse Purchase for Reimbursement	Uploaded	払い戻しのための逆購入
+PFR_CARD_DESC	Choose this option to send the customer a Reimbursement for the retail value of the claimed device.  The Reimbursement will arrive in 2-3 business days and the claim deductible will be applied to the customer's wireless bill	Uploaded	請求されたデバイスの小売価格に対する払い戻しを顧客に送信するには、このオプションを選択します。払い戻しは 2 ～ 3 営業日以内に到着し、請求控除額はお客様のワイヤレス料金に適用されます。
+NO_DEVICE_SELECTED_NLP_NO_DMR	Please escalate accordingly and leave clear notes on Alpha.	Uploaded	状況に応じてエスカレーションし、アルファに明確なメモを残してください。
+NO_REPLACEMENT_DEVICE_ERROR	There was an Error in receiving Replacement Device From Fulfillment Vendor. Please continue the Case in ePaper or escalate for additional options.	Uploaded	フルフィルメント ベンダーから交換デバイスを受け取る際にエラーが発生しました。電子ペーパーでケースを続行するか、追加のオプションについてエスカレーションしてください。
+ACSRY_LABEL	Accessories available for ...	Uploaded	利用可能なアクセサリ...
+CHOSE_SHIPMENT_OPTION	Choose delivery option	Uploaded	配送オプションを選択してください
+EXPECTED_DELIVERY	Expected Delivery	Uploaded	配達予定日
+REASON_FOR_PURCHASE_FOR_REIMBURSEMENT	Reason for Purchase for Reimbursement	Uploaded	返金のための購入理由
+ENTER_NOTES_HERE	Enter Notes Here	Uploaded	ここにメモを入力してください
+ENTER_NOTES_OPTIONAL	Enter Note (optional)	Uploaded	メモを入力してください (オプション)
+NOTES_HDR	Notes	Uploaded	ノート
+SHIPPING_METHOD_HDR	Shipping Details	Uploaded	発送詳細
+HYPERWALLET_VERIFY_ADDRESS	Please be sure to verify that name and address are correct for the customer. If Payment Method is check, check will be payable to the name shown here. Please confirm with customer and edit if needed.	Uploaded	お客様のお名前やご住所が正しいか必ずご確認ください。お支払い方法が小切手の場合、ここに表示されている名前に小切手が支払われます。お客様にご確認いただき、必要に応じて編集してください。
+INVALID_DETAILS_INSTRUC	Please click on edit to update this information to proceed with the claim	Uploaded	請求を続行するには、「編集」をクリックしてこの情報を更新してください
+HOLDS	Holds	Uploaded	ホールド
+TEXTFIELD_REMAINING_CHARACTERS	Remaining characters:	Uploaded	残りの文字:
+TEXTFIELD_ENTER	Enter	Uploaded	入力
+ENTER_EMAIL	Enter Email	Uploaded	メールアドレスを入力して
+APP_LABELS_BYPASS_ECV	Bypass ECV for this claim	Uploaded	このクレームでは ECV をバイパスします
+APP_LABELS_BYPASS_ECV_REMARKS	ECV Override Remarks	Uploaded	ECV オーバーライドの備考
+APP_LABELS_ECV_TRANSACTION_EXPIRY_HEADER	The ECV Validation process timed out.	Uploaded	ECV 検証プロセスがタイムアウトしました。
+APP_LABELS_ECV_FAILED_HEADER	Customer Failed ECV.	Uploaded	顧客が ECV に失敗しました。
+APP_LABELS_ECV_NORESULTS_MESSAGE	Unable to verify customer. Click continue to proceed.	Uploaded	顧客を確認できません。 [続行] をクリックして続行します。
+APP_LABELS_EXIT_ECV_LABEL	Exit ECV	Uploaded	ECV の終了
+APP_LABELS_EXIT_ECV_MESSAGE	Please indicate the reason for exiting ECV or cancel to return	Uploaded	ECV を終了する理由を指定するか、キャンセルして戻ってください。
+APP_LABELS_ECV_REFUSAL_REASON	ECV Refusal Reason	Uploaded	ECV拒否理由
+APP_LABELS_ECV_REFUSAL_MESSAGE_REFUSE	Customer Refused ECV Process. Please End Call or Escalate.	Uploaded	顧客が ECV プロセスを拒否しました。通話を終了するか、エスカレーションしてください。
+APP_LABELS_ECV_REFUSAL_MESSAGE_CALLBACK	Customer Will Call Back. Please End The Call.	Uploaded	お客様から折り返し電話がかかります。通話を終了してください。
+APP_LABELS_ESCALATE	Escalate	Uploaded	エスカレート
+APP_LABELS_NOT_AVAILABLE	N/A	Uploaded	該当なし
+APP_LABELS_HOLD_COMMUNICATION_SENT_EMAIL_NULL	An email has been sent with hold instructions	Uploaded	保留の指示が記載されたメールが送信されました
+APP_LABELS_HOLD_COMMUNICATION_SENT_EMAIL	An email has been sent to {email} with hold instructions	Uploaded	保留手順を記載したメールが {email} に送信されました
+APP_LABELS_HOLD_COMMUNICATION_SENT_MAIL	A postal mail process with hold instructions has initiated	Uploaded	保留指示のある郵便手続きが開始されました
+APP_LABELS_SEND	Send	Uploaded	送信
+APP_LABELS_SEND_NOW	Send Now	Uploaded	今すぐ送信
+APP_LABELS_NEXT	Next	Uploaded	次
+APP_LABELS_SMART_PIN_ERROR_MESSAGE	Error proccessing Smart Pin request	Uploaded	スマートピンリクエストの処理中にエラーが発生しました
+APP_LABELS_VERIFY	Verify	Uploaded	確認する
+APP_LABELS_SMARTPIN_VERIFICATION_FAILURE	Smart PIN is not valid. Please try again.	Uploaded	スマート PIN が無効です。もう一度試してください。
+APP_LABELS_SMARTPIN_MAX_ATTEMPT_VERIFICATION	Maximum attempt reached. Please click on continue to proceed.	Uploaded	最大試行回数に達しました。 [続行] をクリックして続行してください。
+APP_LABELS_SMART_PIN_VERIFIED	Success! Smart PIN has been verified.Please click Continue to proceed	Uploaded	成功！スマート PIN が確認されました。「続行」をクリックして続行してください
+HOLD_OVERRIDE_PIT_HOLD_LABEL_HEADER	Override Phone In Transit Hold	Uploaded	転送中の電話の保留を無効にする
+HOLD_OVERRIDE_PIT_HOLD_LABEL_DETAIL_HEADER	Please Indicate the Reason for Overriding Phone In Transit Hold	Uploaded	輸送中の保留中の電話を無効にする理由を示してください
+HOLD_CONFIRM_OVERRIDE	Confirm Override	Uploaded	オーバーライドの確認
+HOLD_OVERRIDE	Override	Uploaded	オーバーライド
+HOLD_REFRESH_HOLD_STATUS	⟳ Refresh Hold Status	Uploaded	⟳ ホールドステータスのリフレッシュ
+HOLD_ECV	ECV	Uploaded	ECV
+HOLD_ECV_LANDING_MESSAGE	Caller needs further verification	Uploaded	発信者にはさらなる確認が必要です
+HOLD_WHAT_TO_SAY	What to say	Uploaded	なんて言うか
+HOLD_ECV_SCRIPT_CONTENT	It is our goal to ensure your privacy and protect your account. I am going to ask you a few personal questions that may span back several years. These multiple choice questions are from public records.	Uploaded	私たちの目標は、お客様のプライバシーを確​​保し、アカウントを保護することです。数年前に遡る可能性のある個人的な質問をいくつかさせていただきます。これらの多肢選択問題は公的記録からのものです。
+HOLD_OBJECTIVE	Objective	Uploaded	客観的
+HOLD_OBJECTIVE_CONTENT_1	To inform the caller about the	Uploaded	発信者にその旨を伝えるため、
+HOLD_OBJECTIVE_CONTENT_2	Extended Customer Verification	Uploaded	拡張顧客認証
+HOLD_OBJECTIVE_CONTENT_3	process and continue.	Uploaded	処理して続行します。
+HOLD_ECV_VERIFY_CALLER_MESSAGE	Verify caller's age and information below to begin the process	Uploaded	プロセスを開始するには、発信者の年齢と以下の情報を確認してください
+HOLD_ECV_VERIFY_CALLER_WARNING	We need to collect the social security number of this caller in order to continue with the ECV process.	Uploaded	ECV プロセスを続行するには、この発信者の社会保障番号を収集する必要があります。
+HOLD_ECV_VERIFY_CALLER_ERROR	Caller's age is under the minimum age for ECV process. Please ask for an adult to be on the phone or Exit ECV.	Uploaded	発信者の年齢は、ECV プロセスの最低年齢に達していません。大人に電話に出てもらうよう依頼するか、ECV を出てください。
+HOLD_ECV_VERIFY_CALLER_AGE_LABEL	Is the caller's age 18 and over?	Uploaded	電話をかけてきた人の年齢は18歳以上ですか？
+HOLD_ECV_VERIFY_CALLER_FOUR_DIGIT_SSN	Last 4 digits of Social Security Number	Uploaded	社会保障番号の下 4 桁
+HOLD_HOLD_BIOMETR	Datos biometricos need to be submitted. An email has been sent to {EMAIL} with hold and biometricos instructions. (to re-send instructions for biometricos go to the "Actions" menu.	Uploaded	Datos biometricos を提出する必要があります。保留と生体認証の手順を記載したメールが {EMAIL} に送信されました。 (バイオメトリコスの指示を再送信するには、「アクション」メニューに移動します。
+HOLD_HOLD_DOCUMENT	Additional documentation is required to process claim.  An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	請求を処理するには追加の文書が必要です。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_HOLD_ADCLMRW	Claim needs to be reviewed by a claim adjuster. An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	請求は請求査定人によって審査される必要があります。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_HOLD_PYMNTRVW	A payment review is needed. An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	支払いの審査が必要です。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_HOLD_PYMNTADJTN	Claim needs to be reviewed by a claim adjuster. An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	請求は請求査定人によって審査される必要があります。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_HOLD_SHPADDVAL	Shipping address validation is required. An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	配送先住所の検証が必要です。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_HOLD_ADJUSTER	Claim needs to be reviewed by a claim adjuster. An email will be sent to {EMAIL} within {HOLD_SLA} {DURATION} with additional information.	Uploaded	請求は請求査定人によって審査される必要があります。追加情報を記載したメールが {HOLD_SLA} {DURATION} 以内に {EMAIL} に送信されます。
+HOLD_DOCREQ_FROM_CUSTOMER	Document Required from customer	Uploaded	お客様から必要な書類
+HOLD_FEEDBACK_CAPTURED	Feedback Captured	Uploaded	フィードバックを取得しました
+HOLD_TOOLTIP_CONTENT_SAY	Say:	Uploaded	言う：
+HOLD_TOOLTIP_CONTENT_1	What should I say if the customer asks why they have to fill out an affidavit?	Uploaded	顧客がなぜ宣誓供述書に記入する必要があるのか​​と尋ねたら、何と答えるべきでしょうか?
+HOLD_TOOLTIP_CONTENT_2	The Affidavit form is the formal document to present your claim. It outlines your loss details and you affirm the claim’s authenticity with your signature. This process is designed as an added security protection of our customers’ accounts.	Uploaded	宣誓供述書フォームは、あなたの主張を表明するための正式な文書です。これには損失の詳細が記載されており、署名によって請求が真実であることを確認します。このプロセスは、お客様のアカウントのセキュリティ保護を強化するために設計されています。
+HOLD_TOOLTIP_CONTENT_3	What should I say if the customer asks how an affidavit protects their account?	Uploaded	顧客が宣誓供述書が自分のアカウントをどのように保護するのか尋ねたら、何と答えるべきでしょうか?
+HOLD_TOOLTIP_CONTENT_4	The affidavit helps to ensure unauthorized claims are not filed on your account. It requires information specific to your account and details around the loss to your device. A government issued photo-ID is also required to ensure the person completing the affidavit is an authorized user on the account.	Uploaded	宣誓供述書は、あなたのアカウントに対して不正な申し立てが行われないようにするのに役立ちます。アカウントに固有の情報と、デバイスの紛失に関する詳細が必要です。宣誓供述書に記入する人がアカウントの承認されたユーザーであることを確認するには、政府発行の写真付き身分証明書も必要です。
+HOLD_AFFIDAVIT_PUSHBACK	Affidavit Pushback	Uploaded	宣誓供述書の反発
+HOLD_HOLD_CREATED_FOR_SR_NUM	Hold created for SR Number	Uploaded	SR 番号に対して保留が作成されました
+HOLD_INSTRUCTIONS_TO_BE_EMAILED_AT	Instructions to be emailed, but	Uploaded	メールでの案内ですが、
+HOLD_NO_EMAIL_ON_FILE	no email address on file.	Uploaded	ファイルにメールアドレスがありません。
+HOLD_INSTRUCTIONS_WERE_EMAILED_TO	Instructions were emailed to	Uploaded	手順は次の宛先に電子メールで送信されました
+HOLD_SEND_VIA_POSTAL_MAIL	Send VIA Postal Mail	Uploaded	郵便で送る
+HOLD_POSTAL_MAIL_ADDRESS	Postal Mail Address:-	Uploaded	郵便アドレス:-
+HOLD_EXISTING_HOLDS	Existing Holds	Uploaded	既存のホールド
+HOLD_HOLD_NOTES	Hold Notes	Uploaded	ホールドノート
+ECV_INDIVIDUAL_NOT_FOUND_HOLD	Customer information was not found.	Uploaded	顧客情報が見つかりませんでした。
+ECV_QUESTIONS_FAILED_HOLD	We were unable to verify the entered information.	Uploaded	入力された情報を確認できませんでした。
+ECV_DECEASED_HOLD	Based on the sumitted information, the returned records indicate the customer is deceased.	Uploaded	提出された情報に基づいて、返された記録は顧客が死亡したことを示しています。
+ECV_INSUFFICIENT_VERIFICATION_CRITERIA_HOLD	We do not have sufficient customer information to proceed with the verification process.	Uploaded	検証プロセスを続行するのに十分な顧客情報がありません。
+ECV_DEFAULT_HOLD	Unable to verify the entered information	Uploaded	入力された情報を確認できません
+ECV_HOLD_CLOSED_RELAUNCH_IPD	An unexpected change in hold status has occurred. Please click on Actions, then Incident Path Determination to continue with this claim.	Uploaded	保留ステータスに予期しない変化が発生しました。この申し立てを続行するには、「アクション」をクリックし、次に「インシデント経路の決定」をクリックしてください。
+SMARTPIN_COLUMN_HEADER	You need a verification code to continue your claim.	Uploaded	請求を続行するには確認コードが必要です。
+SMARTPIN_STAGE_MESSAGE	To Protect Your Account, We'll Send You A Temporary Code To Use.	Uploaded	アカウントを保護するために、使用する一時コードを送信します。
+SMARTPIN_RADIO_BUTTON_HEADER	Select one of the following options	Uploaded	次のオプションのいずれかを選択します
+SMARTPIN_VERIFY_OPTIONS_HEADER	Select one of the following options	Uploaded	次のオプションのいずれかを選択します
+SMARTPIN_PROCESS_CONTAINER_BOLD	Enter pin for security verification	Uploaded	セキュリティ認証のためPINを入力してください
+CONSTRAINT_ERROR_AUTOCLOSE_HANDLING	To continue this claim, click on Actions from the menu, select Incident Path Determination, then Resume Incident.	Uploaded	この申し立てを続行するには、メニューから「アクション」をクリックし、「インシデント・パスの決定」を選択してから「インシデントの再開」を選択します。
+CONSTRAINT_DIV_NO_EMAIL	There is no email address on file for this account.  Advise the customer they will receive a text message with next steps.	Uploaded	このアカウントには電子メール アドレスが登録されていません。次の手順を記載したテキスト メッセージを受け取ることをお客様に伝えます。
+CONSTRAINT_DCV_HEADER	DCV is required to complete the claim	Uploaded	請求を完了するには DCV が必要です
+CONSTRAINT_DIV_HEADER	Photo ID verification needed to continue claim.	Uploaded	請求を続けるには写真付き身分証明書の確認が必要です。
+CONSTRAINT_DCV_SUB_HEADER	Send the customer an email to complete the DCV	Uploaded	お客様に電子メールを送信して DCV を完了してください
+CONSTRAINT_DIV_SUB_HEADER_RETAIL	Send the customer an email with a link to upload a copy of their photo ID.	Uploaded	写真付き身分証明書のコピーをアップロードするためのリンクを記載した電子メールをお客様に送信します。
+CONSTRAINT_DIV_SUB_HEADER	Send the customer with an email with a link to upload a copy of their photo ID.	Uploaded	写真付き身分証明書のコピーをアップロードするためのリンクを含む電子メールを顧客に送信します。
+CONSTRAINT_CUSTOMER_PREFERRED_ADDRESS	Customer's Preferred Email Address.	Uploaded	顧客の希望する電子メール アドレス。
+CONSTRAINT_DIV_EMAIL_SENT	Success! The email has been sent to the customer's preferred email address	Uploaded	成功！メールは顧客の希望のメールアドレスに送信されました
+CONSTRAINT_DIV_NO_EMAIL_CONTINUE	There is no email address on file for this account.  Please click continue to go back to Incident Path Determination.	Uploaded	このアカウントには電子メール アドレスが登録されていません。 「続行」をクリックしてインシデント経路の決定に戻ってください。
+CARRIER_PIN_CONSTRAINT_HEADING	We will need your Carrier PIN Code to continue your claim	Uploaded	請求を続行するにはキャリア PIN コードが必要です
+CARRIER_PIN_CONSTRAINT_SUB_HEADING	For security reasons, we will need to verify you using the PIN code that have with your {CLIENT_CHANNEL_NAME} account.	Uploaded	セキュリティ上の理由から、{CLIENT_CHANNEL_NAME} アカウントにある PIN コードを使用して本人確認を行う必要があります。
+CARRIER_PIN_ACTION_LABEL	Select one of the following options	Uploaded	次のオプションのいずれかを選択します
+CARRIER_PIN_LABEL	Carrier Pin	Uploaded	キャリアピン
+CARRIER_PIN_INVALID_MESSAGE	Carrier PIN is not valid. Please try again.	Uploaded	キャリア PIN が無効です。もう一度試してください。
+FINANCING_DETAILS	Financing Details	Uploaded	融資の詳細
+HOLD_TYPE	Hold Type	Uploaded	ホールドタイプ
+HOLD_STATUS	Hold Status	Uploaded	ホールドステータス
+DOCUMENT_STATUS	Document Status	Uploaded	文書のステータス
+TO_BE_REVIEWED_WITHIN	To Be Reviewed Within	Uploaded	以内にレビュー予定
+CLAIM_ELIGIBILITY	Claim Eligibility	Uploaded	請求資格
+APP_LABELS_ERROR_ON_SUBMIT_INCIDENT	There was a system error when checking claim eligibility.  Please complete this claim using ePaper.	Uploaded	請求資格を確認する際にシステムエラーが発生しました。電子ペーパーを使用してこの請求を完了してください。
+APP_LABELS_ERROR_ON_SUBMIT_INCIDENT_SERVICE_CATALOG	There was a system error when checking claim eligibility.  Please use the down time form in service catalog.	Uploaded	請求資格を確認する際にシステムエラーが発生しました。サービスカタログのダウンタイムフォームを使用してください。
+VOID_NEXT_ACTION	Next Action	Uploaded	次のアクション
+VOID_RETAIL_OVERRIDE_WARNING_INSTRUCTION	Eligibility overrides should only be done when there is an issue with the enrollment data from the client.	Uploaded	資格の上書きは、クライアントからの登録データに問題がある場合にのみ実行してください。
+VOID_OVERRIDE_REASON	Override Reason	Uploaded	オーバーライド理由
+VOID_CREATE_ENROLLMENT	Create Enrollment	Uploaded	登録の作成
+VOID_ADD_USER	Add User	Uploaded	ユーザーを追加する
+VERIZON_STORE_ADDRESS	Verizon Store Address	Uploaded	ベライゾンストアの住所
+PREVIOUS	Previous	Uploaded	前の
+NEXT	Next	Uploaded	次
+STOREDTL_NO_SEARCH_INPUTS_ERROR	Enter store Zip/Postal code OR store number.	Uploaded	店舗の郵便番号または店舗番号を入力してください。
+STOREDTL_NO_STORE_SELECTED_ERROR	Select or add new store before proceed. 	Uploaded	続行する前に、新しいストアを選択または追加してください。
+STOREDTL_NO_DATA_ERROR	We couldn't find any client store data for searching criteria. Try another input.	Uploaded	検索条件に一致するクライアント ストア データが見つかりませんでした。別の入力を試してください。
+STOREDTL_SELECTED_STORE_DETAILS	Selected Store Details	Uploaded	選択した店舗の詳細
+STOREDTL_DETAILS_INSTRUCTIONS_1	Please	Uploaded	お願いします
+STOREDTL_DETAILS_INSTRUCTIONS_2	ask the Verizon Sales Associate	Uploaded	Verizon の営業担当者に問い合わせてください
+STOREDTL_DETAILS_INSTRUCTIONS_3	to provide store information.	Uploaded	店舗情報を提供するため。
+STOREDTL_FIND_STORE_INSTRUCTIONS	Find the Verizon store by ZIP code OR store ID	Uploaded	郵便番号またはストア ID で Verizon ストアを検索します
+STOREDTL_STORE_ZIP_SEARCH	Zip / Postal Code	Uploaded	郵便番号
+STOREDTL_STORE_NUMBER_SEARCH	Store Number	Uploaded	店舗番号
+STOREDTL_OR	OR	Uploaded	または
+STOREDTL_ADD_NEW_STORE	Enter Verizon store information	Uploaded	Verizon ストア情報を入力してください
+SHIPDTL_PARTIALLY_VERIFIED_ADDRESS_ERROR	The store address was PARTIALLY validated by address service. Please select store address with witch you want to proceed.	Uploaded	店舗の住所はアドレス サービスによって部分的に検証されました。続行したいウィッチで店舗の住所を選択してください。
+FORM_PHONE	Phone	Uploaded	電話
+FORM_STORE_ADDRESS	Store Address	Uploaded	店舗住所
+MANAGE_ENROLLMENT_ERROR_MESSAGE	An error occured while submitting enrollment changes. Please try again.	Uploaded	登録変更の送信中にエラーが発生しました。もう一度試してください。
+INTERACTION_NUMBER	Interaction Number: 	Uploaded	インタラクション番号:
+MANAGE_ENROLLMENT	Manage Enrollment	Uploaded	登録の管理
+UPGRADE	Upgrade	Uploaded	アップグレード
+CANCELLATION	Cancellation	Uploaded	キャンセル
+CANCELLATION_REASON	Cancellation Reason	Uploaded	キャンセル理由
+TITLE_CONFIRM	Confirm	Uploaded	確認する
+MANAGE_ENROLLMENT_CONFIRMATION_MESSAGE	This action will update the customers current enrollment to the selected option. Are you sure you want to continue?	Uploaded	このアクションにより、顧客の現在の登録が選択されたオプションに更新されます。続行してもよろしいですか?
+ENVELOPE	Envelope	Uploaded	封筒
+REPLACEMENT_SHIPPED	Replacement Shipped	Uploaded	交換品の発送
+PERIL_DESCRIPTION	Peril Description	Uploaded	危険の説明
+CLAIM_CREATED_DATE	Claim Created Date	Uploaded	請求作成日
+APP_LABELS_ENVELOPE_REQUEST_MESSAGE	An error occured while creating the Envelope Request. Please try again.	Uploaded	エンベロープ リクエストの作成中にエラーが発生しました。もう一度試してください。
+ENVELOPE_NO_RESULTS_FOUND	No Results were found. Please try another search	Uploaded	結果が見つかりませんでした。別の検索をお試しください
+ENVELOPE_SELECT_MDN	Select MDN	Uploaded	MDN を選択します
+ENVELOPE_ENVELOPE_CONTINUE_MESSAGE_DEFAULT	Please click continue to confirm the shipping address for the envelope request.	Uploaded	[続行] をクリックして、封筒リクエストの配送先住所を確認してください。
+ENVELOPE_CONTINUE_BTN_LABEL	Continue	Uploaded	続く
+ENVELOPE_ENVELOPE_CONTINUE_MESSAGE_ATT	Please click continue to confirm the email address for the envelope request.	Uploaded	[続行] をクリックして、封筒リクエストの電子メール アドレスを確認してください。
+ELIGIBILITY_FAIL_INVALID_CLIENT_RENTAL_MSG	Claim is denied. Only products that are personally owned are covered.	Uploaded	請求は拒否されます。個人所有の製品のみが対象となります。
+ELIGIBILITY_FAIL_INVALID_CELLULAR_MSG	Claim is denied. Only smart products that connect to Wi-Fi/Bluetooth are covered.	Uploaded	請求は拒否されます。 Wi-Fi/Bluetooth に接続するスマート製品のみが対象となります。
+ELIGIBILITY_FAIL_INVALID_PLASMA_MSG	Claim is denied. Plasma displays are not covered.	Uploaded	請求は拒否されます。プラズマディスプレイは対象外です。
+ELIGIBILITY_FAIL_INVALID_INCIDENT_TYPE_MSG	Incident type is not covered by agreement	Uploaded	インシデントの種類は契約の対象外です
+SEND_COMMUNICATION	Send Communication	Uploaded	通信を送信する
+CUSTOMER_CASE_ID	Customer Case Id	Uploaded	顧客ケースID
+REQUEST_STATUS	Request Status	Uploaded	リクエストステータス
+REQUEST_NUMBER	Request Number	Uploaded	要求番号
+SERVICE_ORDER_ID	Service Order Id	Uploaded	サービス注文ID
+FULFILLMENT_OUTCOME	Fulfillment Outcome	Uploaded	履行結果
+FORM_OPTIONAL_LABEL	optional	Uploaded	オプション
+APP_LABELS_SEND_COMMUNICATION_MESSAGE	A communication request has been created	Uploaded	通信リクエストが作成されました
+APP_LABELS_SMP_SEND_PIN	Send	Uploaded	送信
+SEND_COMMS_SELECT_MDN	Please select a Mobile Device Number/Case Number for which you want to send communication	Uploaded	通信を送信したいモバイルデバイス番号/ケース番号を選択してください
+SEND_COMMS_SELECT_MDN_2_HOURS	Please select a Mobile Device Number/Case Number for which you want to send communication. It will be sent within 2 hours.	Uploaded	通信を送信したいモバイルデバイス番号/ケース番号を選択してください。 2時間以内に送信されます。
+SEND_COMMS_CHOOSE_A_COMMS	Choose a communication	Uploaded	コミュニケーションを選択してください
+SEND_COMMS_CHOOSE_A_DELIVERY	Choose delivery method	Uploaded	配送方法を選択してください
+SEND_COMMS_SEND_TO_PHONE	Send to Phone	Uploaded	電話に送信
+SEND_COMMS_CONFIRM_ADDRESS	Confirm Address	Uploaded	アドレスを確認してください
+REFUNDS	Refunds	Uploaded	払い戻し
+CLAIM_CREATED	Claim Created	Uploaded	請求が作成されました
+SERVICE_REQUEST_STATUS	Service Request Status	Uploaded	サービスリクエストステータス
+SERVICE_REQUEST_TYPE	Service Request Type	Uploaded	サービスリクエストのタイプ
+AFFECTED_OR_SALVAGE_DEVICE	Affected / Salvage Device	Uploaded	影響を受けた/サルベージデバイス
+SHIPPING_STATUS	Shipping Status	Uploaded	配送状況
+TOTAL_CHARGED	Total Charged	Uploaded	合計請求額
+PENDING_REFUNDS	Pending Refunds	Uploaded	保留中の払い戻し
+AMOUNT_REFUNDED_TO_DATE	Amount Refunded To Date	Uploaded	現在までの返金額
+REMAINING_AMOUNT_AVAILABLE	Remaining Amount Available	Uploaded	利用可能な残量
+CHARGE_TYPE	Charge Type	Uploaded	充電タイプ
+PENDING_REFUND_EXISTS	Pending Refund Exists	Uploaded	保留中の払い戻しが存在します
+REFUNDS_REFUND_ERROR	Error Occurred While Submitting Refund, Please try again	Uploaded	返金の送信中にエラーが発生しました。もう一度お試しください。
+REFUNDS_REFUND_DISABLED	Deductible refunds are only available for 10 days after the claim has been completed. If customer escalates, please transfer to CST for assistance	Uploaded	控除対象の払い戻しは、請求が完了してから 10 日間のみ可能です。お客様からエスカレーションがあった場合は、CST に転送してサポートを受けてください。
+REFUNDS_REFUND_AMOUNT_AND_REASON	Refund Amount and Reason	Uploaded	返金金額と理由
+REFUNDS_BASIC_ERR	DECLINED OR SYSTEMERROR	Uploaded	拒否またはシステムエラー
+REFUNDS_FTM_ERROR	FTM INVALID ERROR	Uploaded	FTM 無効エラー
+REFUNDS_PARTIAL	PARTIAL	Uploaded	部分的
+REFUNDS_REFUND_DECLINED	Refund Declined	Uploaded	払い戻しが拒否されました
+REFUNDS_ESCALATE_AND_SEND_TO_FINANCE	Escalate and send to finance	Uploaded	エスカレーションして財務部門に送信する
+REFUNDS_PRTLRFND_CHECKBOX_LABEL_1	The maximum approved refund amount is $	Uploaded	承認された払い戻しの最大額は $ です
+REFUNDS_PRTLRFND_CHECKBOX_LABEL_2	Please verify / update the requested amount and try again.	Uploaded	要求された金額を確認/更新して、もう一度お試しください。
+REFUNDS_OVERRIDE_CHECKBOX_IS_REQUIRED	Override checkbox is required	Uploaded	上書きチェックボックスは必須です
+REFUNDS_REFUND_REASON	Refund Reason	Uploaded	返金理由
+REFUNDS_TOTAL_REFUND_AVAILABLE	Total Refund Available	Uploaded	全額返金可能
+REFUNDS_TAX	Tax	Uploaded	税
+REFUNDS_MINIMUM_REFUND_LABEL_USD	Must be USD 1 or more	Uploaded	1ドル以上である必要があります
+REFUNDS_MINIMUM_REFUND_LABEL_GBP	Must be GBP 1 or more	Uploaded	1ポンド以上である必要があります
+REFUNDS_REIMBURSEMENT_METHOD	Reimbursement Method	Uploaded	償還方法
+REFUNDS_REIMBURSEMENT_METHOD_TYPE_CREDIT_CARD	Charge back to Credit Card	Uploaded	クレジットカードにチャージバック
+REFUNDS_PAYMENT_TYPE_CREDIT_CARD	Credit Card	Uploaded	クレジットカード
+REFUNDS_REIMBURSEMENT_METHOD_TYPE_ECHECK	Charge back to ECheck	Uploaded	ECheck にチャージバックする
+REFUNDS_PAYMENT_TYPE_ECHECK	E-Check	Uploaded	E-チェック
+REFUNDS_REIMBURSEMENT_METHOD_TYPE_BTA	Charge back to account	Uploaded	アカウントにチャージバックする
+REFUNDS_PAYMENT_TYPE_BTA	Account	Uploaded	アカウント
+REFUNDS_REIMBURSEMENT_METHOD_TYPE_3PP	Payable to Primary Account Holder	Uploaded	主要口座保有者に支払われる
+REFUNDS_PAYMENT_TYPE_CHECK	Check	Uploaded	チェック
+REFUNDS_REIMBURSEMENT_METHOD_TYPE_3PCRE	Payable to Primary Account Holder	Uploaded	主要口座保有者に支払われる
+REFUNDS_REIMBURSEMENT_METHOD_MESSAGE	If the {paymentTypeData} is inactive consumer needs to contact the carrier company to have a check sent	Uploaded	{paymentTypeData} が非アクティブな場合、消費者は運送会社に連絡して小切手を送ってもらう必要があります。
+REFUNDS_CORE_DEV	Core Device	Uploaded	コアデバイス
+REFUNDS_CORE_DEV_RETURN	Customer must return Core Device	Uploaded	お客様はコアデバイスを返却する必要があります
+REFUNDS_CORE_DEV_NOTREQ	Core Device Not Required Reason	Uploaded	コアデバイスが不要な理由
+REFUNDS_NOTE	Note	Uploaded	注記
+REFUNDS_FRONTLINE_SCRIPT	Unable to request refund due to a device being prepared for shipment. Please escalate to CST to cancel the pending shipment and complete the refund	Uploaded	デバイスが出荷準備中であるため、返金をリクエストできません。 CST にエスカレーションして保留中の発送をキャンセルし、払い戻しを完了してください。
+REFUNDS_ADVANCEUSER_SCRIPT	There is a device pending shipment. The order needs to be cancelled before a refund can be requested. Please contact the TLC to cancel the pending shipment and process the refund	Uploaded	出荷待ちのデバイスがあります。返金をリクエストするには、注文をキャンセルする必要があります。 TLCに連絡して保留中の出荷をキャンセルし、返金手続きを行ってください。
+REFUNDS_MINIMUM_REFUND_MESSAGE	Total refund requested amount must be USD 1 or more	Uploaded	返金リクエスト総額は 1 米ドル以上である必要があります
+REFUNDS_CORE_DEVICE_NOT_SELECTED	Please Select Core Device	Uploaded	コアデバイスを選択してください
+REFUNDS_CORE_DEVICE_NOT_REASON	Please Select Core Device Reason	Uploaded	コアデバイスの理由を選択してください
+REFUNDS_CHARGE_TYPE_UNCHECKED	Please Select Type of Charge	Uploaded	料金の種類を選択してください
+REFUNDS_NO_REFUND_ELIGIBLE_SR_MESSAGE	Customer is not refund eligible. Check Account Home screen for further case information.	Uploaded	お客様は返金対象外となります。ケースの詳細については、アカウントのホーム画面を確認してください。
+ENTER_NOTE	Enter Note	Uploaded	注記を入力してください
+CANCEL_SERVICE_REQUEST	Cancel Service Request	Uploaded	サービスリクエストのキャンセル
+Case Number	Case Number	Uploaded	事件番号
+Case Status	Case Status	Uploaded	ケースのステータス
+Created By	Created By	Uploaded	によって作成された
+Current SR Created Date	Current SR Created Date	Uploaded	現在の SR 作成日
+SR Number	SR Number	Uploaded	SR番号
+SR Type	SR Type	Uploaded	SRタイプ
+SR Status	SR Status	Uploaded	SRステータス
+Note Type	Note Type	Uploading	音符の種類
+Creation Date	Creation Date	Uploading	作成日
+REFUNDS_TOTAL_TAX	Total Tax	Uploading	合計税額
+REFUNDS_TOTAL_REFUND_REQUESTED	Total Refund Requested	Uploading	要求された全額返金
+RETURN_DEVICE_EXTENSION	Return Device Extension	Uploading	デバイスの延長を返却する
+EXPECTED_DEVICE	Expected Device	Uploading	期待されるデバイス
+DUE_BY	Due By	Uploading	期限までに
+FEE	Fee	Uploading	手数料
+ORDER_SHIPPED_TO	Order Shipped To	Uploading	注文の発送先
+EXTENSIONS_GRANTED	Extensions Granted	Uploading	許可される延長
+LAST_EXTENSION_DATE	Last Extension Date	Uploading	最終延長日
+RETURN_DEVICE_EXT_ERROR	Error in processing Return Device Extension request.	Uploading	デバイス拡張機能の返却要求の処理中にエラーが発生しました。
+RETURN_DEVICE_EXT_EXTEND_WAIVE_CARD	Extend Due Date Or Waive Fee	Uploading	期限の延長または手数料の免除
+RETURN_DEVICE_EXT_INVOICED_MESSAGE	Please Contact Advance Agent (CST) to waive the fee as device status is INVOICED	Uploading	デバイスのステータスが請求済みであるため、料金を免除するには事前エージェント (CST) にお問い合わせください。
+RETURN_DEVICE_EXT_DEVICE_EXTENSION_MESSAGE	Maximum Extension Limit Reached, Only option available is Waive Fee	Uploading	最大延長制限に達しました。利用可能な唯一のオプションは料金の免除です
+RETURN_DEVICE_EXT_EXCEPTION_REASON	Reason	Uploading	理由
+RETURN_DEVICE_EXT_NOTE	Note	Uploading	注記
+RETURN_DEVICE_EXT_ENTER_NOTE_REQUIRED	Enter Note (required)	Uploading	メモを入力してください (必須)
+RETURN_DEVICE_EXT_ENTER_NOTE	Enter Note (optional)	Uploading	メモを入力してください (オプション)
+RETURN_DEVICE_EXT_NO_DEVICE_MESSAGE	No devices available for an extension request. Extend or Waive Fee will not be available if the device has not been delivered yet \     Or if the fees were waived earlier.	Uploading	延長リクエストに使用できるデバイスがありません。デバイスがまだ配達されていない場合、料金の延長または免除は利用できません \     あるいは、手数料が以前に免除されていた場合。
+VIEW_REGISTRATION	View Registration	Uploading	登録を見る
+CLAIMID	ClaimID	Uploading	クレームID
+REMOVED	Removed	Uploading	削除されました
+ACTIVE_CLAIM_QUESTION_MARK	Active Claim ?	Uploading	アクティブなクレーム ?
+CAN_BE_DE_REGISTERED	Can Be De-Registered	Uploading	登録抹消可能
+OVERRIDE	Override	Uploading	オーバーライド
+APP_LABELS_DEREGISTER_DEVICE	DEREGISTER DEVICE	Uploading	デバイスの登録を解除する
+APP_LABELS_DEREGISTER_DEVICE_MSG	Do you want to continue to deregister the following device 	Uploading	次のデバイスの登録解除を続けますか?
+VIEW_REG_VIEW_REGISTRATION_HEADER	View Registration	Uploading	登録を見る
+VIEW_REG_GET_REGISTRATION_DEVICES_ERROR	Error unable to retrieve registered devices at this time.	Uploading	現時点では登録されたデバイスを取得できないエラーが発生しました。
+VIEW_REG_DEREGISTRATION_ERROR	Please note the AT&T system is not available for de-registrations at this time. Please try again and if the issue persists continue in ePaper	Uploading	現時点では、AT&T システムは登録解除に利用できないことに注意してください。もう一度お試しください。問題が解決しない場合は、電子ペーパーで続行してください
+VIEW_REG_VIEW_REGISTRATION_NOTE_1	Registered devices that have had a claim completed in the last 12 months cannot be de-registered in the same 12 month period. Upon completion of the claim, the system will automatically register the replacement device	Uploading	過去 12 か月以内に請求が完了した登録済みデバイスは、同じ 12 か月以内に登録を解除することはできません。請求が完了すると、システムは自動的に交換用デバイスを登録します。
+VIEW_REG_VIEW_REGISTRATION_NOTE_2	Devices that have an active claim can only be de-registered if the open claim is cancelled	Uploading	アクティブなクレームを持つデバイスは、オープンなクレームがキャンセルされた場合にのみ登録を解除できます。
+VIEW_REG_VIEW_REGISTRATION_NOTE_3	To register or de-register eligible devices or cancel claims, go back to the Incident Path Determination page (IPD) via "Actions" on top of the page	Uploading	対象デバイスを登録または登録解除したり、申し立てをキャンセルしたりするには、ページ上部の「アクション」からインシデント パス決定ページ (IPD) に戻ります。
+VIEW_REG_VIEW_REGISTRATIONN_NOTE_HEADER	Note:	Uploading	注記：
+VIEW_REG_REGISTERED_DEVICES_HEADER	Registered Device	Uploading	登録済みのデバイス
+VIEW_REG_REGISTRATION_HISTORY_HEADER	Registration History	Uploading	登録履歴
+VIEW_REG_YES	Yes	Uploading	はい
+PURCHASE_DETAILS	Purchase Details	Uploading	購入詳細
+FORM_STORE_PHONE_NUMBER	Store Phone Number	Uploading	店舗電話番号
+APP_LABELS_SELECT	Select	Uploading	選択する
+PURCHASE_DETAILS_INSTRUCTIONS	Purchase Details Instructions	Uploading	購入の詳細説明
+PURCHASE_DETAILS_LINE_1	Step 1: Generate the e-gift card.	Uploading	ステップ 1: e ギフト カードを生成します。
+PURCHASE_DETAILS_LINE_2	Step 2: Provide the e-gift card information to the Verizon Sales Associate.	Uploading	ステップ 2: e ギフト カード情報を Verizon 営業担当者に提供します。
+PURCHASE_DETAILS_LINE_3	Step 3: Enter the purchase details below.	Uploading	ステップ 3: 以下に購入の詳細を入力します。
+PURCHASE_DETAILS_STORE_REP_FIELD_BOX	Store representative's name	Uploading	店舗代表者名
+PURCHASE_DETAILS_STORE_PHONE_NUMBER	Store phone number	Uploading	店舗電話番号
+PURCHASE_DETAILS_PURCHASE_AMOUNT_LABEL	Purchase Amount	Uploading	購入金額
+PURCHASE_DETAILS_PURCHASE_AMOUNT	Dollar amount value, do not include dollar sign	Uploading	ドル金額の値、ドル記号は含まれません
+PURCHASE_DETAILS_LAST_4_LABEL	Last 4 Digits of e-Gift card	Uploading	eギフトカードの下4桁
+PURCHASE_DETAILS_LAST_4	Only last 4 are allowed	Uploading	最後の 4 つだけが許可されます
+PURCHASE_DETAILS_NOTE_LABEL	Note	Uploading	注記
+PURCHASE_DETAILS_STORE_SECTION_INSTRUCTIONS_HEADER	Verizon Store Instructions	Uploading	Verizon ストアの手順
+PURCHASE_DETAILS_STORE_SECTION_INSTRUCTIONS	Note: If store details provided below are incorrect/missing, please select "Change Store Details"	Uploading	注: 以下に提供されている店舗の詳細が間違っているか欠落している場合は、「店舗の詳細を変更する」を選択してください。
+PURCHASE_DETAILS_STORE_SECTION_HEADER	Verizon Store Details	Uploading	ベライゾンストアの詳細
+PURCHASE_DETAILS_ERROR_MSG	Error with capturing eGift Card Details. Error: 	Uploading	eギフト カードの詳細の取得中にエラーが発生しました。エラー：

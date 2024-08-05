@@ -1,0 +1,2303 @@
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const accountMDNTableSchema = [
+  {
+    key: 'MobileDeviceNbr',
+    value: 'MDN',
+    sortable: true,
+    format: fieldFormat.PHONENUMBER
+  },
+  {
+    key: 'deviceName',
+    value: 'Device',
+    sortable: true
+  },
+  {
+    key: 'deductible',
+    value: 'Deductible',
+    sortable: true
+  },
+  {
+    key: 'DisplayStatus',
+    value: 'Registration Status',
+    sortable: true
+  },
+  {
+    key: 'UsedCustomerCases',
+    value: 'Insurance Claims',
+    sortable: true
+  },
+  {
+    key: 'RepairEligibleCustomerCases',
+    value: 'SUR/RRD/RUD Claims',
+    sortable: true
+  },
+  {
+    key: 'ClientExtendedWarrantyCases',
+    value: 'VzW Warranty Claims',
+    sortable: true
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const mdnHistorySchema = [
+  {
+    key: 'Asset.MobileDeviceNumber',
+    value: 'MDN',
+    sortable: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Asset.StartDate',
+    value: 'Asset Start Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Asset.EndDate',
+    value: 'Asset End Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const agreementsTableSchema = [
+  {
+    key: 'AssetGroupList.AssetGroup.0.Asset.MobileDeviceNumber',
+    assetsListKey: 'AssetGroupList.AssetGroup',
+    value: 'MDN',
+    sortable: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'AgreementPurchase.RetailName',
+    value: 'Program',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'AgreementPurchase.PurchaseDate',
+    value: 'Start Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Agreement.TerminationDate',
+    value: 'End Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Agreement.Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Agreement.AgreementId',
+    value: 'Agrmt ID',
+    sortable: false,
+    hidden: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const agreementsHistoryTableSchema = [
+  {
+    key: 'Program',
+    value: 'Program',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ActionDate',
+    value: 'Start Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'EndDate',
+    value: 'End Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'AgreementStatus',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'AgreementId',
+    value: 'Agrmt ID',
+    sortable: false,
+    hidden: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const assetHistoryTableSchema = [
+  {
+    key: 'DeviceDetails',
+    value: 'Device Details',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Added',
+    value: 'Added',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Asset_Origin',
+    value: 'Origin',
+    sortable: false,
+    hidden: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const openCasesTableSchema = [
+  {
+    key: 'MobileDeviceNumber',
+    secondaryKey: 'ClaimedDevice',
+    value: 'MDN / Device',
+    sortable: true,
+    showAsBreakLine: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const openRetailCasesTableSchema = [
+  {
+    key: 'ClaimedDevice',
+    secondaryKey: 'ClaimedDevicePersonalizedName',
+    value: 'Device / Nickname',
+    sortable: true,
+    showAsBreakLine: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPartsTableSchema = [
+  {
+    key: 'Description',
+    value: 'Part Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPartsTableSchema = [
+  {
+    key: 'Number',
+    value: 'Part',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Description',
+    value: 'Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Quantity',
+    value: 'Quantity',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderedNumber',
+    value: 'Ordered #',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ShippingCompany',
+    value: 'Shipper',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TrackingNumber',
+    value: 'Tracking#',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderDate',
+    value: 'Order Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'ReceivedDate',
+    value: 'Received Date',
+    sortable: false,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  }
+];
+
+export const ShortWQMNotesTableSchema = [
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SPCommentsTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Text',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const LongWQMNotesTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Comment',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema = [
+  {
+    key: 'PayeeType',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const PaymentStatusTableSchema = [
+  {
+    key: 'Status',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusName',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusExplanation',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SubStatusHistorySchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'SubStatusValue',
+    value: 'Sub-Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const FailureStatusTableSchema = [
+  {
+    key: 'Failure_Label',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Failure_Reason',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema_NonPSP = [
+  {
+    key: 'RefundTo',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TotalAmount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPaymentDetailsTableSchema = [
+  {
+    key: 'Payee',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PayeeName',
+    value: 'Payee Name',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckNbr',
+    value: 'Check #',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckStatus',
+    value: 'Check Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckClrDate',
+    value: 'Check Clear Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckVdDate',
+    value: 'Check Void Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const OpenWorkItemsSchema = [
+  {
+    key: 'type',
+    value: 'Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'workObjectType',
+    value: 'Work Object Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'updatedTime',
+    value: 'Last Updated',
+    sortable: true,
+    fieldType: fieldFormat.DATELONG
+  }
+];
+
+export const ContactDetailsSchema = [
+  {
+    key: 'ServiceRequestPhone',
+    value: 'Contact Phone',
+    sortable: true,
+    fieldType: fieldFormat.PHONENUMBER,
+    format: fieldFormat.PHONENUMBER,
+    formatRequired: true
+  },
+  {
+    key: 'ServiceRequestEmail',
+    value: 'Contact Email',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestSms',
+    value: 'SMS Opt In',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestAddress',
+    value: 'Address',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  }
+];
+
+export const CommunicationsSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Sent',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATELONG
+  },
+  {
+    key: 'CorrespondenceReasonCode',
+    value: 'Reference',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'EmailAddress',
+    value: 'Email Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'PhoneNumber',
+    value: 'Phone/SMS Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'CorrespondenceMode',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CorrespondenceStatusCode',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const HoldDetailsTableSchema = [
+  {
+    key: 'StartTime',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATEDEFAULT,
+    wide: true
+  },
+  {
+    key: 'HoldType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'HoldCategory',
+    value: 'Category',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldStatus',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldResolution',
+    value: 'Resolution',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const AggLimitDetailsSchema = [
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestStatus',
+    value: 'SR Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestType',
+    value: 'SR Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment Method',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ClaimStage',
+    value: 'Claim Stage',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceCost',
+    value: 'Service Cost',
+    sortable: false,
+    fieldType: fieldFormat.MONEY,
+    format: fieldFormat.MONEY,
+    formatRequired: true
+  }
+];
+
+{
+  "columns": [
+    {
+      "dataField": "CreatedDate",
+      "label": "Sent",
+      "format": "DateDefault"
+    },
+    {
+      "dataField": "CorrespondenceReasonCode",
+      "label": "Reference to"
+    },
+    {
+      "dataField": "EmailAddress",
+      "label": "Email Destination"
+    },
+    {
+      "dataField": "PhoneNumber",
+      "label": "Phone/SMS Destination"
+    },
+    {
+      "dataField": "CorrespondenceMode",
+      "label": "Type"
+    },
+    {
+      "dataField": "CorrespondenceStatusCode",
+      "label": "Status"
+    }
+  ],
+  "dataSource": "commHistory",
+  "tableClass": "comm-history",
+  "dataTestID": "comm-history"
+}
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const registrationHistoryTableSchema = [
+  {
+    key: 'MobileDeviceNumber',
+    value: 'MDN',
+    sortable: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'RegistrationStartDate',
+    value: 'Registration Start Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'RegistrationEndDate',
+    value: 'Registration End Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'DisplayStatus',
+    value: 'Current Registration Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ProgramName',
+    value: 'Program Name',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const pinnedNotesTableSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Created Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'NoteText',
+    value: 'Note',
+    sortable: false,
+    extraWide: true,
+    paragraphCell: true
+  },
+  {
+    key: 'NoteTypeImage',
+    value: 'Note Type',
+    sortable: true
+  },
+  {
+    key: 'CreatedBy',
+    value: 'Created By',
+    sortable: true
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case Number',
+    sortable: true
+  },
+  {
+    key: 'MobileDeviceNumber',
+    value: 'MDN',
+    sortable: true
+  },
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: true
+  },
+  {
+    key: 'UnpinImg',
+    value: 'UnPin',
+    sortable: false
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const notesTableSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Created Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'NoteText',
+    value: 'Note',
+    sortable: false,
+    extraWide: true,
+    paragraphCell: true
+  },
+  {
+    key: 'NoteTypeImage',
+    value: 'Note Type',
+    sortable: true
+  },
+  {
+    key: 'CreatedBy',
+    value: 'Created By',
+    sortable: true
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case Number',
+    sortable: true
+  },
+  {
+    key: 'MobileDeviceNumber',
+    value: 'MDN',
+    sortable: true
+  },
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: true
+  },
+  {
+    key: 'PinImage',
+    value: 'Pin',
+    sortable: false
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const notesTableSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Created Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'NoteText',
+    value: 'Note',
+    sortable: false,
+    extraWide: true,
+    paragraphCell: true
+  },
+  {
+    key: 'NoteType',
+    value: 'Note Type',
+    sortable: true
+  },
+  {
+    key: 'CreatedBy',
+    value: 'Created By',
+    sortable: true
+  },
+  {
+    key: 'CustomerCaseNumber',
+    value: 'Case Number',
+    sortable: true
+  },
+  {
+    key: 'MobileDeviceNumber',
+    value: 'MDN',
+    sortable: true
+  },
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: true
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const incidentPathsTableSchema = [
+  {
+    key: 'AssetCatalog.Name',
+    secondaryKey: 'AssetAttributes',
+    value: 'Device',
+    sortable: true,
+    showAsBreakLine: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseData.0.ServiceRequests.ServiceRequest.0.ServiceRequestStatus',
+    value: 'SR Status',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseData.0.ServiceRequests.ServiceRequest.0.ServiceRequestNumber',
+    value: 'Service Request #',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseData.0.CustomerCaseNumber',
+    value: 'Case Number',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseCount',
+    value: 'Claims',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'anyOpenCases',
+    value: 'Claim Open',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'CreatedDate',
+    value: 'Claim Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT,
+    wide: true
+  },
+  {
+    key: 'caseData.0.ServiceRequests.ServiceRequest.0.CompletedDate',
+    value: 'Termination Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT,
+    wide: true
+  },
+  // {
+  //   key: 'AssetCatalog.Model',
+  //   value: 'Model Number',
+  //   sortable: true,
+  //   fieldType: fieldFormat.STRING
+  // },
+  {
+    key: 'PersonalizedName',
+    value: 'Nick Name',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  }
+];
+
+export const incidentPathsTableSchemaOnSelect = [
+  {
+    key: 'AssetCatalog.Name',
+    secondaryKey: 'AssetAttributes',
+    value: 'Device',
+    sortable: true,
+    showAsBreakLine: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseData.0.CustomerCaseNumber',
+    value: 'Case Number',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    extraWide: true
+  },
+  {
+    key: 'caseCount',
+    value: 'Claims',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'anyOpenCases',
+    value: 'Claim Open',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'PersonalizedName',
+    value: 'Nick Name',
+    sortable: true,
+    format: fieldFormat.STRING,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const openCasesTableSchema = [
+  {
+    key: 'MobileDeviceNumber',
+    secondaryKey: 'ClaimedDevice',
+    value: 'MDN / Device',
+    sortable: true,
+    showAsBreakLine: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const openRetailCasesTableSchema = [
+  {
+    key: 'ClaimedDevice',
+    secondaryKey: 'ClaimedDevicePersonalizedName',
+    value: 'Device / Nickname',
+    sortable: true,
+    showAsBreakLine: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPartsTableSchema = [
+  {
+    key: 'Description',
+    value: 'Part Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPartsTableSchema = [
+  {
+    key: 'Number',
+    value: 'Part',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Description',
+    value: 'Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Quantity',
+    value: 'Quantity',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderedNumber',
+    value: 'Ordered #',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ShippingCompany',
+    value: 'Shipper',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TrackingNumber',
+    value: 'Tracking#',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderDate',
+    value: 'Order Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'ReceivedDate',
+    value: 'Received Date',
+    sortable: false,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  }
+];
+
+export const ShortWQMNotesTableSchema = [
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SPCommentsTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Text',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const LongWQMNotesTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Comment',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema = [
+  {
+    key: 'PayeeType',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const PaymentStatusTableSchema = [
+  {
+    key: 'Status',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusName',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusExplanation',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SubStatusHistorySchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'SubStatusValue',
+    value: 'Sub-Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const FailureStatusTableSchema = [
+  {
+    key: 'Failure_Label',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Failure_Reason',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema_NonPSP = [
+  {
+    key: 'RefundTo',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TotalAmount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPaymentDetailsTableSchema = [
+  {
+    key: 'Payee',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PayeeName',
+    value: 'Payee Name',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckNbr',
+    value: 'Check #',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckStatus',
+    value: 'Check Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckClrDate',
+    value: 'Check Clear Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckVdDate',
+    value: 'Check Void Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const OpenWorkItemsSchema = [
+  {
+    key: 'type',
+    value: 'Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'workObjectType',
+    value: 'Work Object Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'updatedTime',
+    value: 'Last Updated',
+    sortable: true,
+    fieldType: fieldFormat.DATELONG
+  }
+];
+
+export const ContactDetailsSchema = [
+  {
+    key: 'ServiceRequestPhone',
+    value: 'Contact Phone',
+    sortable: true,
+    fieldType: fieldFormat.PHONENUMBER,
+    format: fieldFormat.PHONENUMBER,
+    formatRequired: true
+  },
+  {
+    key: 'ServiceRequestEmail',
+    value: 'Contact Email',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestSms',
+    value: 'SMS Opt In',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestAddress',
+    value: 'Address',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  }
+];
+
+export const CommunicationsSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Sent',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATELONG
+  },
+  {
+    key: 'CorrespondenceReasonCode',
+    value: 'Reference',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'EmailAddress',
+    value: 'Email Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'PhoneNumber',
+    value: 'Phone/SMS Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'CorrespondenceMode',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CorrespondenceStatusCode',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const HoldDetailsTableSchema = [
+  {
+    key: 'StartTime',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATEDEFAULT,
+    wide: true
+  },
+  {
+    key: 'HoldType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'HoldCategory',
+    value: 'Category',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldStatus',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldResolution',
+    value: 'Resolution',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const AggLimitDetailsSchema = [
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestStatus',
+    value: 'SR Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestType',
+    value: 'SR Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment Method',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ClaimStage',
+    value: 'Claim Stage',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceCost',
+    value: 'Service Cost',
+    sortable: false,
+    fieldType: fieldFormat.MONEY,
+    format: fieldFormat.MONEY,
+    formatRequired: true
+  }
+];
+
+import { fieldFormat } from '../../constants/AppEnums';
+
+export const openCasesTableSchema = [
+  {
+    key: 'MobileDeviceNumber',
+    secondaryKey: 'ClaimedDevice',
+    value: 'MDN / Device',
+    sortable: true,
+    showAsBreakLine: true,
+    format: fieldFormat.PHONENUMBER,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const openRetailCasesTableSchema = [
+  {
+    key: 'ClaimedDevice',
+    secondaryKey: 'ClaimedDevicePersonalizedName',
+    value: 'Device / Nickname',
+    sortable: true,
+    showAsBreakLine: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CaseNumber',
+    value: 'Case No.',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'IncidentType',
+    value: 'Peril',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment',
+    sortable: false,
+    format: fieldFormat.FULFILLMENT_OPTIONS,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'InitiatedDate',
+    value: 'Creation Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'CompletedDate',
+    value: 'Completion Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'InsuranceType',
+    value: 'Insurance Claim ?',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPartsTableSchema = [
+  {
+    key: 'Description',
+    value: 'Part Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPartsTableSchema = [
+  {
+    key: 'Number',
+    value: 'Part',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Description',
+    value: 'Description',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Quantity',
+    value: 'Quantity',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderedNumber',
+    value: 'Ordered #',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ShippingCompany',
+    value: 'Shipper',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TrackingNumber',
+    value: 'Tracking#',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'OrderDate',
+    value: 'Order Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'ReceivedDate',
+    value: 'Received Date',
+    sortable: false,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  }
+];
+
+export const ShortWQMNotesTableSchema = [
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SPCommentsTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Text',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const LongWQMNotesTableSchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    format: fieldFormat.DATEDEFAULT,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'WorkType',
+    value: 'Work Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Comment',
+    value: 'Comment',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema = [
+  {
+    key: 'PayeeType',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const PaymentStatusTableSchema = [
+  {
+    key: 'Status',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusName',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'StatusExplanation',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const SubStatusHistorySchema = [
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'SubStatusValue',
+    value: 'Sub-Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const FailureStatusTableSchema = [
+  {
+    key: 'Failure_Label',
+    value: '',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Failure_Reason',
+    value: '',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const ShortPaymentDetailsTableSchema_NonPSP = [
+  {
+    key: 'RefundTo',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'TotalAmount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const LongPaymentDetailsTableSchema = [
+  {
+    key: 'Payee',
+    value: 'Payee',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PayeeName',
+    value: 'Payee Name',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'PaymentType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'Date',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'Amount',
+    value: 'Total Amount',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckNbr',
+    value: 'Check #',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckStatus',
+    value: 'Check Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckClrDate',
+    value: 'Check Clear Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CheckVdDate',
+    value: 'Check Void Date',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const OpenWorkItemsSchema = [
+  {
+    key: 'type',
+    value: 'Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'workObjectType',
+    value: 'Work Object Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'status',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'updatedTime',
+    value: 'Last Updated',
+    sortable: true,
+    fieldType: fieldFormat.DATELONG
+  }
+];
+
+export const ContactDetailsSchema = [
+  {
+    key: 'ServiceRequestPhone',
+    value: 'Contact Phone',
+    sortable: true,
+    fieldType: fieldFormat.PHONENUMBER,
+    format: fieldFormat.PHONENUMBER,
+    formatRequired: true
+  },
+  {
+    key: 'ServiceRequestEmail',
+    value: 'Contact Email',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestSms',
+    value: 'SMS Opt In',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  },
+  {
+    key: 'ServiceRequestAddress',
+    value: 'Address',
+    fieldType: fieldFormat.STRING,
+    formatRequired: false
+  }
+];
+
+export const CommunicationsSchema = [
+  {
+    key: 'CreatedDate',
+    value: 'Sent',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATELONG
+  },
+  {
+    key: 'CorrespondenceReasonCode',
+    value: 'Reference',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'EmailAddress',
+    value: 'Email Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'PhoneNumber',
+    value: 'Phone/SMS Destination',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'CorrespondenceMode',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'CorrespondenceStatusCode',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+export const HoldDetailsTableSchema = [
+  {
+    key: 'StartTime',
+    value: 'Date',
+    sortable: true,
+    fieldType: fieldFormat.DATEDEFAULT,
+    format: fieldFormat.DATEDEFAULT,
+    wide: true
+  },
+  {
+    key: 'HoldType',
+    value: 'Type',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'HoldCategory',
+    value: 'Category',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldStatus',
+    value: 'Status',
+    sortable: true,
+    fieldType: fieldFormat.STRING,
+    wide: true
+  },
+  {
+    key: 'HoldResolution',
+    value: 'Resolution',
+    sortable: true,
+    fieldType: fieldFormat.STRING
+  }
+];
+
+export const AggLimitDetailsSchema = [
+  {
+    key: 'ServiceRequestNumber',
+    value: 'SR Number',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestStatus',
+    value: 'SR Status',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceRequestType',
+    value: 'SR Type',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'FulfillmentMethodType',
+    value: 'Fulfillment Method',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ClaimStage',
+    value: 'Claim Stage',
+    sortable: false,
+    fieldType: fieldFormat.STRING
+  },
+  {
+    key: 'ServiceCost',
+    value: 'Service Cost',
+    sortable: false,
+    fieldType: fieldFormat.MONEY,
+    format: fieldFormat.MONEY,
+    formatRequired: true
+  }
+];
+
+import { fieldFormat } from '../../../constants/AppEnums';
+
+export const regHistoryTableSchema = [
+  {
+    key: 'RegisteredAgreement.RegistrationStartDate',
+    value: 'Start Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT
+  },
+  {
+    key: 'RegisteredAgreement.RegistrationEndDate',
+    value: 'End Date',
+    sortable: true,
+    format: fieldFormat.DATEDEFAULT,
+    highlight: true
+  },
+  {
+    key: 'RegisteredAgreement.DisplayStatus',
+    value: 'Status',
+    sortable: true
+  }
+];
