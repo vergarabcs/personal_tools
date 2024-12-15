@@ -7,13 +7,64 @@ from selenium.webdriver.common.keys import Keys
 import time
 import re
 import csv
+from typing import List
 
-NHK_NEWS_EASY_URL = 'https://www3.nhk.or.jp/news/easy'
+class Configs:
+    class EASY:
+        URL = 'https://www3.nhk.or.jp/news/easy'
+        XPATH_ARTICLES = '//*[@class="news-list__item"]//h2'
+        XPATH_PARAGRAPH = "//div[@class='article-body']/p"
+        DELIMITER = ''
+        MIN_CHAR_COUNT = 5
+        MAX_CHAR_COUNT = 60
+
+    class HARD:
+        URL = 'https://www3.nhk.or.jp/news/cat06.html'
+        XPATH_ARTICLES = "//*[@class='module--content']//em[@class='title']"
+        XPATH_PARAGRAPH = '//*[@class="content--detail-body"]'
+        DELIMITER = '。'
+        MIN_CHAR_COUNT = 5
+        MAX_CHAR_COUNT = 50
+class CACHE:
+    headline_set = None
+class CONSTANTS:
+    INNER_HTML = "innerHTML"
+    ARTICLE_COUNT_LIMIT = 3
+
+CURR_CONFIG = Configs.EASY
+
+def totalLength(str_list:List[str]):
+    return sum(map(lambda x: len(x), str_list))
+
+def maybeSplit(sentence:str):
+    if(sentence <= CURR_CONFIG.MAX_CHAR_COUNT): return [sentence]
+    phrases = sentence.split('、')
+    ptr_start = 0
+    ptr_end = len(phrases - 1)
+    curr_ptr = ptr_start
+    part1 = []
+    part2 = []
+    curr_part = part1
+    while(len(part1) + len(part2) < len(phrases)):
+        curr_part.append(phrases[curr_ptr])
+        if(totalLength(part1) < totalLength(part2)):
+            curr_part = part1
+            curr_ptr = ptr_start + 1
+        else:
+            curr_part = part2
+            curr_ptr = ptr_end - 1
+
+def split_more(sentence_list):
+    ret = []
+    for sentence in sentence_list:
+        for phrase in maybeSplit(sentence):
+            ret.append(phrase)
+    return ret
 
 def get_2d_sentence_list(articles):
     sentence_list_2d = []
     for article in articles:
-        sentence_list = article.split("。")
+        sentence_list = re.split('。|\s+', article)
         sentence_list = map(
             lambda x: x.strip(),
             sentence_list
@@ -23,33 +74,14 @@ def get_2d_sentence_list(articles):
             sentence_list
         )
         sentence_list = list(sentence_list)
+        # sentence_list = split_more(sentence_list)
         sentence_list_2d.append(sentence_list)
     return sentence_list_2d
-class Configs:
-    class EASY:
-        URL = 'https://www3.nhk.or.jp/news/easy'
-        XPATH_ARTICLES = '//*[@class="news-list__item"]//h2'
-        XPATH_PARAGRAPH = "//div[@class='article-body']/p"
-        DELIMITER = ''
-
-    class HARD:
-        URL = 'https://www3.nhk.or.jp/news/cat06.html'
-        XPATH_ARTICLES = "//*[@class='module--content']//em[@class='title']"
-        XPATH_PARAGRAPH = '//*[@class="content--detail-body"]'
-        DELIMITER = '。'
-
-CURR_CONFIG = Configs.HARD
 
 def get_yesterday_string():
     from datetime import datetime, timedelta
     yesterday = datetime.now() - timedelta(4)
     return yesterday.strftime('%Y-%m-%d')
-
-class CACHE:
-    headline_set = None
-class CONSTANTS:
-    INNER_HTML = "innerHTML"
-    ARTICLE_COUNT_LIMIT = 1
 
 def clean(inner_html):
     text = re.sub(r"<rt>.*?</rt>", '', inner_html)

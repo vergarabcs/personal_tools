@@ -41,19 +41,12 @@ def split_translation_explanation(cgpt_response):
     return (translation, explanation)
 
 def waitForResponseFinished():
-    hasVanished = waitForImageToVanish('inprogress_indicator.png', 30, 120)
-    if(not hasVanished):
-        system('say exception')
-        pag.hotkey("command", "tab", interval=0.2)
-        except_command = input('Error encountered. Enter any character to continue.')
-        if(except_command == "exit"):
-            raise 'End it'
-        time.sleep(1)
-        pag.hotkey("command", "tab", interval=0.2)
+    waitForImage('inprogress_indicator_2.png', 5, 120)
 
 def start_loop(writer):
     for idx, sentence_list in enumerate(get_articles(0)):
         context = None
+        time.sleep(3)
         for sentence in sentence_list:
             pag.hotkey("shift", "escape", interval=0.2)
             pyperclip.copy(f'{sentence}\n\nPlease make sure to include the <translation>, <explanation> and their closing tags.')
