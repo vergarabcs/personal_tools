@@ -57,7 +57,7 @@ def extractImage(filename, time):
 
 unique_id = datetime.datetime.now().isoformat()
 def getNoteId(index):
-    return f"{Config.EPISODE_NAME}_{unique_id}_{index}"
+    return f"{Config.EPISODE_NAME}_{str(index).zfill(4)}"
 
 def moveFilesToAnki(image, audio):
     shutil.move(
@@ -78,6 +78,8 @@ def main():
         for i in range(0, len(subs_jap)):
             sub_jap = subs_jap[i]
             sub_en = subs_en[i]
+            if(sub_jap.index != sub_en.index):
+                raise Exception('Line Mismatch', sub_jap, sub_en)
             noteId = getNoteId(sub_jap.index)
             audioFileName = f"{noteId}.mp3"
             imageFileName = f"{noteId}.jpg"
