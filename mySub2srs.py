@@ -7,11 +7,11 @@ import shutil
 class Config:
     AnkiCollectionPath = '/Users/billcarlo.vergara/Library/Application Support/Anki2/Bill/collection.media'
     AnimeNoVid = ['ID', 'Japanese', 'Reading', 'Context', 'English', 'Explanation', 'Screenshot', 'Audio_Sentence', 'Audio_English', 'Video', 'Tags']
-    EPISODE_NAME = "Frieren_02"
+    EPISODE_NAME = "Frieren_04"
     FRAME_HEIGHT = "240"
-    INPUT_VIDEO = "./input/mySub2srs/frieren_02.mkv"
-    INPUT_SRT_EN = './input/mySub2srs/frieren_02_en.srt'
-    INPUT_SRT_JAP = './input/mySub2srs/frieren_02.srt'
+    INPUT_VIDEO = "/Users/billcarlo.vergara/Public/[DiabloTripleA] Frieren Beyond Journey's End - S01E04.mkv"
+    INPUT_SRT_EN = "/Users/billcarlo.vergara/Projects/chatgpt-subtitle-translator/frieren_en.srt"
+    INPUT_SRT_JAP = "/Users/billcarlo.vergara/Projects/chatgpt-subtitle-translator/input/all/Frieren_.Beyond.Journey's.End.S01E04.WEBRip.Netflix.ja[cc].srt"
     MEDIA_FOLDER = "./input/mySub2srs/media"
     OFFSET = -1
     OUTPUT_TSV = "./input/mySub2srs/output.tsv"
@@ -45,14 +45,15 @@ def extractAudio(filename, start, end):
     file_path = f'{Config.MEDIA_FOLDER}/{filename}'
     silentremove(file_path)
 
-    command = f'''ffmpeg -ss {start} -t {duration} -i {Config.INPUT_VIDEO} -filter_complex "[0:a:1]channelsplit=channel_layout=stereo:channels=FR[right]" -map "[right]" {file_path}'''
+    command = f'''ffmpeg -ss {start} -t {duration} -i "{Config.INPUT_VIDEO}" -filter_complex "[0:a:1]channelsplit=channel_layout=stereo:channels=FR[right],[right]volume=2.0[right_loud]" -map "[right_loud]" {file_path}'''
+    # command = f'''ffmpeg -ss {start} -t {duration} -i {Config.INPUT_VIDEO} -filter_complex "[0:a:1]channelsplit=channel_layout=stereo:channels=FR[right],[right]volume=2.0[right_loud]" -map "[right]" {file_path}'''
     os.system(command)
     # os.system(f"afplay {file_path}")
 
 def extractImage(filename, time):
     fullPath = f"{Config.MEDIA_FOLDER}/{filename}"
     withOffset = time + Config.OFFSET
-    command = f'''ffmpeg -ss {withOffset} -i {Config.INPUT_VIDEO} -frames:v 1 -q:v 2 -vf "scale=-1:{Config.FRAME_HEIGHT}" {fullPath}'''
+    command = f'''ffmpeg -ss {withOffset} -i "{Config.INPUT_VIDEO}" -frames:v 1 -q:v 2 -vf "scale=-1:{Config.FRAME_HEIGHT}" {fullPath}'''
     os.system(command)
 
 unique_id = datetime.datetime.now().isoformat()
@@ -60,6 +61,7 @@ def getNoteId(index):
     return f"{Config.EPISODE_NAME}_{str(index).zfill(4)}"
 
 def moveFilesToAnki(image, audio):
+    print('moving')
     shutil.move(
         f"{Config.MEDIA_FOLDER}/{image}",
         f"{Config.AnkiCollectionPath}/{image}"
