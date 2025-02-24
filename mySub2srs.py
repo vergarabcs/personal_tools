@@ -7,11 +7,12 @@ import shutil
 class Config:
     AnkiCollectionPath = '/Users/billcarlo.vergara/Library/Application Support/Anki2/Bill/collection.media'
     AnimeNoVid = ['ID', 'Japanese', 'Reading', 'Context', 'English', 'Explanation', 'Screenshot', 'Audio_Sentence', 'Audio_English', 'Video', 'Tags']
-    EPISODE_NAME = "Frieren_04"
+    EPISODE_NAME = "Frieren_06"
     FRAME_HEIGHT = "240"
-    INPUT_VIDEO = "/Users/billcarlo.vergara/Public/[DiabloTripleA] Frieren Beyond Journey's End - S01E04.mkv"
+    CONTEXT_LENGTH = 100
+    INPUT_VIDEO = "/Users/billcarlo.vergara/Public/[DiabloTripleA] Frieren Beyond Journey's End - S01E06.mkv"
     INPUT_SRT_EN = "/Users/billcarlo.vergara/Projects/chatgpt-subtitle-translator/frieren_en.srt"
-    INPUT_SRT_JAP = "/Users/billcarlo.vergara/Projects/chatgpt-subtitle-translator/input/all/Frieren_.Beyond.Journey's.End.S01E04.WEBRip.Netflix.ja[cc].srt"
+    INPUT_SRT_JAP = "/Users/billcarlo.vergara/Projects/chatgpt-subtitle-translator/input/all/Frieren_.Beyond.Journey's.End.S01E06.WEBRip.Netflix.ja[cc].srt"
     MEDIA_FOLDER = "./input/mySub2srs/media"
     OFFSET = -1
     OUTPUT_TSV = "./input/mySub2srs/output.tsv"
@@ -107,6 +108,7 @@ def main():
                 ''
             ])
             moveFilesToAnki(imageFileName, audioFileName)
-            context = sub_en.content
+            context = context + " " + sub_en.content
+            context = context[-Config.CONTEXT_LENGTH:]
 
 main()
