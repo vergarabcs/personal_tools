@@ -100,7 +100,7 @@ def main():
                 '',
                 f"Context: {context}",
                 sub_en.content,
-                '',
+                'Explanation:',
                 f'<img src="{imageFileName}">',
                 f'[sound:{audioFileName}]',
                 '',
