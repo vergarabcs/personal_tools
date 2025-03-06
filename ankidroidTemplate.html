@@ -1,0 +1,71 @@
+<button onclick="playTts()">
+    Play Audio
+</button>
+
+<div id="Expression" class="Jap">
+    {{Japanese}}
+</div>
+
+<div class="line" />
+<div class="Jap">
+    <span class="field">
+        {{furigana:Reading}}
+    </span>
+</div>
+
+{{#English}}
+<div id="English" class="English">
+    {{English}}
+</div>
+{{/English}}
+
+<div id="explanation" class="explanation">
+    {{Explanation}}
+</div>
+
+{{Audio_Sentence}}
+
+<br />
+<div class="screenshot">
+    {{Screenshot}}
+</div>
+<div id="Context" style="font-size: 20px">
+    {{Context}}
+</div>
+
+<script>
+    // A debug console is strongly recommended: https://github.com/ankidroid/Anki-Android/wiki/Development-Guide#html-javascript-inspection
+    var jsApiContract = { version: "0.0.3", developer: "vergarabcs@gmail.com" };
+    var api = new AnkiDroidJS(jsApiContract);
+    api.ankiTtsSetLanguage("en-US")
+    const defaultLocale = "en-US"
+
+    function splitRomanNonRoman(text) {
+        const regex = /([a-zA-Z0-9\s.,!?':()]+|[^a-zA-Z0-9\s.,!?:()']+)/g;
+        const matches = text.match(regex) || [];
+        return matches.map(segment => {
+            const type = /[a-zA-Z0-9]/.test(segment) ? defaultLocale : "ja-JP";
+            return [type, segment.trim()];
+        }).filter(([_, value]) => value !== "");
+    }
+
+    function playTts() {
+        document.getElementById("Expression").textContent = "Hello World"
+        api.ankiTtsSpeak(document.getElementById("Expression").textContent, 1)
+
+        const explanation = document.getElementById("explanation").textContent;
+        const ttsList = splitRomanNonRoman(explanation);
+        for(const [locale, text] of ttsList){
+            api.ankiTtsSetLanguage(locale)
+            api.ankiTtsSpeak(text, 1)
+            api.ankiTtsSetLanguage(defaultLocale)
+        }
+
+        api.ankiTtsSpeak(document.getElementById("English").textContent, 1)
+        api.ankiTtsSpeak(document.getElementById("Context").textContent, 1)
+    }
+
+    document.getElementById("Expression").textContent = "Hello World"
+
+    var userJs1 = playTts
+</script>
